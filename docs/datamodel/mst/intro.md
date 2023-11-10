@@ -4,4 +4,7 @@ sidebar_position: 1
 
 # MST intro
 
-Very important text here
+MST covers the output of MST/Tric as well as the new spectral shift method.
+
+
+## Fields specific to MST 
