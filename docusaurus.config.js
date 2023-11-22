@@ -82,6 +82,12 @@ const config = {
             position: 'left',
             label: 'Technologies',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'issuesSidebar',
+            position: 'left',
+            label: 'Reported issues',
+          },
         ],
       },
       footer: {
