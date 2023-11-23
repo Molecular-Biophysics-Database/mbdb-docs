@@ -29,10 +29,10 @@ jobs:
 
         while read -r issue
         do
-        title=$(echo $issue | jq -r '.title')
-        body=$(echo $issue | jq  -r  '.body')
+        title=$(echo "$issue" | jq -r '.title')
+        body=$(echo "$issue" | jq  -r  '.body')
         markdown_content+="### $title\n\n$body\n\n"
-        done < <(echo $issues | jq -c '.[]')
+        done < <(echo "$issues" | jq -c '.[]')
 
         # Write to file
         echo -e "$markdown_content" > docs/issues/app-issues.md
