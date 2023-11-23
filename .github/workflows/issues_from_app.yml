@@ -29,6 +29,7 @@ jobs:
 
         while read -r issue
         do
+        echo "$issue"
         title=$(echo "$issue" | jq -r '.title')
         body=$(echo "$issue" | jq  -r  '.body')
         markdown_content+="### $title\n\n$body\n\n"
