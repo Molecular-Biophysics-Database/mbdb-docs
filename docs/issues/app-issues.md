@@ -21,7 +21,7 @@ Is it true that you need to have a field per value you need to upload?
 Googling I see that MST output can look like this! So are you asking that each curve is entered point by point? I think I must be missing something….
 
 
-### deposition form - Server error when trying to save 
+### deposition form - Server error when trying to save  
 
 
 While trying to save after entering solvent details, I got this error message (09:00 23/11-2023)
@@ -133,7 +133,7 @@ Should be in the top line I think.
 
 ### Recordview - Results listing should show associated measurements 
 
-Currently the gp.derived_parameters are iterated over to display results listing. It would be preferable to combine this with information found in msp.data_analysis.measurements, as msp.data_analysis have a derived_parameter that can be used establish the connection. 
+Currently the gp.derived_parameters are iterated over to display results listing.  It would be preferable to combine this with information found in msp.data_analysis.measurements, as msp.data_analysis have a derived_parameter that can be used establish the connection. 
 
 ### Searching across different types of records 
 
@@ -141,7 +141,7 @@ Configure searches to be across all types of records (currently MST, BLI, and SP
 
 ### Extraction and loading metadata from files 
 
-Extraction of metadata from instrument provided data files in away that can be accessed by the frontend 
+Extraction of metadata from instrument provided data files in away that can be accessed by the frontend   
 
 ### UI rebuild command no longer works
 
@@ -152,30 +152,30 @@ Issuing "build" command to "nrp develop" used to trigger automatic UI rebuild an
 
 Type: 
 
- server <enter> --- restart server
- ui <enter> --- restart ui watcher
- build <enter> --- stop server and watcher, 
- call ui build, then start again
- stop <enter> --- stop the server and ui and exit
+    server <enter>    --- restart server
+    ui <enter>        --- restart ui watcher
+    build <enter>     --- stop server and watcher, 
+                          call ui build, then start again
+    stop <enter>      --- stop the server and ui and exit
 
 Got command='build'
-Running docker exec mbdb-site-repo-develop /nrp/bin/nrp develop --command stop --site mbdb-site
- inside /home/mbdb/mbdb-app/sites/mbdb-site
+Running  docker exec mbdb-site-repo-develop /nrp/bin/nrp develop --command stop --site mbdb-site
+    inside  /home/mbdb/mbdb-app/sites/mbdb-site
 Got command='stop'
 Stopping server
 Going to kill [81, 17, 11]
 Terminating 81 /invenio/venv/bin/python3 /invenio/venv/bin/invenio run --cert docker/nginx/test.crt --key docker/nginx/test.key -h 0.0.0.0
 Terminating 17 /invenio/venv/bin/python3 /invenio/venv/bin/invenio run --cert docker/nginx/test.crt --key docker/nginx/test.key -h 0.0.0.0
 Terminating 11 /nrp/bin/python /nrp/bin/nrp run --site mbdb-site --outside-docker
-Finished running docker exec mbdb-site-repo-develop /nrp/bin/nrp develop --command stop --site mbdb-site
- inside /home/mbdb/mbdb-app/sites/mbdb-site
-Running docker compose run --service-ports --rm --no-TTY --name mbdb-site-repo-develop repo develop --site mbdb-site --step DevelopStep
- inside /home/mbdb/mbdb-app/sites/mbdb-site
+Finished running  docker exec mbdb-site-repo-develop /nrp/bin/nrp develop --command stop --site mbdb-site
+    inside  /home/mbdb/mbdb-app/sites/mbdb-site
+Running  docker compose run --service-ports --rm --no-TTY --name mbdb-site-repo-develop repo develop --site mbdb-site --step DevelopStep
+    inside  /home/mbdb/mbdb-app/sites/mbdb-site
 Error response from daemon: Conflict. The container name "/mbdb-site-repo-develop" is already in use by container "adccae1c70e20a692fec7e2f0dfa405f6d3237420b00de87db7b7475db5844ef". You have to remove (or rename) that container to be able to reuse that name.
 Error running docker compose run --service-ports --rm --no-TTY --name mbdb-site-repo-develop repo develop --site mbdb-site --step DevelopStep
 ```
 
-### Acquiring DOI 
+### Acquiring DOI  
 
 Provide Invenio mechanism to trigger DOI generation through DataCite
 
