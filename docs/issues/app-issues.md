@@ -4,9 +4,93 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
-### Record view - instrument displayed twice
+### Deposition form - file upload failure 
 
-The information about the instrument at the top of the record should be removed 
+After trying to upload a pdf file to the record at 09:25 then refreshing the entry view for the database I got the following error
+
+
+After removing the pdf file (it was only small, 189 kb) the entry page could be viewed again.
+
+### deposition form - unclear how to upload measured data
+
+Measured data
+No information that I can see for how the data should be inputted
+
+Is it true that you need to have a field per value you need to upload? 
+
+Googling I see that MST output can look like this! So are you asking that each curve is entered point by point? I think I must be missing something….
+
+
+### deposition form - Server error when trying to save 
+
+
+While trying to save after entering solvent details, I got this error message (09:00 23/11-2023)
+
+500 error 
+
+Trying again at 09:04 it appeared to have saved…
+
+### CAS over inchikey
+
+Tester comment:
+
+Consider changing Inchikey to “InChIKey” to be consistent with usage online.
+
+Personally have never used InChIKey, why not CAS instead which is more easily found and used in articles when indicating chemicals used… For example purchasing e.g. from Merck or VWR there is no mention of an InChIKey identifier. Isn’t CAS more universal…? 
+
+### Deposition form - Unrolled form and unclear indication of required fields
+
+When looking at the navigation tree, it is telling me that there are some parameters/information missing in the Chemical information section, however when looking at the entry area, there are no red field or indications that something is missing
+
+If chemical environments and entities of interest are required, then I think there should be as default all the fields being shown that are needed. Same goes for all the sub-group entries required in these sections.
+
+### Deposition form - Physical conditions at sample handling
+
+Tester question: 
+
+Why is the field to add a (few?) digit number so large, and why can it accept so many characters?
+After saving it turned the number into this…
+
+### Deposition form - Default of collection start time is dangerous 
+
+This doesn’t appear to be in any of the groups and doesn’t appear in the navigation tree either.
+
+If you have the current date set as default, then chances are people are going to skip over it and therefore it won’t be accurate. Maybe better that no date is defined in a new entry, then force people to enter something before submission.
+
+### Deposition form - Imprecise information of associated publications
+
+Tester suggestion:
+
+Tool tip text, change to: “If this data is published, information about the publication where it is found.”
+
+### Deposition form - autofilling owner infomation and usage information
+
+Tester notes that:
+
+Depositor and Principal Contact
+
+Is it possible to have a button to autofill the information from the owner information? It would save time!
+
+I wonder if people will really fill out all of these (owner, depositor, principal contact) with different information… how do you see this information being used?
+
+Once someone is registered in the database, will they be searchable to include automatically, or are you relying on them entering orcid to be able to link all of the records associated with that person?
+
+### Depostion form - Save button difficult to reach
+
+Tester notes that:
+
+It is possible to scroll down in the page so that you aren’t able to view the “Save” button at the top of the page, so you have to scroll all the way up to save, a bit annoying. Would be nicer if it is more easily accessed during the course of input, to ensure that people can do so regularly during the process.
+
+### Update about text on frontpage 
+
+Tester suggests to change about text to 
+
+## About the database
+
+The Molecular Biophysics Database collects raw data produced in experiments with biomolecular samples, biological material or other material, using molecular biophysics methods, such as Microscale Thermophoresis (MST), Biolayer interferometry (BLI), Surface Plasmon Resonance (SPR) and others.
+MBDB adheres to the FAIR principles of scientific data management.
+F - Findable, A - Accessible, I - Interoperable, R - Reusable
+The development of MBDB is supported by the project MOSBRI - Molecular Scale Biophysics Research Infrastructure of the European Commission, no. 101004806
 
 ### Search listing - Display entities of interest directly
 

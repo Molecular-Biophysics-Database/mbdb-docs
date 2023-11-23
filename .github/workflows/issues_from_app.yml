@@ -1,8 +1,8 @@
 name: Extract Issues
 
-on:
-  schedule:
-    - cron: '0 0 * * *'  # Run every day at midnight
+on: workflow_dispatch
+  #schedule:
+  #  - cron: '0 0 * * *'  # Run every day at midnight
 
 jobs:
   extract-issues:
