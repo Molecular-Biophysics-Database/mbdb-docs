@@ -1,8 +1,8 @@
 name: Extract Issues
 
-on: workflow_dispatch
-  #schedule:
-  #  - cron: '0 0 * * *'  # Run every day at midnight
+on: # workflow_dispatch (uncomment to make it possible to manually trigger the action) 
+  schedule:
+    - cron: '0 0 * * *'  # Run every day at midnight
 
 jobs:
   extract-issues:
@@ -29,11 +29,10 @@ jobs:
 
         while read -r issue
         do
-        echo "$issue"
-        title=$(echo "$issue" | jq -r '.title')
-        body=$(echo "$issue" | jq  -r  '.body')
+        title=$(echo $issue | jq -r '.title')
+        body=$(echo $issue | jq  -r  '.body')
         markdown_content+="### $title\n\n$body\n\n"
-        done < <(echo "$issues" | jq -c '.[]')
+        done < <(echo $issues | jq -c '.[]')
 
         # Write to file
         echo -e "$markdown_content" > docs/issues/app-issues.md
