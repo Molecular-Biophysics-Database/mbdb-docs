@@ -4,6 +4,19 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
+### Vocabulary API performance
+
+Performance of the vocabulary API appears to be slow, particularly when a larger number of items is requested.
+
+On the testing setup that I have available there are 1003 items present in the "organisms" vocabulary. mbdb-app is running in development mode in a VM form a mechanical disk. The VM is accessed via a guest-host network bridge. A request to fetch all 1003 items from the vocabulary often fails with a timeout error. The timeout is set 15 (fifteen) seconds, which should be more than enough to retrieve around ~1000 entries. If the timeout is reduced even further, (say to 1500 ms) even queries with the `?suggest` parameter begin to time out.
+The "affiliations" vocabulary (with 1000 entries) fares a little better but a fetch of the entire vocabulary still takes over 5 secs. 
+
+These results are very well reproducible.
+
+The questions that should probably be asked:
+- Why is there such a performance disparity between two vocabularies that have the same number of entries?
+- Is this performance expected or is this some defect of the development setup?
+
 ### Deposition form - file upload failure 
 
 Tester bugreport: 
