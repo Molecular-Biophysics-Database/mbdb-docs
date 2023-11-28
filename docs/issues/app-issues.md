@@ -4,6 +4,10 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
+### Lambda images
+
+null
+
 ### Vocabulary API performance
 
 Performance of the vocabulary API appears to be slow, particularly when a larger number of items is requested.
