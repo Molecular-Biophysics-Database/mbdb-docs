@@ -110,7 +110,7 @@ It is possible to scroll down in the page so that you aren’t able to view the 
 
 ### Search listing - Display entities of interest directly
 
-Iterate over general_parameters.chemical_information_chemicals directly instead of going over method_specific_parameters.measurements.samples
+Iterate over general_parameters.chemical_information_chemicals.entities_of_interest directly instead of going over method_specific_parameters.measurements.samples
 
 ### Search listing - Use source organism from all of the entities of interest 
 
@@ -131,11 +131,6 @@ so I had to search for SCV50 to find the records ..
 ### Search behaviour - More meaningful link when no results are found
 
 When I did not find the search key and pressed start over - it put me to the complete listing instead of the search page.
-
-### User Interface items
-
-Please add the "All entries" button at the top menu line before Documentation.
-Moving into testing this should appear there..
 
 ### Button Download entry functionality
 
