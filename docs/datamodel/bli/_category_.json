@@ -1,0 +1,8 @@
+{
+  "label": "Data model - BLI",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "BLI specific data model"
+  }
+}
