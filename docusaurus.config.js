@@ -78,6 +78,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'externalSidebar',
+            position: 'left',
+            label: 'External Resources',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'technologiesSidebar',
             position: 'left',
             label: 'Technologies',
