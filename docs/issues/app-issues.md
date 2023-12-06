@@ -47,14 +47,6 @@ While trying to save after entering solvent details, I got this error message (0
 
 Trying again at 09:04 it appeared to have saved…
 
-### CAS over inchikey
-
-Tester comment:
-
-Consider changing Inchikey to “InChIKey” to be consistent with usage online.
-
-Personally have never used InChIKey, why not CAS instead which is more easily found and used in articles when indicating chemicals used… For example purchasing e.g. from Merck or VWR there is no mention of an InChIKey identifier. Isn’t CAS more universal…? 
-
 ### Deposition form - Unrolled form and unclear indication of required fields
 
 Tester comment:
