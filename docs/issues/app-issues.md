@@ -4,6 +4,130 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
+### Record view not working due to missing values 
+
+Several elements appear to have no default values which causes the record view to result in an internal error page rather than rendering the record view. 
+
+This has been caused by editation allowing for incomplete data to be deposited as drafts .
+
+ inside ui/mbdb-mst-ui/mbdb_mst_ui/templates/semantic-ui/mbdb_mst_ui/MBDB The following files are affected:
+ 
+ LICENSE README.md babel.config.js docs docusaurus.config.js package-lock.json package.json sidebars.js src static Depositors.jinja
+ LICENSE README.md babel.config.js docs docusaurus.config.js package-lock.json package.json sidebars.js src static PersonName.jinja
+ LICENSE README.md babel.config.js docs docusaurus.config.js package-lock.json package.json sidebars.js src static Location.jinja 
+ LICENSE README.md babel.config.js docs docusaurus.config.js package-lock.json package.json sidebars.js src static RawMeasurements.jinja
+
+Likely more templates are affected by this 
+
+
+### Why isn't the red icon disappearing 
+
+If all the mandatory fields in the Record information are completed, the red alert icon show disappear (?). I think it happens in other fields.
+![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/f2a09fd5-c568-4bcb-a265-47c6ef3a8239)
+
+### MST datanalysis define Fhot and Fcold in single line 
+
+In ‘Data analysis’, we believe that using Cold and Hot region a single line for each value would be more appropriate than F cold or F hot:
+Cold region: start (field to fill) end (field to fill)
+Hot region: start (field to fill) end (field to fill)
+
+### Position field not clear 
+
+ Inside ‘Measurements’, we think it is not clear what the users have to include in the ‘Position’ field.
+
+###  ‘Excitation LED Power’ and ‘IR MST laser power’ per measurement instead of per experiment
+
+It could be a good idea to introduce the ‘Excitation LED Power’ and ‘IR MST laser power’ fields in each measurement because they can change between them within a record.
+
+### Dropdown menu in ‘IR MST laser power’ 
+
+ in the ‘IR MST laser power’ field we could include a drop-down with 3 options (Low, Medium and High), in case the laser power of all MST equipment uses the same terms and not numerical values.
+
+
+### Ability to write the new experiment type when other is chosen 
+
+Related to method specific parameters, in the ‘Experiment type’ field, it is possible to choose between 3 options (Affinity, Concentration and Other). So, if we choose ‘Other’, a new field could appear to introduce by hand what kind of experiment is. 
+
+### Unclear location of derived parameters
+
+ Derived parameters: why is this here? Why is it not introduced within ‘data analysis’? I think we are repeating information.
+
+### Unclear if Quality controls is mandatory
+
+General Parameters>Chemical information>Entities of interest>Quality controls: is this field mandatory? Because its ‘Parameter’ appears as a field required.
+
+### ‘Collection start time’ is oddly positioned 
+
+‘Collection start time’ field is in the middle of the deposit, which is a bit confusing, so we suggest including it in the ‘Raw measurements’ section because it is the date in which these measurements were taken. In addition, we think the field should not allow introducing dates after the current day.
+
+### Performance test could be another record in the MBDB
+
+Many times, the performance test will be just another record in the MDBD, that option should be given in the interface by giving the recordID of the performance test
+
+### The input form is generally too complicated
+
+Generally speaking, it is very easy to get lost through the sections. Information with different levels of importance are presented at the same level in the interface and many times I don't know in which section and subsection I am
+
+Reducing the fields or eliminating full sections should be considered.
+
+Before eliminating fields we could try playing with the colors of the levels of the db. Another option could be that the third level of information should be shown only when it is dropped down. For instance: “Published test protocol” which is inside “Performance test” which is inside of “Instrument” should not be fully displayed and its background should be in yellow (this is just an example).
+
+### Group mandatory fields 
+
+The mandatory fields should be as much together as possible. Access rights and Metadata access rights should be displayed before Project information (which is not mandatory). If not, it becomes a bit confusing, especially if I click on “do not provide this data”
+
+### "Performance test" takes to much attention
+
+In the ‘Instrument’ section there is too much information about ‘Performance test’ which contributes to loss the focus. As an example of our confusion, we thought the “File” at the bottom of this section was the file with the raw data, but It was still related to the ‘performance test’. 
+
+### Unclear what "Physical conditions at sample handling" refers to
+
+The explanation of the section “Physical conditions at sample handling” claims that it refers to the BEFORE handling. It is confusing and it is not clear the difference with the storage section.
+
+### More information about published work
+
+There is a ‘Publisher’ field which refers to editorial or journal but there is no option to include volume, issue, page, etc. Maybe this is too much information that we could collect from the DOI or a ‘cite’ option in the APA format in order to make the data entry more user-friendly.
+
+### Include option reuse person information in more sections 
+
+It could be great to include an option to indicate that the ‘principal contact’ is the same as the ‘depositor’ in order to not repeat information and reduce the number of fields the user has to complete manually.
+
+### Person identifiers should be renamed to ORCID
+
+When we talk about ‘Identifiers’ of ‘Depositors’, ‘Principal Contact’ or other people, it is only available for ORCID numbers. So we should change ‘Identifier’ to ‘ORCID number’ to make the entry clearer. 
+
+
+### Enter "Keywords" in one line
+
+Allowing enter ‘Keywords’ in ‘Record information’ in one line, separated by commas.
+
+### indication that user is logged in is missing 
+
+We miss any indication that I am logged in under my account (username, icon, name of the depositor, orcid number) as a personal site bottom.
+
+### Use the standard (*) instead of (■) for mandatory fields
+
+We consider it more intuitive to use (*) instead of (■) for the mandatory fields because it is what is usually used in other websites.
+
+### Redundant “Do not provide this data” in “Associated Publications”
+
+Tester comment:
+In section “Associated Publications” there are two “Do not provide this data”. I think one of them is unnecessary.
+
+### Change text for marking section as not provided 
+
+
+Some fields contain the text “do not provide this data” which could be confusing to the user because it seems more like an order to the user than a statement from the user. It may be something more friendly like “ I don’t want to provide this data”. 
+
+
+### Too much secondary information, consider two stage release 
+
+Tester comment:
+
+Consider releasing the MDdb for beta testers in two-step process: a first step when only with “Minimal viable product MVP” is realized, showing only the more common parameters for MST deposit. 
+
+This would allow us to focus the feedback on the important things and, more importantly, make the tester´s life easy and decrease the “learning curve” for the user. For instance, secondary (and more confusing) information for MST as Pressure, Humidity or Funding reference would not be available in the first release. I am bit worry that people (even “early-adopters”) will not use the database because it is too complicated to use.
+
 ### Vocabulary API performance
 
 Performance of the vocabulary API appears to be slow, particularly when a larger number of items is requested.
@@ -67,119 +191,5 @@ Why is the field to add a (few?) digit number so large, and why can it accept so
 After saving it turned the number into this…
 
 ![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/59df8962-c4e0-41af-bc4c-2ad87778b175)
-
-### Deposition form - Default of collection start time is dangerous 
-
-Tester suggestion:
-
-This doesn’t appear to be in any of the groups and doesn’t appear in the navigation tree either.
-
-If you have the current date set as default, then chances are people are going to skip over it and therefore it won’t be accurate. Maybe better that no date is defined in a new entry, then force people to enter something before submission.
-
-### Deposition form - Imprecise information of associated publications
-
-Tester suggestion:
-
-Tool tip text, change to: “If this data is published, information about the publication where it is found.”
-
-### Deposition form - autofilling owner infomation and usage information
-
-Tester notes that:
-
-Depositor and Principal Contact
-
-Is it possible to have a button to autofill the information from the owner information? It would save time!
-
-I wonder if people will really fill out all of these (owner, depositor, principal contact) with different information… how do you see this information being used?
-
-Once someone is registered in the database, will they be searchable to include automatically, or are you relying on them entering orcid to be able to link all of the records associated with that person?
-
-### Depostion form - Save button difficult to reach
-
-Tester notes that:
-
-It is possible to scroll down in the page so that you aren’t able to view the “Save” button at the top of the page, so you have to scroll all the way up to save, a bit annoying. Would be nicer if it is more easily accessed during the course of input, to ensure that people can do so regularly during the process.
-
-### Search listing - Display entities of interest directly
-
-Iterate over general_parameters.chemical_information_chemicals.entities_of_interest directly instead of going over method_specific_parameters.measurements.samples
-
-### Search listing - Use source organism from all of the entities of interest 
-
-display source organism from all of the entities of interest instead of only the first one
-
-### Search behaviour - record id
-
-I tried using record id in searches but it does not seem to work.
-
-### Search behaviour - partial match of word 
-
-It may be a current feature but searching for a partial word 
-SCV 
-(SCV50) is present in the inhibitor name
-gave nothing
-so I had to search for SCV50 to find the records ..
-
-### Search behaviour - More meaningful link when no results are found
-
-When I did not find the search key and pressed start over - it put me to the complete listing instead of the search page.
-
-### Button Download entry functionality
-
-It would be ice if the button Download would actually call the usual download window .. to make life easier for us now.
-
-### Record view - record id not visible
-
-In the record view I cannot see the actual id of the record.
-Should be in the top line I think.
-
-
-### Recordview - Results listing should show associated measurements 
-
-Currently the gp.derived_parameters are iterated over to display results listing. It would be preferable to combine this with information found in msp.data_analysis.measurements, as msp.data_analysis have a derived_parameter that can be used establish the connection. 
-
-### Searching across different types of records 
-
-Configure searches to be across all types of records (currently MST, BLI, and SPR) 
-
-### Extraction and loading metadata from files 
-
-Extraction of metadata from instrument provided data files in away that can be accessed by the frontend 
-
-### UI rebuild command no longer works
-
-Issuing "build" command to "nrp develop" used to trigger automatic UI rebuild and server restart. With the latest code this no longer works because the rebuilding process attempts to reuse a docker container name without removing the old container. Relevant excerpt from the log
-
-```
-=======================================================================
-
-Type: 
-
- server <enter> --- restart server
- ui <enter> --- restart ui watcher
- build <enter> --- stop server and watcher, 
- call ui build, then start again
- stop <enter> --- stop the server and ui and exit
-
-Got command='build'
-Running docker exec mbdb-site-repo-develop /nrp/bin/nrp develop --command stop --site mbdb-site
- inside /home/mbdb/mbdb-app/sites/mbdb-site
-Got command='stop'
-Stopping server
-Going to kill [81, 17, 11]
-Terminating 81 /invenio/venv/bin/python3 /invenio/venv/bin/invenio run --cert docker/nginx/test.crt --key docker/nginx/test.key -h 0.0.0.0
-Terminating 17 /invenio/venv/bin/python3 /invenio/venv/bin/invenio run --cert docker/nginx/test.crt --key docker/nginx/test.key -h 0.0.0.0
-Terminating 11 /nrp/bin/python /nrp/bin/nrp run --site mbdb-site --outside-docker
-Finished running docker exec mbdb-site-repo-develop /nrp/bin/nrp develop --command stop --site mbdb-site
- inside /home/mbdb/mbdb-app/sites/mbdb-site
-Running docker compose run --service-ports --rm --no-TTY --name mbdb-site-repo-develop repo develop --site mbdb-site --step DevelopStep
- inside /home/mbdb/mbdb-app/sites/mbdb-site
-Error response from daemon: Conflict. The container name "/mbdb-site-repo-develop" is already in use by container "adccae1c70e20a692fec7e2f0dfa405f6d3237420b00de87db7b7475db5844ef". You have to remove (or rename) that container to be able to reuse that name.
-Error running docker compose run --service-ports --rm --no-TTY --name mbdb-site-repo-develop repo develop --site mbdb-site --step DevelopStep
-```
-
-### Acquiring DOI 
-
-Provide Invenio mechanism to trigger DOI generation through DataCite
 
 
