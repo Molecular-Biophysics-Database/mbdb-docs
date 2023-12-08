@@ -4,6 +4,10 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
+### Add context depended default values 
+
+In order to make the input of the data by the user easy, we could preset some parameters by default. For instance, nanotemper usually use uM as concentrations and K as temperature. This unit should be preselected but allowed to change them if necessary.
+
 ### Record view not working due to missing values 
 
 Several elements appear to have no default values which causes the record view to result in an internal error page rather than rendering the record view. 
@@ -178,18 +182,5 @@ Tester comment:
 When looking at the navigation tree, it is telling me that there are some parameters/information missing in the Chemical information section, however when looking at the entry area, there are no red field or indications that something is missing
 
 If chemical environments and entities of interest are required, then I think there should be as default all the fields being shown that are needed. Same goes for all the sub-group entries required in these sections.
-
-### Deposition form - Physical conditions at sample handling
-
-Tester question: 
-
-
-![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/ae97f46d-f64e-4a08-a1a6-9fc21fde01e6)
-
-
-Why is the field to add a (few?) digit number so large, and why can it accept so many characters?
-After saving it turned the number into this…
-
-![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/59df8962-c4e0-41af-bc4c-2ad87778b175)
 
 
