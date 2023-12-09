@@ -4,6 +4,10 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
+### Id to default search
+
+null
+
 ### Add context depended default values 
 
 In order to make the input of the data by the user easy, we could preset some parameters by default. For instance, nanotemper usually use uM as concentrations and K as temperature. This unit should be preselected but allowed to change them if necessary.
@@ -174,13 +178,5 @@ While trying to save after entering solvent details, I got this error message (0
 500 error 
 
 Trying again at 09:04 it appeared to have saved…
-
-### Deposition form - Unrolled form and unclear indication of required fields
-
-Tester comment:
-
-When looking at the navigation tree, it is telling me that there are some parameters/information missing in the Chemical information section, however when looking at the entry area, there are no red field or indications that something is missing
-
-If chemical environments and entities of interest are required, then I think there should be as default all the fields being shown that are needed. Same goes for all the sub-group entries required in these sections.
 
 
