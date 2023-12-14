@@ -4,6 +4,13 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
+### Overlapping scrollbars
+
+The scrollbar of the main window and scroll bar of the frame with items are overlapping, so you can drag it with a mouse.
+
+OS: Linux/Ubuntu with Gnome 3
+Browser: Firefox 120
+
 ### Id to default search
 
 null
@@ -169,14 +176,5 @@ Is it true that you need to have a field per value you need to upload?
 
 Googling I see that MST output can look like this! So are you asking that each curve is entered point by point? I think I must be missing something….
 
-
-### deposition form - Server error when trying to save 
-
-
-While trying to save after entering solvent details, I got this error message (09:00 23/11-2023)
-
-500 error 
-
-Trying again at 09:04 it appeared to have saved…
 
 
