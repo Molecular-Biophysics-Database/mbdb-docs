@@ -4,10 +4,6 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
-### Library upgrade before rdm12
-
-null
-
 ### Overlapping scrollbars
 
 The scrollbar of the main window and scroll bar of the frame with items are overlapping, so you can drag it with a mouse.
@@ -168,5 +164,17 @@ After trying to upload a pdf file to the record at 09:25 (23-11-2023) then refre
 ![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/d9eb72a0-885c-45b3-a2e4-57ab6d43c61a)
 
 After removing the pdf file (it was only small, 189 kb) the entry page could be viewed again.
+
+### deposition form - unclear how to upload measured data
+
+Tester comment
+
+Measured data
+No information that I can see for how the data should be inputted
+
+Is it true that you need to have a field per value you need to upload? 
+
+Googling I see that MST output can look like this! So are you asking that each curve is entered point by point? I think I must be missing something….
+
 
 
