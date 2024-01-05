@@ -11,10 +11,6 @@ The scrollbar of the main window and scroll bar of the frame with items are over
 OS: Linux/Ubuntu with Gnome 3
 Browser: Firefox 120
 
-### Id to default search
-
-null
-
 ### Add context depended default values 
 
 In order to make the input of the data by the user easy, we could preset some parameters by default. For instance, nanotemper usually use uM as concentrations and K as temperature. This unit should be preselected but allowed to change them if necessary.
@@ -176,5 +172,14 @@ Is it true that you need to have a field per value you need to upload?
 
 Googling I see that MST output can look like this! So are you asking that each curve is entered point by point? I think I must be missing something….
 
+
+### deposition form - Server error when trying to save 
+
+
+While trying to save after entering solvent details, I got this error message (09:00 23/11-2023)
+
+500 error 
+
+Trying again at 09:04 it appeared to have saved…
 
 
