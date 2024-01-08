@@ -31,4 +31,4 @@ More information about the data model of each of the supported techniques can be
 
 - [MST/TRIC/Spectral shift](mst/intro.md)
 - [Biolayer interferometry (BLI)](bli/intro.md)
-- [Surface Plasmodium resonance (SPR)](spr/intro.md)
+- [Surface plasmon resonance (SPR)](spr/intro.md)
