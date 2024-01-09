@@ -50,11 +50,6 @@ Hot region: start (field to fill) end (field to fill)
 
 It could be a good idea to introduce the ‘Excitation LED Power’ and ‘IR MST laser power’ fields in each measurement because they can change between them within a record.
 
-### Dropdown menu in ‘IR MST laser power’ 
-
- in the ‘IR MST laser power’ field we could include a drop-down with 3 options (Low, Medium and High), in case the laser power of all MST equipment uses the same terms and not numerical values.
-
-
 ### Ability to write the new experiment type when other is chosen 
 
 Related to method specific parameters, in the ‘Experiment type’ field, it is possible to choose between 3 options (Affinity, Concentration and Other). So, if we choose ‘Other’, a new field could appear to introduce by hand what kind of experiment is. 
@@ -102,11 +97,6 @@ There is a ‘Publisher’ field which refers to editorial or journal but there 
 ### Include option reuse person information in more sections 
 
 It could be great to include an option to indicate that the ‘principal contact’ is the same as the ‘depositor’ in order to not repeat information and reduce the number of fields the user has to complete manually.
-
-### Person identifiers should be renamed to ORCID
-
-When we talk about ‘Identifiers’ of ‘Depositors’, ‘Principal Contact’ or other people, it is only available for ORCID numbers. So we should change ‘Identifier’ to ‘ORCID number’ to make the entry clearer. 
-
 
 ### Enter "Keywords" in one line
 
@@ -181,5 +171,26 @@ While trying to save after entering solvent details, I got this error message (0
 500 error 
 
 Trying again at 09:04 it appeared to have saved…
+
+### Deposition form - Unrolled form and unclear indication of required fields
+
+Tester comment:
+
+When looking at the navigation tree, it is telling me that there are some parameters/information missing in the Chemical information section, however when looking at the entry area, there are no red field or indications that something is missing
+
+If chemical environments and entities of interest are required, then I think there should be as default all the fields being shown that are needed. Same goes for all the sub-group entries required in these sections.
+
+### Deposition form - Physical conditions at sample handling
+
+Tester question: 
+
+
+![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/ae97f46d-f64e-4a08-a1a6-9fc21fde01e6)
+
+
+Why is the field to add a (few?) digit number so large, and why can it accept so many characters?
+After saving it turned the number into this…
+
+![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/59df8962-c4e0-41af-bc4c-2ad87778b175)
 
 
