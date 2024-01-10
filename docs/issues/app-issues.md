@@ -4,6 +4,24 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
+### Physical conditions should be hidden by default
+
+I’m not sure if the ‘pressure’, ‘humidity’, and ‘atmosphere’ panels are useful. I’d hide them as default. 
+
+### Measurements are tedious to input 
+
+ It is annoying to always repeat the same values in the case of the measurements. For example, the name is the same, the concentration of the target, the chemical environment and the ‘container’ ...
+
+### Context dependent option restrictions
+
+In the 'Unit' option, I was expecting to be able to choose from a list of units according to the selected derived parameter.
+
+### Raw data illogically placed
+
+Tester comment:
+ I was expecting to deposit the raw data directly at the beginning of the form.
+
+
 ### Overlapping scrollbars
 
 The scrollbar of the main window and scroll bar of the frame with items are overlapping, so you can drag it with a mouse.
@@ -150,47 +168,5 @@ After trying to upload a pdf file to the record at 09:25 (23-11-2023) then refre
 ![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/d9eb72a0-885c-45b3-a2e4-57ab6d43c61a)
 
 After removing the pdf file (it was only small, 189 kb) the entry page could be viewed again.
-
-### deposition form - unclear how to upload measured data
-
-Tester comment
-
-Measured data
-No information that I can see for how the data should be inputted
-
-Is it true that you need to have a field per value you need to upload? 
-
-Googling I see that MST output can look like this! So are you asking that each curve is entered point by point? I think I must be missing something….
-
-
-### deposition form - Server error when trying to save 
-
-
-While trying to save after entering solvent details, I got this error message (09:00 23/11-2023)
-
-500 error 
-
-Trying again at 09:04 it appeared to have saved…
-
-### Deposition form - Unrolled form and unclear indication of required fields
-
-Tester comment:
-
-When looking at the navigation tree, it is telling me that there are some parameters/information missing in the Chemical information section, however when looking at the entry area, there are no red field or indications that something is missing
-
-If chemical environments and entities of interest are required, then I think there should be as default all the fields being shown that are needed. Same goes for all the sub-group entries required in these sections.
-
-### Deposition form - Physical conditions at sample handling
-
-Tester question: 
-
-
-![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/ae97f46d-f64e-4a08-a1a6-9fc21fde01e6)
-
-
-Why is the field to add a (few?) digit number so large, and why can it accept so many characters?
-After saving it turned the number into this…
-
-![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/59df8962-c4e0-41af-bc4c-2ad87778b175)
 
 
