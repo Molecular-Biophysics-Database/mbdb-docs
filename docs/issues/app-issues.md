@@ -33,22 +33,6 @@ Browser: Firefox 120
 
 In order to make the input of the data by the user easy, we could preset some parameters by default. For instance, nanotemper usually use uM as concentrations and K as temperature. This unit should be preselected but allowed to change them if necessary.
 
-### Record view not working due to missing values 
-
-Several elements appear to have no default values which causes the record view to result in an internal error page rather than rendering the record view. 
-
-This has been caused by editation allowing for incomplete data to be deposited as drafts .
-
- inside ui/mbdb-mst-ui/mbdb_mst_ui/templates/semantic-ui/mbdb_mst_ui/MBDB The following files are affected:
- 
- LICENSE README.md babel.config.js docs docusaurus.config.js package-lock.json package.json sidebars.js src static Depositors.jinja
- LICENSE README.md babel.config.js docs docusaurus.config.js package-lock.json package.json sidebars.js src static PersonName.jinja
- LICENSE README.md babel.config.js docs docusaurus.config.js package-lock.json package.json sidebars.js src static Location.jinja 
- LICENSE README.md babel.config.js docs docusaurus.config.js package-lock.json package.json sidebars.js src static RawMeasurements.jinja
-
-Likely more templates are affected by this 
-
-
 ### Why isn't the red icon disappearing 
 
 If all the mandatory fields in the Record information are completed, the red alert icon show disappear (?). I think it happens in other fields.
@@ -168,5 +152,17 @@ After trying to upload a pdf file to the record at 09:25 (23-11-2023) then refre
 ![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/d9eb72a0-885c-45b3-a2e4-57ab6d43c61a)
 
 After removing the pdf file (it was only small, 189 kb) the entry page could be viewed again.
+
+### deposition form - unclear how to upload measured data
+
+Tester comment
+
+Measured data
+No information that I can see for how the data should be inputted
+
+Is it true that you need to have a field per value you need to upload? 
+
+Googling I see that MST output can look like this! So are you asking that each curve is entered point by point? I think I must be missing something….
+
 
 
