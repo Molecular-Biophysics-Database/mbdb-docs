@@ -29,10 +29,6 @@ The scrollbar of the main window and scroll bar of the frame with items are over
 OS: Linux/Ubuntu with Gnome 3
 Browser: Firefox 120
 
-### Add context depended default values 
-
-In order to make the input of the data by the user easy, we could preset some parameters by default. For instance, nanotemper usually use uM as concentrations and K as temperature. This unit should be preselected but allowed to change them if necessary.
-
 ### Why isn't the red icon disappearing 
 
 If all the mandatory fields in the Record information are completed, the red alert icon show disappear (?). I think it happens in other fields.
@@ -43,18 +39,6 @@ If all the mandatory fields in the Record information are completed, the red ale
 In ‘Data analysis’, we believe that using Cold and Hot region a single line for each value would be more appropriate than F cold or F hot:
 Cold region: start (field to fill) end (field to fill)
 Hot region: start (field to fill) end (field to fill)
-
-### Position field not clear 
-
- Inside ‘Measurements’, we think it is not clear what the users have to include in the ‘Position’ field.
-
-###  ‘Excitation LED Power’ and ‘IR MST laser power’ per measurement instead of per experiment
-
-It could be a good idea to introduce the ‘Excitation LED Power’ and ‘IR MST laser power’ fields in each measurement because they can change between them within a record.
-
-### Ability to write the new experiment type when other is chosen 
-
-Related to method specific parameters, in the ‘Experiment type’ field, it is possible to choose between 3 options (Affinity, Concentration and Other). So, if we choose ‘Other’, a new field could appear to introduce by hand what kind of experiment is. 
 
 ### Unclear location of derived parameters
 
@@ -87,10 +71,6 @@ The mandatory fields should be as much together as possible. Access rights and M
 ### "Performance test" takes to much attention
 
 In the ‘Instrument’ section there is too much information about ‘Performance test’ which contributes to loss the focus. As an example of our confusion, we thought the “File” at the bottom of this section was the file with the raw data, but It was still related to the ‘performance test’. 
-
-### Unclear what "Physical conditions at sample handling" refers to
-
-The explanation of the section “Physical conditions at sample handling” claims that it refers to the BEFORE handling. It is confusing and it is not clear the difference with the storage section.
 
 ### More information about published work
 
@@ -164,5 +144,55 @@ Is it true that you need to have a field per value you need to upload?
 
 Googling I see that MST output can look like this! So are you asking that each curve is entered point by point? I think I must be missing something….
 
+
+### deposition form - Server error when trying to save 
+
+
+While trying to save after entering solvent details, I got this error message (09:00 23/11-2023)
+
+500 error 
+
+Trying again at 09:04 it appeared to have saved…
+
+### Deposition form - Unrolled form and unclear indication of required fields
+
+Tester comment:
+
+When looking at the navigation tree, it is telling me that there are some parameters/information missing in the Chemical information section, however when looking at the entry area, there are no red field or indications that something is missing
+
+If chemical environments and entities of interest are required, then I think there should be as default all the fields being shown that are needed. Same goes for all the sub-group entries required in these sections.
+
+### Deposition form - Physical conditions at sample handling
+
+Tester question: 
+
+
+![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/ae97f46d-f64e-4a08-a1a6-9fc21fde01e6)
+
+
+Why is the field to add a (few?) digit number so large, and why can it accept so many characters?
+After saving it turned the number into this…
+
+![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/59df8962-c4e0-41af-bc4c-2ad87778b175)
+
+### Deposition form - Default of collection start time is dangerous 
+
+Tester suggestion:
+
+This doesn’t appear to be in any of the groups and doesn’t appear in the navigation tree either.
+
+If you have the current date set as default, then chances are people are going to skip over it and therefore it won’t be accurate. Maybe better that no date is defined in a new entry, then force people to enter something before submission.
+
+### Deposition form - autofilling owner infomation and usage information
+
+Tester notes that:
+
+Depositor and Principal Contact
+
+Is it possible to have a button to autofill the information from the owner information? It would save time!
+
+I wonder if people will really fill out all of these (owner, depositor, principal contact) with different information… how do you see this information being used?
+
+Once someone is registered in the database, will they be searchable to include automatically, or are you relying on them entering orcid to be able to link all of the records associated with that person?
 
 
