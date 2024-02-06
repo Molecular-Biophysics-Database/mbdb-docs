@@ -9,11 +9,11 @@ The fields that are part of the general parameter are the fields that are availa
  * [Schema version](schema_version.md)
  * [Record information](record_information.md)
  * Depositors (authors)
- * Associated publication
+ * [Associated publication](associated_publication.md)
  * Funding reference
  * Technique
  * Instrument
- * Physical conditions at sample handling
- * Chemical information (measured molecules and buffer composition)
- * Derived parameters (results)
+ * Entities of interest 
+ * Chemical environments 
+ * Results
  * Raw measurements (files)
