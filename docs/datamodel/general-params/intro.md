@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction 
 
-The fields that are part of the general parameter are the field that should/could be available regardless of the method that is used. General parameters  include information about the following topics:
+The fields that are part of the general parameter are the fields that are available (if required) regardless of the method that is used. General parameters include information about the following topics:
 
  * Schema version
  * [Record information](record_information.md)
