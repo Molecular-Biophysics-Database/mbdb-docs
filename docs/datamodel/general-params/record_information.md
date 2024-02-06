@@ -1,14 +1,13 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Record Information
 
-## Overview
-
 **Path**: `metadata.general_parameters.record_information` <br/>
 **Required**: yes <br/>
 **Type**: object <br/>
+**Contains**: see Fields available
 **Description**: Information about the record itself 
 
 ## Fields available

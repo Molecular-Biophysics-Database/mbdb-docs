@@ -6,10 +6,10 @@ sidebar_position: 1
 
 The fields that are part of the general parameter are the fields that are available (if required) regardless of the method that is used. General parameters include information about the following topics:
 
- * Schema version
+ * [Schema version](schema_version.md)
  * [Record information](record_information.md)
- * Depositors (creators)
- * Associated publications
+ * Depositors (authors)
+ * Associated publication
  * Funding reference
  * Technique
  * Instrument
