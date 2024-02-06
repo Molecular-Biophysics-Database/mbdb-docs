@@ -7,7 +7,7 @@ sidebar_position: 3
 **Path**: `metadata.general_parameters.record_information` <br/>
 **Required**: yes <br/>
 **Type**: object <br/>
-**Contains**: see Fields available <br/>
+**Contains**: see available fields <br/>
 **Description**: Information about the record itself 
 
 ## Fields available

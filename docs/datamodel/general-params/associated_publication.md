@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Associated publication    
@@ -8,10 +8,10 @@ sidebar_position: 4
 **Required**: yes <br/>
 **Type**: polymorphic object <br/>
 **Type_field** : type
-**Contains**: see Fields available  <br/>
+**Contains**: see available fields <br/>
 **Description**: If the data in this record is described in published literature (article, journal, thesis), information about the literature can be specified here
 
-## Fields available 
+## Available fields 
 
 ## pid 
 
@@ -60,7 +60,7 @@ sidebar_position: 4
 
 ## 3. available fields if type is Thesis 
 
-## publisher
+## degree_type
 
 **Path**: `metadata.general_parameters.associated_publication.degree_type` <br/>
 **Required**: yes <br/>

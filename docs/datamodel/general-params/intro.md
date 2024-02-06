@@ -8,7 +8,7 @@ The fields that are part of the general parameter are the fields that are availa
 
  * [Schema version](schema_version.md)
  * [Record information](record_information.md)
- * Depositors (authors)
+ * [Depositors (authors)](depositors.md)
  * [Associated publication](associated_publication.md)
  * Funding reference
  * Technique
