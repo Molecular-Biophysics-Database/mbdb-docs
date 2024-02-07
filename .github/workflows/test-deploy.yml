@@ -14,7 +14,6 @@ jobs:
           # cache: yarn
 
       - name: Install dependencies
-        # run: yarn install --frozen-lockfile
-        run: npm install
+        run: npm ci
       - name: Build website
         run: npm run build
