@@ -4,99 +4,93 @@ sidebar_position: 3
 
 # Record Information
 
-**Path**: `metadata.general_parameters.record_information` <br/>
+**Description**: Information about the record itself <br/>
 **Required**: yes <br/>
+**Path**: `metadata.general_parameters.record_information` <br/>
 **Type**: object <br/>
 **Contains**: see available fields <br/>
-**Description**: Information about the record itself 
 
 ## Fields available
 
-## title 
+### title 
 
+**Description**: Short descriptive title of the record <br/>
+**Required**: yes <br/>
 **Path**: `metadata.general_parameters.record_information.title` <br/>
-**Required**: yes <br/>
 **Type**: keyword (string) <br/>
-**Description**: Short descriptive title of the record
 
+### access_rights 
 
-## access_rights 
-
-**Path**: `metadata.general_parameters.record_information.access_rights` <br/>
-**Required**: yes <br/>
-**Type**: enumerator (string) <br/>
-**Options**: ('open access', 'embargoed access', 'restricted access') <br/>
 **Description**: The access rights to the uploaded files. There are three options, 1) "open access" where the files are accessible immediately when the deposition is published, 2)
 "embargoed access" where the files will only become available after a specified
-date, 3) "restricted access" where depositors are of the record are the only ones who has access
-
-## metadata_access_rights 
-
-**Path**: `metadata.general_parameters.record_information.metadata_access_rights` <br/>
+date, 3) "restricted access" where depositors are of the record are the only ones who has access <br/>
 **Required**: yes <br/>
+**Path**: `metadata.general_parameters.record_information.access_rights` <br/>
 **Type**: enumerator (string) <br/>
 **Options**: ('open access', 'embargoed access', 'restricted access') <br/>
+
+### metadata_access_rights 
+
 **Description**: The access rights to the metadata. Minimal metadata that includes title and depositors is accessible regardless of which type is chosen as it is required to
 obtain a DOI. There are three options, 1) "open access" where the complete metadata
-are accessible immediately when the deposition is published, 2) "embargoed access" where the files will only become available after a specified date, 3) "restricted access" where
-depositors are of the record are the only ones who has access
-
-## publisher 
-
-**Path**: `metadata.general_parameters.record_information.publisher` <br/>
+are accessible immediately when the deposition is published, 2) "embargoed access" where the files will only become available after a specified date, 3) "restricted access" where depositors are of the record are the only ones who has access <br/>
 **Required**: yes <br/>
+**Path**: `metadata.general_parameters.record_information.metadata_access_rights` <br/>
+**Type**: enumerator (string) <br/>
+**Options**: ('open access', 'embargoed access', 'restricted access') <br/>
+
+### publisher 
+
+**Description**: When made available MBDB is to be considered the publisher, however, the depositors are still the owners (Datacite requirement field to get DOI). This is automatically generated during deposition <br/>
+**Required**: yes <br/>
+**Path**: `metadata.general_parameters.record_information.publisher` <br/>
 **Type**: enumerator (string) <br/>
 **Options**: ('MBDB') <br/>
-**Description**: When made available MBDB is to be considered the publisher, however, the
-depositors are still the owners (Datacite requirement field to get DOI). This is automatically generated during deposition
 
+### resource_type_general
 
-## resource_type_general
-
-**Path**: `metadata.general_parameters.record_information.resource_type_general` <br/>
+**Description**: All records are considered to be datasets (Datacite requirement field to get DOI). This is automatically generated during deposition 
 **Required**: yes <br/>
+**Path**: `metadata.general_parameters.record_information.resource_type_general` <br/>
 **Type**: enumerator (string) <br/>
 **Options**: ('Dataset') <br/>
-**Description**: All records are considered to be datasets (Datacite requirement field to get DOI). This is automatically generated during deposition
 
-## resource_type 
+### resource_type 
 
-**Path**: `metadata.general_parameters.record_information.resource_type` <br/>
+**Description**: DataCite item which shows type of dataset the record is, and corresponds directly to which kind of technique was used (MST/BLI/SPR) (Datacite recommended field to get DOI). This is automatically generated during deposition <br/>
 **Required**: yes <br/>
+**Path**: `metadata.general_parameters.record_information.resource_type` <br/>
 **Type**: enumerator (string) <br/>
 **Options**: ('MST', 'BLI', 'SPR') <br/>
-**Description**: DataCite item which shows type of dataset the record is, and corresponds directly to which kind of technique was used (MST/BLI/SPR) (Datacite recommended field to get DOI). This is automatically generated during deposition
 
-## external_identifier 
+### external_identifier 
 
-**Path**: `metadata.general_parameters.record_information.external_identifier` <br/>
+**Description**: The (external) identifier of the record which is a DOI generated by Datacite. This will automatically be generated when the record is published <br/>
 **Required**: yes <br/>
+**Path**: `metadata.general_parameters.record_information.external_identifier` <br/>
 **Type**: enumerator (string) <br/>
 **Options**: ('doi:10.XXXX/XXXX-XXXX') <br/>
-**Description**: The (external) identifier of the record which is a DOI generated by Datacite. This will automatically be generated when the record is published 
+ 
+### subject_category 
 
-
-## subject_category 
-
-**Path**: `metadata.general_parameters.record_information.subject_category` <br/>
+**Description**: DataCite subject category the record data belongs to default is Biophysics (Datacite recommended field to get DOI). This is automatically generated during deposition  <br/>
 **Required**: yes <br/>
+**Path**: `metadata.general_parameters.record_information.subject_category` <br/>
 **Type**: enumerator (string) <br/>
 **Options**: ('Biophysics') <br/>
-**Description**: DataCite subject category the record data belongs to default is Biophysics (Datacite recommended field to get DOI). This is automatically generated during deposition 
 
+### deposition_date
 
-## deposition_date
-
-**Path**: `metadata.general_parameters.record_information.deposition_date` <br/>
+**Description**: The date when the data was deposited; automatically generated <br/>
 **Required**: yes <br/>
+**Path**: `metadata.general_parameters.record_information.deposition_date` <br/>
 **Type**: string <br/> 
 **Format**: YYYY-MM-DD <br/>
-**Description**: The date when the data was deposited; automatically generated 
 
-## date_available
+### date_available
 
-**Path**: `metadata.general_parameters.record_information.deposition_date` <br/>
+**Description**: The date when the data was/will be made publicly available. Will be automatically generated <br/>
 **Required**: yes <br/>
+**Path**: `metadata.general_parameters.record_information.deposition_date` <br/>
 **Type**: string  <br/>
 **Format**: YYYY-MM-DD <br/>
-**Description**: The date when the data was/will be made publicly available. Will be automatically generated 
