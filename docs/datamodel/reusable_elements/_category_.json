@@ -1,0 +1,8 @@
+{
+  "label": "Reuseable elements",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "The elements that are used in multiple places"
+  }
+}
