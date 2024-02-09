@@ -18,16 +18,16 @@ sidebar_position: 9
 **Path**: `metadata.general_parameters.instrument.manufacturer` <br/>
 **Type**: enumerator (string) <br/>
 **Options**: ('Bio-Rad',
-                               'Bruker',
-                               'Cytiva',
-                               'Gatorbio',
-                               'GE Healthcare',
-                               'Nanotemper',
-                               'Nicoya Life',
-                               'Sartorius',
-                               'Malvern Panalytical',
-                               'Refeyn',
-                               'TA Instruments')
+                'Bruker',
+                'Cytiva',
+                'Gatorbio',
+                'GE Healthcare',
+                'Nanotemper',
+                'Nicoya Life',
+                'Sartorius',
+                'Malvern Panalytical',
+                'Refeyn',
+                'TA Instruments')
 
 ### name 
 
