@@ -38,7 +38,7 @@ sidebar_position: 1
 **Options**: ('Polymer', 'Chemical', 'Molecular assembly', 'Complex substance of biological origin', 'Complex substance of environmental origin',
 'Complex substance of chemical origin', 'Complex substance of industrial production origin')
 
-## The fields from one of the following:
+## The fields from one of the following objects
 
 ### Polymer
 
@@ -52,8 +52,9 @@ See [Chemical](chemical.md)
 
 See [Molecular assembly](molecular_assembly.md)  
 
-
 ### Complex substance of biological origin
+
+See [Complex substance of biological origin](biological_origin.md)  
 
 ### Complex substance of environmental origin
 

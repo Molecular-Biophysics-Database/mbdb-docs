@@ -69,8 +69,6 @@ sidebar_position: 4
 **Minimum**: -1 <br/>
 
 
-
-
 ## The fields from one of the following:
 
 ### Polymer

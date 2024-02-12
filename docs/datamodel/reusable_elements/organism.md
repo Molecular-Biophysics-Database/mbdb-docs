@@ -2,7 +2,6 @@
 
 Note that organisms are fetched as an [NCBI taxonomy](../../external/organisms.md).
 
-
 ## id 
 
 **Description**: The NCBI taxonomy identifier of the organism<br/>

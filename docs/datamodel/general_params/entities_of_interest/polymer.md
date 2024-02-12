@@ -78,14 +78,13 @@ hybrid',
 **Required**: no <br/>
 **Type**: array of string (fulltext) <br/>
 
-
 ## Available fields in modifications
 
 ### synthesis
 
 **Description**: Modifications (e.g. non-natural amino acids) of the polymer made during synthesis (e.g. translation) of the polymer<br/>
 **Required**: no <br/>
-**Type**: array of object (Modification)  <br/>
+**Type**: array of object (Modification) <br/>
 **Contains** see [Modification](../../reusable_elements/modification.md)
 
 ### biological_postprocessing
