@@ -35,7 +35,7 @@ hybrid',
 **Description**: The molecular weight of the polymer<br/>
 **Required**: yes <br/>
 **Type**: object (Molecular_weight) <br/>
-**Contains**: see [Molecular weight](../../reusable_elements/molecular_weight.md)
+**Contains**: see [Molecular weight](molecular_weight.md)
 
 ## variant
 
@@ -48,7 +48,7 @@ hybrid',
 **Description**: The biological species where the polymer naturally occurs. Note that this is based on the NCBI taxonomy<br/>
 **Required**: no <br/>
 **Type**: object (vocabulary)  <br/>
-**Contains** see [Organism](../../reusable_elements/organism.md)
+**Contains** see [Organism](organism.md)
 
 
 ## expression_source_type
@@ -63,7 +63,7 @@ hybrid',
 **Description**: The biological species where the polymer naturally occurs. Note that this is based on the NCBI taxonomy<br/>
 **Required**: yes <br/>
 **Type**: object (vocabulary)  <br/>
-**Contains** see [Organism](../../reusable_elements/organism.md)
+**Contains** see [Organism](organism.md)
 
 ## modifications
 
@@ -85,18 +85,18 @@ hybrid',
 **Description**: Modifications (e.g. non-natural amino acids) of the polymer made during synthesis (e.g. translation) of the polymer<br/>
 **Required**: no <br/>
 **Type**: array of object (Modification) <br/>
-**Contains** see [Modification](../../reusable_elements/modification.md)
+**Contains** see [Modification](modification.md)
 
 ### biological_postprocessing
 
 **Description**: Modifications of the polymer made after synthesis (e.g. posttranslational modifications, DNA methylation) by the organism where synthesis occurred (e.g. glycosylation)<br/>
 **Required**: no <br/>
 **Type**: array of object (Modification)  <br/>
-**Contains** see [Modification](../../reusable_elements/modification.md)
+**Contains** see [Modification](modification.md)
 
 ### chemical
 
 **Description**: Modifications of the polymer introduced by chemical, biochemical, or physical means in vitro (e.g. lysine methylation, cysteine iodoacetamide labeling, deglycosylation, covalent fluorescent labeling)<br/>
 **Required**: no <br/>
 **Type**: array of object (Modification)  <br/>
-**Contains** see [Modification](../../reusable_elements/modification.md)
+**Contains** see [Modification](modification.md)

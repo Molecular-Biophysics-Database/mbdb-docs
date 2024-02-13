@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 10
 ---
 
 # Overview
@@ -42,22 +42,28 @@ sidebar_position: 1
 
 ### Polymer
 
-See [Polymer](polymer.md)  
+See [Polymer](../reusable_elements/polymer.md)  
 
 ### Chemical
 
-See [Chemical](chemical.md)  
+See [Chemical](../reusable_elements/chemical.md)  
 
 ### Molecular assembly
 
-See [Molecular assembly](molecular_assembly.md)  
+See [Molecular assembly](../reusable_elements/molecular_assembly.md)  
 
 ### Complex substance of biological origin
 
-See [Complex substance of biological origin](biological_origin.md)  
+See [Complex substance of biological origin](../reusable_elements/biological_origin.md)  
 
 ### Complex substance of environmental origin
 
+See [Complex substance of environmental origin](../reusable_elements/environmental_origin.md) 
+
 ### Complex substance of chemical origin
 
-### Complex substance of industrial production origin
+See [Complex substance of chemical origin](../reusable_elements/chemical_origin.md) 
+
+### Complex substance of industrial origin
+
+See [Complex substance of industrial origin](../reusable_elements/industrial_origin.md)

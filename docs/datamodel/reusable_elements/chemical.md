@@ -22,14 +22,14 @@ sidebar_position: 2
 **Description**: The molecular weight of the chemical <br/>
 **Required**: yes <br/>
 **Type**: object (Molecular_weight) <br/>
-**Contains**: see [Molecular weight](../../reusable_elements/molecular_weight.md)
+**Contains**: see [Molecular weight](molecular_weight.md)
 
 ## isotopic_labeling:
 
 **Description**:If the isotopic composition of the chemical was altered from the naturally occurring abundances, it can be specified here (e.g. 15N, 13C) <br/>
 **Required**: no <br/>
 **Type**: string (keyword) <br/>
-**Contains**: see [Molecular weight](../../reusable_elements/molecular_weight.md)
+**Contains**: see [Molecular weight](molecular_weight.md)
 
 
 ## additional_specifications

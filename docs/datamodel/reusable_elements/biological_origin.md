@@ -16,21 +16,21 @@ sidebar_position: 5
 **Description**: Identification of the organism to the lowest taxonomic rank possible e.g. strain. Note that this is based on the NCBI taxonomy<br/>
 **Required**: yes <br/>
 **Type**: object (vocabulary)  <br/>
-**Contains** see [Organism](../../reusable_elements/organism.md)
+**Contains** see [Organism](organism.md)
 
 ## preparation_protocol
 
-**Description**: List of the steps performed during the preparation of the complex substance'<br/>
+**Description**: List of the steps performed during the preparation of the complex substance<br/>
 **Required**: yes <br/>
 **Type**: array of object (Step)  <br/>
-**Contains** see [Step](../../reusable_elements/step.md)
+**Contains** see [Step](step.md)
 
 ## storage
 
-**Description**: List of the steps performed during the preparation of the complex substance'<br/>
+**Description**: Information about how the complex substance was stored between being acquired and measured, including temperature and duration <br/>
 **Required**: no <br/>
 **Type**: object (Storage)  <br/>
-**Contains** see [Storage](../../reusable_elements/storage.md)
+**Contains** see [Storage](storage.md)
 
 ## additional_specifications
 
@@ -124,7 +124,7 @@ Diabetes type 2)<br/>
 **Description**: The host organism the virion was produced  in. Note that information is based on the NCBI taxonomy<br/>
 **Required**: no <br/>
 **Type**: object (vocabulary)  <br/>
-**Contains** see [Organism](../../reusable_elements/organism.md)
+**Contains** see [Organism](organism.md)
 
 ### host_cell_type
 
