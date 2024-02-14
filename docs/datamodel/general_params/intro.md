@@ -16,5 +16,5 @@ The fields that are part of the general parameter are the fields that are availa
  * [Instrument](instrument.md)
  * [Entities of interest](entities_of_interest.md) 
  * [Chemical environments](chemical_environments.md)  
- * Results
- * Raw measurements (files)
+ * [Results](results.md)
+ * [Raw measurements (files)](raw_measurements.md)
