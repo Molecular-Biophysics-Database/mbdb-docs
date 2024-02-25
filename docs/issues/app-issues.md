@@ -4,6 +4,14 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
+### Rdm 12 detail
+
+null
+
+### Edager/rdm 12
+
+Just for comparison
+
 ### Physical conditions should be hidden by default
 
 I’m not sure if the ‘pressure’, ‘humidity’, and ‘atmosphere’ panels are useful. I’d hide them as default. 
@@ -174,25 +182,5 @@ Why is the field to add a (few?) digit number so large, and why can it accept so
 After saving it turned the number into this…
 
 ![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/59df8962-c4e0-41af-bc4c-2ad87778b175)
-
-### Deposition form - Default of collection start time is dangerous 
-
-Tester suggestion:
-
-This doesn’t appear to be in any of the groups and doesn’t appear in the navigation tree either.
-
-If you have the current date set as default, then chances are people are going to skip over it and therefore it won’t be accurate. Maybe better that no date is defined in a new entry, then force people to enter something before submission.
-
-### Deposition form - autofilling owner infomation and usage information
-
-Tester notes that:
-
-Depositor and Principal Contact
-
-Is it possible to have a button to autofill the information from the owner information? It would save time!
-
-I wonder if people will really fill out all of these (owner, depositor, principal contact) with different information… how do you see this information being used?
-
-Once someone is registered in the database, will they be searchable to include automatically, or are you relying on them entering orcid to be able to link all of the records associated with that person?
 
 
