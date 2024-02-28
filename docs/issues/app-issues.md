@@ -4,25 +4,9 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
-### Rdm 12 detail
-
-null
-
-### Edager/rdm 12
-
-Just for comparison
-
-### Physical conditions should be hidden by default
-
-I’m not sure if the ‘pressure’, ‘humidity’, and ‘atmosphere’ panels are useful. I’d hide them as default. 
-
 ### Measurements are tedious to input 
 
  It is annoying to always repeat the same values in the case of the measurements. For example, the name is the same, the concentration of the target, the chemical environment and the ‘container’ ...
-
-### Context dependent option restrictions
-
-In the 'Unit' option, I was expecting to be able to choose from a list of units according to the selected derived parameter.
 
 ### Raw data illogically placed
 
@@ -60,37 +44,13 @@ General Parameters>Chemical information>Entities of interest>Quality controls: i
 
 ‘Collection start time’ field is in the middle of the deposit, which is a bit confusing, so we suggest including it in the ‘Raw measurements’ section because it is the date in which these measurements were taken. In addition, we think the field should not allow introducing dates after the current day.
 
-### Performance test could be another record in the MBDB
-
-Many times, the performance test will be just another record in the MDBD, that option should be given in the interface by giving the recordID of the performance test
-
-### The input form is generally too complicated
-
-Generally speaking, it is very easy to get lost through the sections. Information with different levels of importance are presented at the same level in the interface and many times I don't know in which section and subsection I am
-
-Reducing the fields or eliminating full sections should be considered.
-
-Before eliminating fields we could try playing with the colors of the levels of the db. Another option could be that the third level of information should be shown only when it is dropped down. For instance: “Published test protocol” which is inside “Performance test” which is inside of “Instrument” should not be fully displayed and its background should be in yellow (this is just an example).
-
 ### Group mandatory fields 
 
 The mandatory fields should be as much together as possible. Access rights and Metadata access rights should be displayed before Project information (which is not mandatory). If not, it becomes a bit confusing, especially if I click on “do not provide this data”
 
-### "Performance test" takes to much attention
-
-In the ‘Instrument’ section there is too much information about ‘Performance test’ which contributes to loss the focus. As an example of our confusion, we thought the “File” at the bottom of this section was the file with the raw data, but It was still related to the ‘performance test’. 
-
-### More information about published work
-
-There is a ‘Publisher’ field which refers to editorial or journal but there is no option to include volume, issue, page, etc. Maybe this is too much information that we could collect from the DOI or a ‘cite’ option in the APA format in order to make the data entry more user-friendly.
-
 ### Include option reuse person information in more sections 
 
 It could be great to include an option to indicate that the ‘principal contact’ is the same as the ‘depositor’ in order to not repeat information and reduce the number of fields the user has to complete manually.
-
-### Enter "Keywords" in one line
-
-Allowing enter ‘Keywords’ in ‘Record information’ in one line, separated by commas.
 
 ### indication that user is logged in is missing 
 
@@ -100,24 +60,11 @@ We miss any indication that I am logged in under my account (username, icon, nam
 
 We consider it more intuitive to use (*) instead of (■) for the mandatory fields because it is what is usually used in other websites.
 
-### Redundant “Do not provide this data” in “Associated Publications”
-
-Tester comment:
-In section “Associated Publications” there are two “Do not provide this data”. I think one of them is unnecessary.
-
 ### Change text for marking section as not provided 
 
 
 Some fields contain the text “do not provide this data” which could be confusing to the user because it seems more like an order to the user than a statement from the user. It may be something more friendly like “ I don’t want to provide this data”. 
 
-
-### Too much secondary information, consider two stage release 
-
-Tester comment:
-
-Consider releasing the MDdb for beta testers in two-step process: a first step when only with “Minimal viable product MVP” is realized, showing only the more common parameters for MST deposit. 
-
-This would allow us to focus the feedback on the important things and, more importantly, make the tester´s life easy and decrease the “learning curve” for the user. For instance, secondary (and more confusing) information for MST as Pressure, Humidity or Funding reference would not be available in the first release. I am bit worry that people (even “early-adopters”) will not use the database because it is too complicated to use.
 
 ### Vocabulary API performance
 
@@ -131,15 +78,6 @@ These results are very well reproducible.
 The questions that should probably be asked:
 - Why is there such a performance disparity between two vocabularies that have the same number of entries?
 - Is this performance expected or is this some defect of the development setup?
-
-### Deposition form - file upload failure 
-
-Tester bugreport: 
-After trying to upload a pdf file to the record at 09:25 (23-11-2023) then refreshing the entry view for the database I got the following error:
-
-![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/d9eb72a0-885c-45b3-a2e4-57ab6d43c61a)
-
-After removing the pdf file (it was only small, 189 kb) the entry page could be viewed again.
 
 ### deposition form - unclear how to upload measured data
 
@@ -182,5 +120,73 @@ Why is the field to add a (few?) digit number so large, and why can it accept so
 After saving it turned the number into this…
 
 ![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/59df8962-c4e0-41af-bc4c-2ad87778b175)
+
+### Deposition form - Default of collection start time is dangerous 
+
+Tester suggestion:
+
+This doesn’t appear to be in any of the groups and doesn’t appear in the navigation tree either.
+
+If you have the current date set as default, then chances are people are going to skip over it and therefore it won’t be accurate. Maybe better that no date is defined in a new entry, then force people to enter something before submission.
+
+### Deposition form - autofilling owner infomation and usage information
+
+Tester notes that:
+
+Depositor and Principal Contact
+
+Is it possible to have a button to autofill the information from the owner information? It would save time!
+
+I wonder if people will really fill out all of these (owner, depositor, principal contact) with different information… how do you see this information being used?
+
+Once someone is registered in the database, will they be searchable to include automatically, or are you relying on them entering orcid to be able to link all of the records associated with that person?
+
+### Depostion form - Save button difficult to reach
+
+Tester notes that:
+
+It is possible to scroll down in the page so that you aren’t able to view the “Save” button at the top of the page, so you have to scroll all the way up to save, a bit annoying. Would be nicer if it is more easily accessed during the course of input, to ensure that people can do so regularly during the process.
+
+### Search listing - Display entities of interest directly
+
+Iterate over general_parameters.chemical_information_chemicals.entities_of_interest directly instead of going over method_specific_parameters.measurements.samples
+
+### Search listing - Use source organism from all of the entities of interest 
+
+display source organism from all of the entities of interest instead of only the first one
+
+### Search behaviour - partial match of word 
+
+It may be a current feature but searching for a partial word 
+SCV 
+(SCV50) is present in the inhibitor name
+gave nothing
+so I had to search for SCV50 to find the records ..
+
+### Search behaviour - More meaningful link when no results are found
+
+When I did not find the search key and pressed start over - it put me to the complete listing instead of the search page.
+
+### Button Download entry functionality
+
+It would be ice if the button Download would actually call the usual download window .. to make life easier for us now.
+
+### Record view - record id not visible
+
+In the record view I cannot see the actual id of the record.
+Should be in the top line I think.
+
+
+### Recordview - Results listing should show associated measurements 
+
+Currently the gp.derived_parameters are iterated over to display results listing. It would be preferable to combine this with information found in msp.data_analysis.measurements, as msp.data_analysis have a derived_parameter that can be used establish the connection. 
+
+### Searching across different types of records 
+
+Configure searches to be across all types of records (currently MST, BLI, and SPR) 
+
+### Extraction and loading metadata from files 
+
+Extraction of metadata from instrument provided data files in away that can be accessed by the frontend 
 
 
