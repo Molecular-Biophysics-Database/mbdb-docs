@@ -17,7 +17,7 @@ sidebar_position: 4
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.entities_of_interest.components` <br/>
 **Type**: array of polymorphic object (Assembly_component) <br/>
-**Type_field**: type 
+**Type_field**: type
 **Contains**: see [Fields available in assembly components](#fields-available-in-assembly-components)
 
 
@@ -41,18 +41,18 @@ sidebar_position: 4
 **Description**: Additional information about the macromolecular assembly can be specified here<br/>
 **Required**: no <br/>
 **Type**: array of string (fulltext) <br/>
- 
+
 
 ## Fields available in assembly components
 
-### name 
+### name
 
 **Description**: Description of the individual components (e.g. polypeptide, heme, lipids, metal ions etc.) the molecular assembly is composed of (e.g. Hemoglobin alpha) and how many copies of each component were present <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.entities_of_interest.components.name` <br/>
 **Type**: string (keyword) <br/>
 
-### type 
+### type
 
 **Description**: The type of component, options are (biological) Polymer and Chemical <br/>
 **Required**: yes <br/>
@@ -60,7 +60,7 @@ sidebar_position: 4
 **Type**: enumerator (string) <br/>
 **Options**: ('Polymer', 'Chemical')
 
-### copy_number 
+### copy_number
 
 **Description**: Number of copies of the component within the assembly, -1 if unknown <br/>
 **Required**: yes <br/>
@@ -68,12 +68,19 @@ sidebar_position: 4
 **Type**: number (float) <br/>
 **Minimum**: -1 <br/>
 
+## quality_controls
+
+**Description**: Information about if and how quality control of the molecular was performed<br/>
+**Required**: no <br/>
+**Type**: object (Quality_controls) <br/>
+**Contains** see [Quality controls](quality_controls.md)
+
 ## The fields from one of the following:
 
 ### Polymer
 
-See [Polymer](polymer.md)  
+See [Polymer](polymer.md)
 
 ### Chemical
 
-See [Chemical](chemical.md)  
+See [Chemical](chemical.md)

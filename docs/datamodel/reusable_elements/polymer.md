@@ -72,12 +72,6 @@ hybrid',
 **Type**: object (vocabulary)  <br/>
 **Contains** see [Available fields in modifications](#available-fields-in-modifications)
 
-## additional_specifications
-
-**Description**: Additional information about the polymer can be specified here<br/>
-**Required**: no <br/>
-**Type**: array of string (fulltext) <br/>
-
 ## Available fields in modifications
 
 ### synthesis
@@ -100,3 +94,16 @@ hybrid',
 **Required**: no <br/>
 **Type**: array of object (Modification)  <br/>
 **Contains** see [Modification](modification.md)
+
+## additional_specifications
+
+**Description**: Additional information about the polymer can be specified here<br/>
+**Required**: no <br/>
+**Type**: array of string (fulltext) <br/>
+
+## quality_controls
+
+**Description**: Information about if and how quality control of the polymer was performed<br/>
+**Required**: no <br/>
+**Type**: object (Quality_controls) <br/>
+**Contains** see [Quality controls](quality_controls.md)

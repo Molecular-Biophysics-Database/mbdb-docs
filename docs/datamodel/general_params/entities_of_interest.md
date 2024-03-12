@@ -2,9 +2,7 @@
 sidebar_position: 10
 ---
 
-# Overview
-
-## entities of interest
+# Entities of interest
 
 **Description**: List of the entities that are being directly measured, as well as the entities that are being used as a variable to influence the behavior of the directly measured entities (e.g. lysozyme, NAG3, NaCl). IMPORTANT! If the pH was varied by individually prepared chemical environments these should be specified individually in chemical environments <br/>
 **Required**: yes <br/>
@@ -15,14 +13,14 @@ sidebar_position: 10
 
 ## Fields available in entities of interest
 
-## id 
+## id
 
 **Description**: Unique ID for the entity to be used as a link <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.entities_of_interest.id` <br/>
 **Type**: link_target (string) <br/>
 
-## name 
+## name
 
 **Description**: Short descriptive name (id) of the entity; must be unique within a record (e.g. Lysozyme, Serum from Patient 1). This name is referenced in the measurement description to identify the entities present in measured sample<br/>
 **Required**: yes <br/>
@@ -42,27 +40,27 @@ sidebar_position: 10
 
 ### Polymer
 
-See [Polymer](../reusable_elements/polymer.md)  
+See [Polymer](../reusable_elements/polymer.md)
 
 ### Chemical
 
-See [Chemical](../reusable_elements/chemical.md)  
+See [Chemical](../reusable_elements/chemical.md)
 
 ### Molecular assembly
 
-See [Molecular assembly](../reusable_elements/molecular_assembly.md)  
+See [Molecular assembly](../reusable_elements/molecular_assembly.md)
 
 ### Complex substance of biological origin
 
-See [Complex substance of biological origin](../reusable_elements/biological_origin.md)  
+See [Complex substance of biological origin](../reusable_elements/biological_origin.md)
 
 ### Complex substance of environmental origin
 
-See [Complex substance of environmental origin](../reusable_elements/environmental_origin.md) 
+See [Complex substance of environmental origin](../reusable_elements/environmental_origin.md)
 
 ### Complex substance of chemical origin
 
-See [Complex substance of chemical origin](../reusable_elements/chemical_origin.md) 
+See [Complex substance of chemical origin](../reusable_elements/chemical_origin.md)
 
 ### Complex substance of industrial origin
 
