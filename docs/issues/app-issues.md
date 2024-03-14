@@ -4,10 +4,6 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
-### Vocab permissions
-
-null
-
 ### Measurements are tedious to input 
 
  It is annoying to always repeat the same values in the case of the measurements. For example, the name is the same, the concentration of the target, the chemical environment and the ‘container’ ...
@@ -188,5 +184,9 @@ Currently the gp.derived_parameters are iterated over to display results listing
 ### Searching across different types of records 
 
 Configure searches to be across all types of records (currently MST, BLI, and SPR) 
+
+### Extraction and loading metadata from files 
+
+Extraction of metadata from instrument provided data files in away that can be accessed by the frontend 
 
 
