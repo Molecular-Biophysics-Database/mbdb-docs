@@ -108,19 +108,6 @@ When looking at the navigation tree, it is telling me that there are some parame
 
 If chemical environments and entities of interest are required, then I think there should be as default all the fields being shown that are needed. Same goes for all the sub-group entries required in these sections.
 
-### Deposition form - Physical conditions at sample handling
-
-Tester question: 
-
-
-![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/ae97f46d-f64e-4a08-a1a6-9fc21fde01e6)
-
-
-Why is the field to add a (few?) digit number so large, and why can it accept so many characters?
-After saving it turned the number into this…
-
-![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/59df8962-c4e0-41af-bc4c-2ad87778b175)
-
 ### Deposition form - Default of collection start time is dangerous 
 
 Tester suggestion:
@@ -146,10 +133,6 @@ Once someone is registered in the database, will they be searchable to include a
 Tester notes that:
 
 It is possible to scroll down in the page so that you aren’t able to view the “Save” button at the top of the page, so you have to scroll all the way up to save, a bit annoying. Would be nicer if it is more easily accessed during the course of input, to ensure that people can do so regularly during the process.
-
-### Search listing - Display entities of interest directly
-
-Iterate over general_parameters.chemical_information_chemicals.entities_of_interest directly instead of going over method_specific_parameters.measurements.samples
 
 ### Search listing - Use source organism from all of the entities of interest 
 
@@ -188,5 +171,41 @@ Configure searches to be across all types of records (currently MST, BLI, and SP
 ### Extraction and loading metadata from files 
 
 Extraction of metadata from instrument provided data files in away that can be accessed by the frontend 
+
+### UI rebuild command no longer works
+
+Issuing "build" command to "nrp develop" used to trigger automatic UI rebuild and server restart. With the latest code this no longer works because the rebuilding process attempts to reuse a docker container name without removing the old container. Relevant excerpt from the log
+
+```
+=======================================================================
+
+Type: 
+
+ server <enter> --- restart server
+ ui <enter> --- restart ui watcher
+ build <enter> --- stop server and watcher, 
+ call ui build, then start again
+ stop <enter> --- stop the server and ui and exit
+
+Got command='build'
+Running docker exec mbdb-site-repo-develop /nrp/bin/nrp develop --command stop --site mbdb-site
+ inside /home/mbdb/mbdb-app/sites/mbdb-site
+Got command='stop'
+Stopping server
+Going to kill [81, 17, 11]
+Terminating 81 /invenio/venv/bin/python3 /invenio/venv/bin/invenio run --cert docker/nginx/test.crt --key docker/nginx/test.key -h 0.0.0.0
+Terminating 17 /invenio/venv/bin/python3 /invenio/venv/bin/invenio run --cert docker/nginx/test.crt --key docker/nginx/test.key -h 0.0.0.0
+Terminating 11 /nrp/bin/python /nrp/bin/nrp run --site mbdb-site --outside-docker
+Finished running docker exec mbdb-site-repo-develop /nrp/bin/nrp develop --command stop --site mbdb-site
+ inside /home/mbdb/mbdb-app/sites/mbdb-site
+Running docker compose run --service-ports --rm --no-TTY --name mbdb-site-repo-develop repo develop --site mbdb-site --step DevelopStep
+ inside /home/mbdb/mbdb-app/sites/mbdb-site
+Error response from daemon: Conflict. The container name "/mbdb-site-repo-develop" is already in use by container "adccae1c70e20a692fec7e2f0dfa405f6d3237420b00de87db7b7475db5844ef". You have to remove (or rename) that container to be able to reuse that name.
+Error running docker compose run --service-ports --rm --no-TTY --name mbdb-site-repo-develop repo develop --site mbdb-site --step DevelopStep
+```
+
+### Acquiring DOI 
+
+Provide Invenio mechanism to trigger DOI generation through DataCite
 
 
