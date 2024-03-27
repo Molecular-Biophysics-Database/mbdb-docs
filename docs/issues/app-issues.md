@@ -8,24 +8,6 @@ sidebar_position: 2
 
  It is annoying to always repeat the same values in the case of the measurements. For example, the name is the same, the concentration of the target, the chemical environment and the ‘container’ ...
 
-### Raw data illogically placed
-
-Tester comment:
- I was expecting to deposit the raw data directly at the beginning of the form.
-
-
-### Overlapping scrollbars
-
-The scrollbar of the main window and scroll bar of the frame with items are overlapping, so you can drag it with a mouse.
-
-OS: Linux/Ubuntu with Gnome 3
-Browser: Firefox 120
-
-### Why isn't the red icon disappearing 
-
-If all the mandatory fields in the Record information are completed, the red alert icon show disappear (?). I think it happens in other fields.
-![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/f2a09fd5-c568-4bcb-a265-47c6ef3a8239)
-
 ### MST datanalysis define Fhot and Fcold in single line 
 
 In ‘Data analysis’, we believe that using Cold and Hot region a single line for each value would be more appropriate than F cold or F hot:
@@ -35,18 +17,6 @@ Hot region: start (field to fill) end (field to fill)
 ### Unclear location of derived parameters
 
  Derived parameters: why is this here? Why is it not introduced within ‘data analysis’? I think we are repeating information.
-
-### Unclear if Quality controls is mandatory
-
-General Parameters>Chemical information>Entities of interest>Quality controls: is this field mandatory? Because its ‘Parameter’ appears as a field required.
-
-### ‘Collection start time’ is oddly positioned 
-
-‘Collection start time’ field is in the middle of the deposit, which is a bit confusing, so we suggest including it in the ‘Raw measurements’ section because it is the date in which these measurements were taken. In addition, we think the field should not allow introducing dates after the current day.
-
-### Group mandatory fields 
-
-The mandatory fields should be as much together as possible. Access rights and Metadata access rights should be displayed before Project information (which is not mandatory). If not, it becomes a bit confusing, especially if I click on “do not provide this data”
 
 ### Include option reuse person information in more sections 
 
@@ -59,12 +29,6 @@ We miss any indication that I am logged in under my account (username, icon, nam
 ### Use the standard (*) instead of (■) for mandatory fields
 
 We consider it more intuitive to use (*) instead of (■) for the mandatory fields because it is what is usually used in other websites.
-
-### Change text for marking section as not provided 
-
-
-Some fields contain the text “do not provide this data” which could be confusing to the user because it seems more like an order to the user than a statement from the user. It may be something more friendly like “ I don’t want to provide this data”. 
-
 
 ### Vocabulary API performance
 
@@ -79,18 +43,6 @@ The questions that should probably be asked:
 - Why is there such a performance disparity between two vocabularies that have the same number of entries?
 - Is this performance expected or is this some defect of the development setup?
 
-### deposition form - unclear how to upload measured data
-
-Tester comment
-
-Measured data
-No information that I can see for how the data should be inputted
-
-Is it true that you need to have a field per value you need to upload? 
-
-Googling I see that MST output can look like this! So are you asking that each curve is entered point by point? I think I must be missing something….
-
-
 ### deposition form - Server error when trying to save 
 
 
@@ -99,22 +51,6 @@ While trying to save after entering solvent details, I got this error message (0
 500 error 
 
 Trying again at 09:04 it appeared to have saved…
-
-### Deposition form - Unrolled form and unclear indication of required fields
-
-Tester comment:
-
-When looking at the navigation tree, it is telling me that there are some parameters/information missing in the Chemical information section, however when looking at the entry area, there are no red field or indications that something is missing
-
-If chemical environments and entities of interest are required, then I think there should be as default all the fields being shown that are needed. Same goes for all the sub-group entries required in these sections.
-
-### Deposition form - Default of collection start time is dangerous 
-
-Tester suggestion:
-
-This doesn’t appear to be in any of the groups and doesn’t appear in the navigation tree either.
-
-If you have the current date set as default, then chances are people are going to skip over it and therefore it won’t be accurate. Maybe better that no date is defined in a new entry, then force people to enter something before submission.
 
 ### Deposition form - autofilling owner infomation and usage information
 
@@ -127,12 +63,6 @@ Is it possible to have a button to autofill the information from the owner infor
 I wonder if people will really fill out all of these (owner, depositor, principal contact) with different information… how do you see this information being used?
 
 Once someone is registered in the database, will they be searchable to include automatically, or are you relying on them entering orcid to be able to link all of the records associated with that person?
-
-### Depostion form - Save button difficult to reach
-
-Tester notes that:
-
-It is possible to scroll down in the page so that you aren’t able to view the “Save” button at the top of the page, so you have to scroll all the way up to save, a bit annoying. Would be nicer if it is more easily accessed during the course of input, to ensure that people can do so regularly during the process.
 
 ### Search listing - Use source organism from all of the entities of interest 
 
