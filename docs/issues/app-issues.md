@@ -26,10 +26,6 @@ It could be great to include an option to indicate that the ‘principal contact
 
 We miss any indication that I am logged in under my account (username, icon, name of the depositor, orcid number) as a personal site bottom.
 
-### Use the standard (*) instead of (■) for mandatory fields
-
-We consider it more intuitive to use (*) instead of (■) for the mandatory fields because it is what is usually used in other websites.
-
 ### Vocabulary API performance
 
 Performance of the vocabulary API appears to be slow, particularly when a larger number of items is requested.
@@ -42,15 +38,6 @@ These results are very well reproducible.
 The questions that should probably be asked:
 - Why is there such a performance disparity between two vocabularies that have the same number of entries?
 - Is this performance expected or is this some defect of the development setup?
-
-### deposition form - Server error when trying to save 
-
-
-While trying to save after entering solvent details, I got this error message (09:00 23/11-2023)
-
-500 error 
-
-Trying again at 09:04 it appeared to have saved…
 
 ### Deposition form - autofilling owner infomation and usage information
 
