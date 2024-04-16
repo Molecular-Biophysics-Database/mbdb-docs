@@ -4,6 +4,10 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
+### Model choice page 
+
+In order to make it clear to user which type of deposition they're making (in terms of method), the deposition button should direct users to an intermediate where the choice would occur. 
+
 ### Edit button redirects to None 
 
 ![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/46ef8df3-62e2-45d7-9cd4-1e688c508aad)
