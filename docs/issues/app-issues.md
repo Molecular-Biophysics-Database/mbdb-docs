@@ -4,10 +4,6 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
-### Custom fields vocabulary models
-
-null
-
 ### File upload no longer works
 
 null
