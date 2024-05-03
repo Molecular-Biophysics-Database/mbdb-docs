@@ -4,6 +4,14 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
+### Give provide user with information about which fields are required
+
+Currently, the users have no way of knowing which fields are optional and which are required. This should be clearly stated, likely as a fixed object
+
+### Show model on input form
+
+It should be visible (possibly fixed position) which type of data is currently being deposited.
+
 ### File upload no longer works
 
 null
@@ -11,25 +19,6 @@ null
 ### Model choice page 
 
 In order to make it clear to user which type of deposition they're making (in terms of method), the deposition button should direct users to an intermediate where the choice would occur. 
-
-### Edit button redirects to None 
-
-![image](https://github.com/Molecular-Biophysics-Database/mbdb-app/assets/20229814/46ef8df3-62e2-45d7-9cd4-1e688c508aad)
-
-Edit:
-
-The problem is [here](https://github.com/Molecular-Biophysics-Database/mbdb-app/blob/development/ui/mst/templates/semantic-ui/mst/MBDB/RecordHeader.jinja#L11), as the `links.edit` is doesn't exist anymore for drafts. However, `links.self_html` points to the edit endpoint so a possible workaround is to change:
-
-```jinja
- href="{{ links.edit }}"
-``` 
-to
-
-```jinja
- href="{{ links.edit._ui_value or links.self_html }}"
-``` 
-
-Note that ._ui_value is needed as as the fields are of type FieldData during the comparison 
 
 ### Measurements are tedious to input 
 
