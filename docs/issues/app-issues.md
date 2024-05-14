@@ -4,11 +4,7 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
-### Itc model tweak
-
-null
-
-### Give provide user with information about which fields are required
+### Provide the users with information about which fields are required
 
 Currently, the users have no way of knowing which fields are optional and which are required. This should be clearly stated, likely as a fixed object
 
