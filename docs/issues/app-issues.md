@@ -16,10 +16,6 @@ It should be visible (possibly fixed position) which type of data is currently b
 
 null
 
-### Model choice page 
-
-In order to make it clear to user which type of deposition they're making (in terms of method), the deposition button should direct users to an intermediate where the choice would occur. 
-
 ### Measurements are tedious to input 
 
  It is annoying to always repeat the same values in the case of the measurements. For example, the name is the same, the concentration of the target, the chemical environment and the ‘container’ ...
