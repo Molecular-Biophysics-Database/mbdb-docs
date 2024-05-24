@@ -8,10 +8,6 @@ sidebar_position: 2
 
 Currently, the users have no way of knowing which fields are optional and which are required. This should be clearly stated, likely as a fixed object
 
-### Show model on input form
-
-It should be visible (possibly fixed position) which type of data is currently being deposited.
-
 ### File upload no longer works
 
 null
