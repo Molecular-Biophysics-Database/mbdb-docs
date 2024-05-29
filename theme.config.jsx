@@ -1,7 +1,11 @@
 export default {
-    logo: <span>My Nextra Documentation</span>,
+    logo: <span>MBDB</span>,
     project: {
-      link: 'https://github.com/shuding/nextra'
-    }
+      link: "https://github.com/Molecular-Biophysics-Database/mbdb-app"
+    },
+    sidebar: {
+      defaultMenuCollapseLevel: 1
+    },
+    docsRepositoryBase: "https://github.com/Molecular-Biophysics-Database/mbdb-docs"
     // ... other theme options
   }

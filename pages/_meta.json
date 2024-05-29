@@ -1,0 +1,22 @@
+{
+  "index": {
+    "title": "Home",
+    "type": "page"
+  },
+  "datamodel": {
+    "title": "Data model",
+    "type": "page"
+  },
+  "external": {
+    "title": "External Resources",
+    "type": "page"
+  },
+  "technologies": {
+    "title": "Technologies",
+    "type": "page"
+  },
+  "rest_api": {
+    "title": "REST API",
+    "type": "page"
+  }
+}
