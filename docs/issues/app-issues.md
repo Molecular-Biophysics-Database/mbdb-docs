@@ -4,10 +4,6 @@ sidebar_position: 2
 # App Issues
 (list updates daily)
 
-### Provide the users with information about which fields are required
-
-Currently, the users have no way of knowing which fields are optional and which are required. This should be clearly stated, likely as a fixed object
-
 ### File upload no longer works
 
 null
@@ -74,10 +70,6 @@ so I had to search for SCV50 to find the records ..
 ### Search behaviour - More meaningful link when no results are found
 
 When I did not find the search key and pressed start over - it put me to the complete listing instead of the search page.
-
-### Button Download entry functionality
-
-It would be ice if the button Download would actually call the usual download window .. to make life easier for us now.
 
 ### Record view - record id not visible
 
