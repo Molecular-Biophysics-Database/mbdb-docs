@@ -18,5 +18,9 @@
   "rest_api": {
     "title": "REST API",
     "type": "page"
+  },
+  "issues": {
+    "title": "Known Issues",
+    "type": "page"
   }
 }
