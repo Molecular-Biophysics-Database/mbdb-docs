@@ -15,8 +15,8 @@ let config = {
 if (process.env.GITHUB_REPOSITORY) {
   config = {
     ...config,
-    assetPrefix: "/mbdb-docs-nextra/",
-    basePath: "/mbdb-docs-nextra",
+    assetPrefix: "/mbdb-docs/",
+    basePath: "/mbdb-docs",
   }
 }
 module.exports = withNextra(config)
