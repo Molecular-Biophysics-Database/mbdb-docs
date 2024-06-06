@@ -6,6 +6,6 @@ export default {
     sidebar: {
       defaultMenuCollapseLevel: 1
     },
-    docsRepositoryBase: "https://github.com/Molecular-Biophysics-Database/mbdb-docs"
+    docsRepositoryBase: "https://github.com/Molecular-Biophysics-Database/mbdb-docs/tree/main"
     // ... other theme options
   }
