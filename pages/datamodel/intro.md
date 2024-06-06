@@ -2,7 +2,7 @@
 
 # The two part model
 
-![overview_img](../../static/img/record_overview.svg "overview")
+![overview_img](/static/img/record_overview.svg "overview")
 
 The data model for each record consist of two parts:
 

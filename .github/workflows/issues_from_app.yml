@@ -1,0 +1,46 @@
+name: Extract Issues
+
+on: # workflow_dispatch (uncomment to make it possible to manually trigger the action) 
+  schedule:
+    - cron: '0 0 * * *'  # Run every day at midnight
+
+jobs:
+  extract-issues:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Extract Issues
+      run: |
+        TOKEN=${{ secrets.GITHUB_TOKEN }}
+        REPO_OWNER=Molecular-Biophysics-Database
+        REPO_NAME=mbdb-app
+
+        # Get issues from the other repository
+        issues=$(curl -s -X GET \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: Bearer $TOKEN" \
+            "https://api.github.com/repos/$REPO_OWNER/$REPO_NAME/issues")
+       
+        # Format issues as markdown
+        markdown_content="---\nsidebar_position: 2\n---\n# App Issues\n(list updates daily)\n\n"
+
+        while read -r issue
+        do
+        title=$(echo $issue | jq -r '.title')
+        body=$(echo $issue | jq  -r  '.body')
+        markdown_content+="### $title\n\n$body\n\n"
+        done < <(echo $issues | jq -c '.[]')
+
+        # Write to file
+        echo -e "$markdown_content" > docs/issues/app-issues.md
+    
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add docs/issues/app-issues.md
+        git commit -m "Extracted and formatted issues from mbdb-app"
+        git push
