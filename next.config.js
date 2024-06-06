@@ -8,15 +8,16 @@ let config = {
     unoptimized: true,
   },
   output: "export"
+
 }
 
-if (process.env.GITHUB_REPOSITORY) {
-  const repositoryName = process.env.GITHUB_REPOSITORY.split('/')[1]
 
+if (process.env.GITHUB_REPOSITORY) {
   config = {
     ...config,
-    assetPrefix: `/${repositoryName}/`,
-    basePath: `/${repositoryName}`,
+    assetPrefix: "/mbdb-docs-nextra/",
+    basePath: "/mbdb-docs-nextra",
   }
 }
 module.exports = withNextra(config)
+
