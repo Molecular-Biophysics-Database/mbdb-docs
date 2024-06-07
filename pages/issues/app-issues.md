@@ -1,6 +1,3 @@
----
-sidebar_position: 2
----
 # App Issues
 (list updates daily)
 
