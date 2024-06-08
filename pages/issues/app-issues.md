@@ -1,10 +1,6 @@
 # App Issues
 (list updates daily)
 
-### File upload no longer works
-
-null
-
 ### Measurements are tedious to input 
 
  It is annoying to always repeat the same values in the case of the measurements. For example, the name is the same, the concentration of the target, the chemical environment and the ‘container’ ...
@@ -67,12 +63,6 @@ so I had to search for SCV50 to find the records ..
 ### Search behaviour - More meaningful link when no results are found
 
 When I did not find the search key and pressed start over - it put me to the complete listing instead of the search page.
-
-### Record view - record id not visible
-
-In the record view I cannot see the actual id of the record.
-Should be in the top line I think.
-
 
 ### Recordview - Results listing should show associated measurements 
 
