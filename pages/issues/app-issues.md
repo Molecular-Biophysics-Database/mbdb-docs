@@ -19,10 +19,6 @@ Hot region: start (field to fill) end (field to fill)
 
 It could be great to include an option to indicate that the ‘principal contact’ is the same as the ‘depositor’ in order to not repeat information and reduce the number of fields the user has to complete manually.
 
-### indication that user is logged in is missing 
-
-We miss any indication that I am logged in under my account (username, icon, name of the depositor, orcid number) as a personal site bottom.
-
 ### Vocabulary API performance
 
 Performance of the vocabulary API appears to be slow, particularly when a larger number of items is requested.
