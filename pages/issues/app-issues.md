@@ -1,6 +1,10 @@
 # App Issues
 (list updates daily)
 
+### Added id field to measurements, changed molecular_weight unit to g/mo…
+
+…l and, made initial page the file page
+
 ### changed permissions of so users can add grants, and configured the UI…
 
 … for adding grants
