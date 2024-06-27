@@ -1,13 +1,70 @@
 # App Issues
 (list updates daily)
 
-### Added id field to measurements, changed molecular_weight unit to g/mo…
+### Links under front page logos
 
-…l and, made initial page the file page
+The links for IBT and CESNET should link to the English versions of the web pages rather than the Czech one.
 
-### changed permissions of so users can add grants, and configured the UI…
 
-… for adding grants
+### Search - Start over button
+
+In the case of unsuccessful search the startover button leads to full listing of records for MST I guess?
+The button should be directing back to the front page I think.
+
+
+### Record view - width of the graphical representation
+
+The width is now dynamically adjusted according to the content.
+This is generally fine.
+However, I would suggest that by default it should not shrink below a certain width.
+
+NOT CRITICAL - JUST DISTURBING when I compare two or more records.
+
+
+### Instrument in Record view
+
+Currently we show only the manufacturer
+We should show also the instrument name as a second line.
+
+### SPR input - Measurement protocol - Flow
+
+Path offers selection of measurement position but there is nothing to select from even if I defined measurement position previously.
+
+### SPR - Measurement position - Ligand information
+
+The ligand pull down offers chemical environemnts instead of EOIs.
+
+
+### Search results filter
+
+The facet in the search results listing seems to be offering "all" of the possible values MBDB has rather than those in the already displayed results.
+
+I can see that when I get only one result filtered out but still have e.g. three Journals available to pick from.
+This may be intended?
+
+
+### Record view - Results
+
+The name of the result displayed takes the whole free text the depositor puts in.
+There may be a good reason why the title is a longer sentence but we should display perhaps only the first 100 characters of it?
+
+### Searching for a particular expression
+
+Searching for an exact phrase - probably not implemented yet.
+
+E.g. I have my favourite record and I want to use its title to get back to it, but the search actually regards individual words in the phrase as separate search items.
+Tried " and '.
+
+
+### Record view - Measurements - can we easily show the entities?
+
+For the particular measurement in the record view it would be useful to show which entitites were involved in the measurement.
+If the user defines let's say three or more EOIs then the measurement information is there - defined by the user - which EOIs were measured in a particular measurement - I think this should be shown in the record view so that there is no doubt for example which interaction pair or may be combination of EOI1, EOI2 and EOI3 was actually measured.
+
+
+### Record view - EOI MW error
+
+For the molecular entitities (most of the records I guess) it is not necessary to display the Error of MW, i.e. I suggest to remove for EOIs "(Error not provided)" in the record view.
 
 ### Measurements are tedious to input 
 
