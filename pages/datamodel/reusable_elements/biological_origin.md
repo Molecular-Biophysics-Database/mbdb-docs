@@ -1,6 +1,4 @@
----
-sidebar_position: 5
----
+
 # Complex substance of biological origin
 
 ## derived_from 

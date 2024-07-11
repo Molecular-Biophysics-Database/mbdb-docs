@@ -1,6 +1,4 @@
----
-sidebar_position: 4
----
+
 # Molecular assembly
 
 ## external_databases

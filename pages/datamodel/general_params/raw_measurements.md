@@ -1,6 +1,4 @@
----
-sidebar_position: 12
----
+
 # Raw measurements 
 
 When depositing from the form, it is automatically determined

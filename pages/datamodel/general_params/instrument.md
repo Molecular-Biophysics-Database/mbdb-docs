@@ -1,6 +1,4 @@
----
-sidebar_position: 9
----
+
 # Instrument
 
 **Description**: The type of experimental technique used for collecting the raw data annotated by this record <br/>

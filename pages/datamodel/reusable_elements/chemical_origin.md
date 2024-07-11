@@ -1,6 +1,4 @@
----
-sidebar_position: 7
----
+
 
 # Complex substance of chemical origin
 

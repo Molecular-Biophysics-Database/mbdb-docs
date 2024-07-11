@@ -1,6 +1,4 @@
----
-sidebar_position: 6
----
+
 # Funding references
 
 **Description**: List of information about the grants that supported generation of the raw data annotated by this record. Note that this information is based on OpenAire Projects <br/> 

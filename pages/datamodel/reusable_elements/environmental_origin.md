@@ -1,6 +1,4 @@
----
-sidebar_position: 6
----
+
 # Complex substance of environmental origin
 
 ## source 
