@@ -2,7 +2,7 @@
 
 ## schema_version 
 
-**Description**: List of information about the grants that supported generation of the raw data annotated by this record. Note that this information is based on OpenAire Projects <br/> 
+**Description**: The schema version used to annotate the MST method specific parameters <br/> 
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.schema_version` <br/>
 **Type**: enumerator (string) <br/>
