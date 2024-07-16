@@ -45,7 +45,7 @@ are present<br/>
 **Type**: object (Sample) <br/>
 **Contains**: see [Fields available in sample](#fields-available-in-sample)
 
-# Fields available in sample
+## Fields available in sample
 
 ## plate
 

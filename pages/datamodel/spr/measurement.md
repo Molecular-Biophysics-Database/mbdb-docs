@@ -54,8 +54,7 @@ reference measurement position during data collection<br/>
 **Type**: object (Sample) <br/>
 **Contains**: see [Fields available in sample](#fields-available-in-sample)
 
-
-# Fields available in sample
+## Fields available in sample
 
 ## measurement_protocol_step
 
