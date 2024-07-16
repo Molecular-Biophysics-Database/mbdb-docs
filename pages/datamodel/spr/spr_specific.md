@@ -32,3 +32,20 @@ where data was collected including reference positions <br/>
 **Path**: `metadata.method_specific_parameters.measurement_positions` <br/>
 **Type**: array of object (Measurement_position) <br/>
 **Contains**: See [Measurement_position](measurement_position.md) <br/>
+
+## measurement_protocol
+
+**Description**: List of the steps in the measurement protocol <br/> 
+**Required**: yes <br/>
+**Path**: `metadata.method_specific_parameters.measurement_protocol` <br/>
+**Type**: array of object (Measurement_step) <br/>
+**Contains**: See [Measurement_protocol](measurement_protocol.md) <br/>
+
+## measurements
+
+**Description**: List of the steps in the measurement protocol <br/> 
+**Required**: yes <br/>
+**Path**: `metadata.method_specific_parameters.measurements` <br/>
+**Type**: array of object (Measurement) <br/>
+**Contains**: See [Measurement](measurement.md) <br/>
+
