@@ -1,7 +1,7 @@
 {
   "name": "mbdb-docs",
-  "version": "1.2.0",
-  "description": "Documentation for MBDB ",
+  "version": "1.3.0",
+  "description": "Documentation for MBDB",
   "dependencies": {
     "next": "^14.2.3",
     "nextra": "^2.13.4",
