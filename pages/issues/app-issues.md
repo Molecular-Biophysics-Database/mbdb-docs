@@ -1,6 +1,10 @@
 # App Issues
 (list updates daily)
 
+### Seaching all records on frontpage does not work
+
+the /search endpoint doesn't invoke the global search and instead just gives a blank page
+
 ### Record view - width of the graphical representation
 
 The width is now dynamically adjusted according to the content.
