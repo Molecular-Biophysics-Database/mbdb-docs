@@ -1,6 +1,50 @@
 # App Issues
 (list updates daily)
 
+### BLI deposit - type ... missing data?
+
+Validation error
+Type: Missing data for required field.
+
+I checked all places where this could apply to EOIs but I could not find any type specification missing.
+
+[phzb9-nj208.json](https://github.com/user-attachments/files/16471903/phzb9-nj208.json)
+
+Also for previous BLI issues listed - this is the record that generated all the validation errors.
+
+I have not managed to get to "Deposit" with not validation errors ...
+
+### BLI deposit, EOI
+
+Deposit
+EOI
+validation error
+Deviation From Expected Mass: Missing data for required field.
+Devitation From Expected Mass: Unknown field.
+
+Even if I filled in values.
+By the way these are not marked by asterisks ..yet the form seems to require them.
+
+### EOI "Checked missing"
+
+Deposit
+Validation error:
+Checked: Missing data for required field.
+
+I tried fill in the Identity checked field by "No". Still the error stays ...
+May be I am not looking the right place.
+
+
+### BLI form EOI Modifications
+
+Modification.
+Filled value
+Signal peptide cleavage
+
+MBDB complains at Deposit
+Unknown field
+
+
 ### Seaching all records on frontpage does not work
 
 the /search endpoint doesn't invoke the global search and instead just gives a blank page
