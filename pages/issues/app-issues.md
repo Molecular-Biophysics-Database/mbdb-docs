@@ -1,50 +1,6 @@
 # App Issues
 (list updates daily)
 
-### BLI deposit - type ... missing data?
-
-Validation error
-Type: Missing data for required field.
-
-I checked all places where this could apply to EOIs but I could not find any type specification missing.
-
-[phzb9-nj208.json](https://github.com/user-attachments/files/16471903/phzb9-nj208.json)
-
-Also for previous BLI issues listed - this is the record that generated all the validation errors.
-
-I have not managed to get to "Deposit" with not validation errors ...
-
-### BLI deposit, EOI
-
-Deposit
-EOI
-validation error
-Deviation From Expected Mass: Missing data for required field.
-Devitation From Expected Mass: Unknown field.
-
-Even if I filled in values.
-By the way these are not marked by asterisks ..yet the form seems to require them.
-
-### EOI "Checked missing"
-
-Deposit
-Validation error:
-Checked: Missing data for required field.
-
-I tried fill in the Identity checked field by "No". Still the error stays ...
-May be I am not looking the right place.
-
-
-### BLI form EOI Modifications
-
-Modification.
-Filled value
-Signal peptide cleavage
-
-MBDB complains at Deposit
-Unknown field
-
-
 ### Seaching all records on frontpage does not work
 
 the /search endpoint doesn't invoke the global search and instead just gives a blank page
@@ -89,10 +45,6 @@ In ‘Data analysis’, we believe that using Cold and Hot region a single line 
 Cold region: start (field to fill) end (field to fill)
 Hot region: start (field to fill) end (field to fill)
 
-### Unclear location of derived parameters
-
- Derived parameters: why is this here? Why is it not introduced within ‘data analysis’? I think we are repeating information.
-
 ### Include option reuse person information in more sections 
 
 It could be great to include an option to indicate that the ‘principal contact’ is the same as the ‘depositor’ in order to not repeat information and reduce the number of fields the user has to complete manually.
@@ -121,10 +73,6 @@ Is it possible to have a button to autofill the information from the owner infor
 I wonder if people will really fill out all of these (owner, depositor, principal contact) with different information… how do you see this information being used?
 
 Once someone is registered in the database, will they be searchable to include automatically, or are you relying on them entering orcid to be able to link all of the records associated with that person?
-
-### Search listing - Use source organism from all of the entities of interest 
-
-display source organism from all of the entities of interest instead of only the first one
 
 ### Search behaviour - partial match of word 
 
