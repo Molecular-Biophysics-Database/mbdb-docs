@@ -21,7 +21,7 @@
 
 **Description**: The access rights to the uploaded files. There are three options, 1) "open access" where the files are accessible immediately when the deposition is published, 2)
 "embargoed access" where the files will only become available after a specified
-date, 3) "restricted access" where depositors are of the record are the only ones who has access <br/>
+date, 3) "restricted access" where depositors of the record are the only ones who has access <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.record_information.access_rights` <br/>
 **Type**: enumerator (string) <br/>
@@ -31,7 +31,7 @@ date, 3) "restricted access" where depositors are of the record are the only one
 
 **Description**: The access rights to the metadata. Minimal metadata that includes title and depositors is accessible regardless of which type is chosen as it is required to
 obtain a DOI. There are three options, 1) "open access" where the complete metadata
-are accessible immediately when the deposition is published, 2) "embargoed access" where the files will only become available after a specified date, 3) "restricted access" where depositors are of the record are the only ones who has access <br/>
+are accessible immediately when the deposition is published, 2) "embargoed access" where the files will only become available after a specified date, 3) "restricted access" where depositors of the record are the only ones who has access <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.record_information.metadata_access_rights` <br/>
 **Type**: enumerator (string) <br/>
@@ -71,7 +71,7 @@ are accessible immediately when the deposition is published, 2) "embargoed acces
  
 ### subject_category 
 
-**Description**: DataCite subject category the record data belongs to default is Biophysics (Datacite recommended field to get DOI). This is automatically generated during deposition  <br/>
+**Description**: DataCite subject category the record data belongs to; the default value is Biophysics (Datacite recommended field to get DOI). This is automatically generated during deposition  <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.record_information.subject_category` <br/>
 **Type**: enumerator (string) <br/>
@@ -87,7 +87,7 @@ are accessible immediately when the deposition is published, 2) "embargoed acces
 
 ### date_available
 
-**Description**: The date when the data was/will be made publicly available. Will be automatically generated <br/>
+**Description**: The date when the data was/will be made publicly available. This will be automatically generated <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.record_information.deposition_date` <br/>
 **Type**: string  <br/>
