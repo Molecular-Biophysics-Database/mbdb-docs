@@ -19,6 +19,10 @@
     "title": "REST API",
     "type": "page"
   },
+  "license": {
+    "title": "Licensing",
+    "type": "page"
+  },
   "issues": {
     "title": "Known Issues",
     "type": "page"

@@ -1,7 +1,7 @@
 # Technologies overview
 
 The MBDB relies on a number of technologies to accomplish the various tasks,
-however, the overarching framework being used is [Invenio](https://invenio-software.org/) with added functionality from [Open Access repository](https://github.com/oarepo)
+however, the overarching framework is [Invenio](https://invenio-software.org/) with added functionality from [Open Access repository](https://github.com/oarepo).
 
 
 # Availability
@@ -25,4 +25,3 @@ All software used for development is compatible with the MIT license and is publ
 
  - Docker
  - Kubernetes
-
