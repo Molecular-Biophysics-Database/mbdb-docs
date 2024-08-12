@@ -13,15 +13,4 @@ The software is distributed under the very permissible [MIT license](https://git
 
 ## Record (data files with metadata)
 
-For published records, the data is distributed under the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/).
-
-
-## Citing the MBDB
-
-We encourage citation of the individual records directly as well as the MBDB itself:
-
-Example citation:
-  1. Record of awesomeness, P. Eople, E. Tal, 2024, MBDB.
-  2. MBDB, the FAIR database for Molecular Biophysics. P. Erson, O. Ther. Journal of stuff, 2025.
-
-
+For published records, the data is distributed under the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/) which places them in the public domain.
