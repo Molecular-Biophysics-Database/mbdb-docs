@@ -1,6 +1,12 @@
 # App Issues
 (list updates daily)
 
+### Input form - Vocabulary search - Chemicals - reset problem
+
+When a chemical is successfully found, it is impossible to reset the search in the same field to find a different compound.
+V 0.3.4.
+
+
 ### Seaching all records on frontpage does not work
 
 the /search endpoint doesn't invoke the global search and instead just gives a blank page
