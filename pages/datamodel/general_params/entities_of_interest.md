@@ -1,12 +1,10 @@
-
-
 # Entities of interest
 
 **Description**: List of the entities that are being directly measured, as well as the entities that are being used as a variable to influence the behavior of the directly measured entities (e.g. lysozyme, NAG3, NaCl). IMPORTANT! If the pH was varied by individually prepared chemical environments these should be specified individually in chemical environments <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.entities_of_interest` <br/>
-**Type**: array of polymorphic object (entity) <br/>
-**Type_field**: type  <br/>
+**Type**: array of polymorphic object (Entity) <br/>
+**Type_field**: type <br/>
 **Contains**: see [Fields available in entities of interest](#fields-available-in-entities-of-interest)
 
 ## Fields available in entities of interest

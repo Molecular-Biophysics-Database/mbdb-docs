@@ -8,4 +8,5 @@
 **Type**: enumerator (string) <br/>
 **Options**: ('Bio-layer interferometry (BLI)',
               'Microscale thermophoresis/Temperature related intensity change (MST/TRIC)',
-              'Surface plasmon resonance (SPR)')
+              'Surface plasmon resonance (SPR)',
+              'Isothermal Titration Calorimetry (ITC))
