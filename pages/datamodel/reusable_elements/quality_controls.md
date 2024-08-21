@@ -8,7 +8,7 @@
 
 ## Fields available in purity
 
-### checked
+### assessed
 **Description**: Wether or not purity was assessed<br/>
 **Required**: yes <br/>
 **Type**: enumerator <br/>
@@ -36,7 +36,7 @@
 
 ## Fields available in homogeneity
 
-### checked
+### assessed
 **Description**: Wether or not homogeneity was assessed<br/>
 **Required**: yes <br/>
 **Type**: enumerator <br/>
@@ -65,7 +65,6 @@
 **Type**: umber (integer) <br/>
 **Minimum**: 1
 
-
 ## identity
 **Description**: Information about if, and how identity was assessed<br/>
 **Required**: no <br/>
@@ -74,8 +73,8 @@
 
 ## Fields available in identity
 
-### checked
-**Description**: Wether or not the identity was confirmed experimentally<br/>
+### assessed
+**Description**: Wether or not the identity was assessed<br/>
 **Required**: yes <br/>
 **Type**: enumerator <br/>
 **Options**: ("Yes", "No")
