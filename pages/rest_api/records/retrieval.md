@@ -1,0 +1,56 @@
+# Retrieval
+
+## Specific record
+
+The endpoint is:
+
+`https://mbdb.test.du.cesnet.cz/api/records/<model>/<record-id>`
+
+Where:
+  * `<model>` is one of `bli, itc, mst, spr`
+  * `<record-id>` is the record id
+
+Example using curl:
+
+```bash
+curl \
+  https://mbdb.test.du.cesnet.cz/api/records/mst/zv0gv-btp27/
+```
+
+## Specific draft
+
+The endpoint is:
+
+`https://mbdb.test.du.cesnet.cz/api/records/<model>/<record-id>/`
+
+Where:
+  * `<model>` is one of `bli, itc, mst, spr`
+  * `<record-id>` is the record id
+
+Note that it requires authentication to access drafts.
+
+Example using curl:
+
+```bash
+curl \
+  -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
+  https://mbdb.test.du.cesnet.cz/api/records/mst/zv0gv-btp27/
+```
+
+## All drafts from a specific
+
+The endpoint is
+`https://mbdb.test.du.cesnet.cz/api/records/user/<model>/`
+
+Where:
+  * `<model>` is one of `bli, itc, mst, spr`
+
+Note that it requires authentication to access drafts.
+
+Example using curl:
+
+```bash
+curl \
+  -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
+  https://mbdb.test.du.cesnet.cz/api/records/user/
+```
