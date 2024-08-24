@@ -80,14 +80,6 @@ I wonder if people will really fill out all of these (owner, depositor, principa
 
 Once someone is registered in the database, will they be searchable to include automatically, or are you relying on them entering orcid to be able to link all of the records associated with that person?
 
-### Search behaviour - partial match of word 
-
-It may be a current feature but searching for a partial word 
-SCV 
-(SCV50) is present in the inhibitor name
-gave nothing
-so I had to search for SCV50 to find the records ..
-
 ### Search behaviour - More meaningful link when no results are found
 
 When I did not find the search key and pressed start over - it put me to the complete listing instead of the search page.
