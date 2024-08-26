@@ -40,8 +40,7 @@ Where:
   * `<record-id>` is the record id
 
 The filename(s) should be supplied in the body of the request as
-the following JSON array (note the multiple file entries can be created at this step,
-however, it can also be repeated for each file):
+the following JSON array:
 ```json
 [{"key": "<file-name>"}]
 ```
