@@ -119,5 +119,5 @@ Example using curl:
 ```bash
  curl -XPOST \
   -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
-  https://127.0.0.1:5000/api/records/mst/zv0gv-btp27/draft/files/example.txt/commit
+  https://mbdb.test.du.cesnet.cz/api/records/mst/zv0gv-btp27/draft/files/example.txt/commit
 ```

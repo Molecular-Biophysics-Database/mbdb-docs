@@ -12,14 +12,16 @@ For all endpoints, the following search parameters are available:
 |   s  | The page size     | positive integer               |      `10`                                 |
 | sort | The sorting order | `newest`, `oldest`, `bestmatch`| `newest` if empty query, else `bestmatch` |
 
-Each parameter are set through `=` and the parameters should be separated by `&`.
+Each parameter are set with `=` and parameters should be separated by `&`.
 
 Example:
 
+```bash
 curl -k  \
   -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
   -H "Content-Type: application/json" \
-  https://127.0.0.1:5000/api/user/records/mst/?q="example"&p=2
+  https://mbdb.test.du.cesnet.cz/api/user/records/mst/?q="example"&p=2
+```
 
 ## Published records from specific model
 
@@ -36,7 +38,7 @@ Example using curl:
 curl -k  \
   -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
   -H "Content-Type: application/json" \
-  https://127.0.0.1:5000/api/user/records/mst/?q="example"
+  https://mbdb.test.du.cesnet.cz/api/user/records/mst/?q="example"
 ```
 
 ## Published records from all models
@@ -71,7 +73,7 @@ Example using curl:
 curl \
   -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
   -H "Content-Type: application/json" \
-  https://127.0.0.1:5000/api/user/records/mst/?q="example"
+  https://mbdb.test.du.cesnet.cz/api/user/records/mst/?q="example"
 ```
 
 
