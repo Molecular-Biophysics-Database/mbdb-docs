@@ -4,13 +4,13 @@ This website is built using [Nextra](https://nextra.site/), a modern static webs
 
 ## Installation
 
-Inside the top mbdb-docs folder run 
+Inside the top level mbdb-docs folder run 
 
 ```bash
 npm install 
 ```
 
-## Starting local Development
+## Starting local development
 
 Inside the top mbdb-docs run: 
 
@@ -18,7 +18,8 @@ Inside the top mbdb-docs run:
 npm run dev
 ```
 
-This should start a local development server running at http://localhost:3000/
+This should start a local development server at http://localhost:3000/
+which live updates 
 
 ## Local building and running:
 
@@ -29,4 +30,15 @@ npm run start
 
 ## Editing the docs 
 
-The content of the /pages folder is what is being used to generate documentation itself. 
+The content of the /pages folder is used to 
+generate documentation itself.
+
+### images
+
+Images should be placed in public/static/img.
+
+## Deployment
+
+Updating th gh-pages in order to deploy it at 
+[github.io](https://molecular-biophysics-database.github.io/mbdb-docs/) 
+is automatically triggered by pull request to the main branch.   
