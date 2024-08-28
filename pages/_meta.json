@@ -7,8 +7,8 @@
     "title": "Data model",
     "type": "page"
   },
-  "external": {
-    "title": "External Resources",
+  "vocabularies": {
+    "title": "Vocabularies",
     "type": "page"
   },
   "technologies": {
