@@ -1,8 +1,9 @@
 name: Extract Issues
 
-on: # workflow_dispatch (uncomment to make it possible to manually trigger the action)
+on:
   schedule:
     - cron: '0 0 * * *'  # Run every day at midnight
+  workflow_dispatch:  # Allows manual trigger
 
 jobs:
   extract-issues:
@@ -14,6 +15,9 @@ jobs:
 
     - name: Extract Issues
       run: |
+        set -e  # Exit immediately if a command exits with a non-zero status
+        echo "Extracting issues from repository $REPO_OWNER/$REPO_NAME"
+
         TOKEN=${{ secrets.GITHUB_TOKEN }}
         REPO_OWNER=Molecular-Biophysics-Database
         REPO_NAME=mbdb-app
@@ -24,23 +28,32 @@ jobs:
             -H "Authorization: Bearer $TOKEN" \
             "https://api.github.com/repos/$REPO_OWNER/$REPO_NAME/issues")
 
+        if [ -z "$issues" ]; then
+          echo "No issues found or error in fetching issues."
+          exit 1
+        fi
+
         # Format issues as markdown
         markdown_content="# App Issues\n(list updates daily)\n\n"
-
-        while read -r issue
-        do
-        title=$(echo $issue | jq -r '.title')
-        body=$(echo $issue | jq  -r  '.body')
-        markdown_content+="### $title\n\n$body\n\n"
-        done < <(echo $issues | jq -c '.[]')
+        while read -r issue; do
+          title=$(echo $issue | jq -r '.title')
+          body=$(echo $issue | jq -r '.body')
+          markdown_content+="### $title\n\n$body\n\n"
+        done < <(echo "$issues" | jq -c '.[]')
 
         # Write to file
         echo -e "$markdown_content" > pages/issues/app-issues.md
 
-    - name: Commit and push changes
+    - name: Commit and push changes if there are any
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add pages/issues/app-issues.md
-        git commit -m "Extracted and formatted issues from mbdb-app"
-        git push
+        set -e
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "Changes detected, committing and pushing..."
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add pages/issues/app-issues.md
+          git commit -m "Extracted and formatted issues from $REPO_NAME"
+          git push
+        else
+          echo "No changes detected, skipping commit."
+        fi
