@@ -33,7 +33,7 @@ curl -k -XPOST \
 ### Disclaimer
 
 This feature currently exists for testing purposes only, not production
-level builds! Please get into contact with us at mbdb@ibt.cas.cz and
+level builds! Please get into contact with [MBDB](mailto:mbdb@ibt.cas.czsubject=Developer%20application) and
 outline your use case and your needs.
 
 ### Registering your application
