@@ -84,10 +84,6 @@ Once someone is registered in the database, will they be searchable to include a
 
 Currently the gp.derived_parameters are iterated over to display results listing. It would be preferable to combine this with information found in msp.data_analysis.measurements, as msp.data_analysis have a derived_parameter that can be used establish the connection. 
 
-### Searching across different types of records 
-
-Configure searches to be across all types of records (currently MST, BLI, and SPR) 
-
 ### Extraction and loading metadata from files 
 
 Extraction of metadata from instrument provided data files in away that can be accessed by the frontend 
