@@ -2,6 +2,14 @@
 
 This website is built using [Nextra](https://nextra.site/), a modern static website generator.
 
+## Requirements
+
+ * Node.js (>= 20.11 ) 
+
+### Install requirements
+
+A guide to install node can be found [here](https://nodejs.org/en/download/package-manager)
+
 ## Installation
 
 Inside the top level mbdb-docs folder run 
