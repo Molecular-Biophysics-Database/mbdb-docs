@@ -1,6 +1,31 @@
 # App Issues
 (list updates daily)
 
+### CommunityInclusionComponent has to be manually removed on model rebuilds
+
+Currently we're using communities due to missing functionality, however they will eventually be used, and workflows currently assumes their presences, so communities are partly incorporated backend. 
+
+However, to make this partly implemented state work, the `CommunityInclusionComponent` has to be commented out inside
+<model>/services/records/config.py as shown below:
+
+```python
+
+ components = [
+ *PermissionsPresetsConfigMixin.components,
+ *InvenioRecordDraftsServiceConfig.components,
+ AuthorityComponent,
+ CommunityDefaultWorkflowComponent,
+ #CommunityInclusionComponent,
+ OwnersComponent,
+ DraftFilesComponent,
+ CustomFieldsComponent,
+ FilesComponent,
+ WorkflowComponent,
+ ]
+
+
+```
+
 ### TimeoutError when fetching records in build action
 
 The earliest know case can be found in the "Run tests" step [here](https://github.com/Molecular-Biophysics-Database/mbdb-app/actions/runs/10418372303/job/28854403242).
@@ -10,10 +35,6 @@ The earliest know case can be found in the "Run tests" step [here](https://githu
 When a chemical is successfully found, it is impossible to reset the search in the same field to find a different compound.
 V 0.3.4.
 
-
-### Seaching all records on frontpage does not work
-
-the /search endpoint doesn't invoke the global search and instead just gives a blank page
 
 ### Record view - width of the graphical representation
 
