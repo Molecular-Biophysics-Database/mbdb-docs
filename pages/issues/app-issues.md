@@ -26,10 +26,6 @@ However, to make this partly implemented state work, the `CommunityInclusionComp
 
 ```
 
-### TimeoutError when fetching records in build action
-
-The earliest know case can be found in the "Run tests" step [here](https://github.com/Molecular-Biophysics-Database/mbdb-app/actions/runs/10418372303/job/28854403242).
-
 ### Input form - Vocabulary search - Chemicals - reset problem
 
 When a chemical is successfully found, it is impossible to reset the search in the same field to find a different compound.
