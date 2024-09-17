@@ -1,6 +1,10 @@
 # App Issues
 (list updates daily)
 
+### removed edit component as it doesn't appear to be used anywhere
+
+null
+
 ### CommunityInclusionComponent has to be manually removed on model rebuilds
 
 Currently we're using communities due to missing functionality, however they will eventually be used, and workflows currently assumes their presences, so communities are partly incorporated backend. 
