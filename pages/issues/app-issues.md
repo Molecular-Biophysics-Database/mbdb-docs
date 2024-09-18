@@ -1,9 +1,11 @@
 # App Issues
 (list updates daily)
 
-### removed edit component as it doesn't appear to be used anywhere
+### Searching returns too many irrelevant hits 
 
-null
+Searching using short sentences or medium long words tends to yield too many hits the small tokens ends up matching in the middle of the words.
+
+Likely a somewhat longer `min_gram` should be chosen, and it might be better to switch to [`egde_ngram`](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-edgengram-tokenizer.html) 
 
 ### CommunityInclusionComponent has to be manually removed on model rebuilds
 
