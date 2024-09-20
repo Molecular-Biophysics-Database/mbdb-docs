@@ -1,6 +1,25 @@
 # App Issues
 (list updates daily)
 
+### A deposited record not publicly accessible 
+
+A successfully deposited record (not draft any more), I log off, search for the record, no result, version 0.3.6 - may be solved by now ..as we have the different states of a record defined now ...
+
+Just wanted to make sure this does not get lost - may be solved in 0.3.7.
+
+### Record view should show the EOIs identity in the case of chemicals
+
+Front end consideration
+Successfully added a second EOI, which is a chemical. The identity of the chemical does not show in the Record view. We show the "name" which can be also just "Ligand 1".
+
+We have complicated EOI branching I know, which makes this uneasy. We should consider how to make the record view more informative in this sense.
+
+Perhaps specifically for type chemical only we should show more, i.e. just the name from the vocabulary record.
+
+
+
+
+
 ### Searching returns too many irrelevant hits 
 
 Searching using short sentences or medium long words tends to yield too many hits the small tokens ends up matching in the middle of the words.
