@@ -20,12 +20,6 @@ Perhaps specifically for type chemical only we should show more, i.e. just the n
 
 
 
-### Searching returns too many irrelevant hits 
-
-Searching using short sentences or medium long words tends to yield too many hits the small tokens ends up matching in the middle of the words.
-
-Likely a somewhat longer `min_gram` should be chosen, and it might be better to switch to [`egde_ngram`](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-edgengram-tokenizer.html) 
-
 ### CommunityInclusionComponent has to be manually removed on model rebuilds
 
 Currently we're using communities due to missing functionality, however they will eventually be used, and workflows currently assumes their presences, so communities are partly incorporated backend. 
