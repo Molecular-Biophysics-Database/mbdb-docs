@@ -1,12 +1,6 @@
 # App Issues
 (list updates daily)
 
-### A deposited record not publicly accessible 
-
-A successfully deposited record (not draft any more), I log off, search for the record, no result, version 0.3.6 - may be solved by now ..as we have the different states of a record defined now ...
-
-Just wanted to make sure this does not get lost - may be solved in 0.3.7.
-
 ### Record view should show the EOIs identity in the case of chemicals
 
 Front end consideration
@@ -44,12 +38,6 @@ However, to make this partly implemented state work, the `CommunityInclusionComp
 
 
 ```
-
-### Input form - Vocabulary search - Chemicals - reset problem
-
-When a chemical is successfully found, it is impossible to reset the search in the same field to find a different compound.
-V 0.3.4.
-
 
 ### Record view - width of the graphical representation
 
@@ -127,9 +115,5 @@ Currently the gp.derived_parameters are iterated over to display results listing
 ### Extraction and loading metadata from files 
 
 Extraction of metadata from instrument provided data files in away that can be accessed by the frontend 
-
-### Acquiring DOI 
-
-Provide Invenio mechanism to trigger DOI generation through DataCite
 
 
