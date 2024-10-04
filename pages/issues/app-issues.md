@@ -1,17 +1,30 @@
 # App Issues
 (list updates daily)
 
-### Record view should show the EOIs identity in the case of chemicals
+### Stoichiometry in record view
 
-Front end consideration
-Successfully added a second EOI, which is a chemical. The identity of the chemical does not show in the Record view. We show the "name" which can be also just "Ligand 1".
-
-We have complicated EOI branching I know, which makes this uneasy. We should consider how to make the record view more informative in this sense.
-
-Perhaps specifically for type chemical only we should show more, i.e. just the name from the vocabulary record.
+The displayed value of stoichiometry in the record view does not make sense.
+Or if I put it the other way round - for stoichiometry we are just showing that it was measured but actually are not displaying the relevant result .... discussion - can this be easily modified?
 
 
+Not critical 
 
+### Titles of files in the Record view
+
+Not a bug, just formatting.
+
+I would find it more useful if the titles (type) of attached file would be above the actual button rather than below.
+
+Not critical.
+
+### added inchikey to chemical and tweaked the results view
+
+This fixes #237
+
+### Format of listing multiple items in record view header
+
+When multiple contributors or funding are listed in Record view, there is missing space after each comma.
+Not critical but not easy to read then.
 
 
 ### CommunityInclusionComponent has to be manually removed on model rebuilds
