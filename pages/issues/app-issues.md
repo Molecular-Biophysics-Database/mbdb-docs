@@ -1,26 +1,6 @@
 # App Issues
 (list updates daily)
 
-### Stoichiometry in record view
-
-The displayed value of stoichiometry in the record view does not make sense.
-Or if I put it the other way round - for stoichiometry we are just showing that it was measured but actually are not displaying the relevant result .... discussion - can this be easily modified?
-
-
-Not critical 
-
-### Titles of files in the Record view
-
-Not a bug, just formatting.
-
-I would find it more useful if the titles (type) of attached file would be above the actual button rather than below.
-
-Not critical.
-
-### added inchikey to chemical and tweaked the results view
-
-This fixes #237
-
 ### Format of listing multiple items in record view header
 
 When multiple contributors or funding are listed in Record view, there is missing space after each comma.
@@ -68,11 +48,6 @@ The facet in the search results listing seems to be offering "all" of the possib
 I can see that when I get only one result filtered out but still have e.g. three Journals available to pick from.
 This may be intended?
 
-
-### Record view - Results
-
-The name of the result displayed takes the whole free text the depositor puts in.
-There may be a good reason why the title is a longer sentence but we should display perhaps only the first 100 characters of it?
 
 ### Searching for a particular expression
 
