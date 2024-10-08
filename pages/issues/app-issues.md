@@ -1,11 +1,27 @@
 # App Issues
 (list updates daily)
 
-### Format of listing multiple items in record view header
+### SPR Data analysis, tooltip
 
-When multiple contributors or funding are listed in Record view, there is missing space after each comma.
-Not critical but not easy to read then.
+In SPR
+Data Analysis
+The first drop-down Data analysis 1 Measurement 1 has tooltip
+"List of measurement links that was analyzed together"
 
+Should this read rather
+"Measurements that were analyzed together" ?
+
+NOT Critical
+
+### SPR Meas protocol Flow Path - graphics misbehaviour
+
+When adding under SPR method
+Measurement protocol
+Flow
+Path
+Picking a path from the list, OK, then click into the next field and the title of the Path field goes back into the main field instead of staying minimized on the top frame.
+
+NOT Critical 
 
 ### CommunityInclusionComponent has to be manually removed on model rebuilds
 
