@@ -16,19 +16,6 @@ Do we have a size limit? If yes, the tooltip should mention that.
 
 NOT CRITICAL NOW - I did not see this with the usual file sizes we produce ...
 
-### Funding vocabulary - New item - produces database error
-
-Project information
-Funding reference
-Add item
-- It lets me add item and then upon Save it produces error
-
-The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
-
-(When I call ..../vocabularies and add new funding reference in there, then I can return to the input form for the same record and add the newly created funding reference and it works fully through to submission and publication).
-
-NOT CRITICAL but high priority
-
 ### SPR Data analysis, tooltip
 
 In SPR
