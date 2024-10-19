@@ -1,7 +1,7 @@
 # App Issues
 (list updates daily)
 
-### Some larger data files are not accepted, without warning
+### The user doesn't know when file uploading has completed
 
 When attaching a 73 MB binary file, everything worked fine (an .mtz type but I guess it does not matter here). 
 It could provide back the file upon request.
