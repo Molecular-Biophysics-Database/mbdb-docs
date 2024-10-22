@@ -1,6 +1,16 @@
 # App Issues
 (list updates daily)
 
+### Incorporate reviewing workflow into the publication process
+
+Currently the record is directly published, however we need the publication system (see [here](https://github.com/Molecular-Biophysics-Database/mbdb-docs/tree/workflow-descriptions) for details)
+
+### The user needs to agree that their data is placed in th public domain
+
+During the submission, the user needs to be informed about which license their data will be published under (CC0), and that this implies they're data will be in the public domain.
+
+This formal text needs to be authored and displayed submit window
+
 ### The user doesn't know when file uploading has completed
 
 When attaching a 73 MB binary file, everything worked fine (an .mtz type but I guess it does not matter here). 
