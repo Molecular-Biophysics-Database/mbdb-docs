@@ -1,6 +1,13 @@
 # App Issues
 (list updates daily)
 
+### Basic informaion field is incomplete
+
+Both label, tool tip, and the fact that it required is missing from the basic information field under chemical.
+This makes it very difficult for the user to know to correct the validation error that occurs when they leave it out.
+
+ 
+
 ### Incorporate reviewing workflow into the publication process
 
 Currently the record is directly published, however we need the publication system (see [here](https://github.com/Molecular-Biophysics-Database/mbdb-docs/tree/workflow-descriptions) for details)
