@@ -1,6 +1,14 @@
 # App Issues
 (list updates daily)
 
+### More Results needed 
+
+Corrections to concentration needs to be added
+
+### copy_number is not clear nomenclature
+
+considering using a different word or longer description.
+
 ### Basic informaion field is incomplete
 
 Both label, tool tip, and the fact that it required is missing from the basic information field under chemical.
