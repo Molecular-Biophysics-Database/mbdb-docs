@@ -1,9 +1,15 @@
 # App Issues
 (list updates daily)
 
+### Propagate changes made to entity.name 
+
+If a user changes the name of an entity after filling out related fields, the fields associated with this entity are removed. Retaining this data after a name change would enhance usability.
+
+It should be possible to achievable by updating entity.name (through the id field which the user can't change). 
+
 ### More Results needed 
 
-Corrections to concentration needs to be added
+We noticed the absence of certain result types, such as Qdil, rA, and rM
 
 ### copy_number is not clear nomenclature
 
