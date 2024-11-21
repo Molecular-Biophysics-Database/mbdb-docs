@@ -1,9 +1,9 @@
 # App Issues
 (list updates daily)
 
-### File processors
+### Bugfix basic information
 
-null
+This fixes #365
 
 ### Propagate changes made to entity.name 
 
@@ -19,7 +19,7 @@ We noticed the absence of certain result types, such as Qdil, rA, and rM
 
 considering using a different word or longer description.
 
-### Basic informaion field is incomplete
+### Basic information field is incomplete
 
 Both label, tool tip, and the fact that it required is missing from the basic information field under chemical.
 This makes it very difficult for the user to know to correct the validation error that occurs when they leave it out.
@@ -159,9 +159,5 @@ Once someone is registered in the database, will they be searchable to include a
 ### Recordview - Results listing should show associated measurements 
 
 Currently the gp.derived_parameters are iterated over to display results listing. It would be preferable to combine this with information found in msp.data_analysis.measurements, as msp.data_analysis have a derived_parameter that can be used establish the connection. 
-
-### Extraction and loading metadata from files 
-
-Extraction of metadata from instrument provided data files in away that can be accessed by the frontend 
 
 
