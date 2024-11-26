@@ -1,10 +1,6 @@
 # App Issues
 (list updates daily)
 
-### Bugfix basic information
-
-This fixes #365
-
 ### Propagate changes made to entity.name 
 
 If a user changes the name of an entity after filling out related fields, the fields associated with this entity are removed. Retaining this data after a name change would enhance usability.
@@ -18,13 +14,6 @@ We noticed the absence of certain result types, such as Qdil, rA, and rM
 ### copy_number is not clear nomenclature
 
 considering using a different word or longer description.
-
-### Basic information field is incomplete
-
-Both label, tool tip, and the fact that it required is missing from the basic information field under chemical.
-This makes it very difficult for the user to know to correct the validation error that occurs when they leave it out.
-
- 
 
 ### Incorporate reviewing workflow into the publication process
 
