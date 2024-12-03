@@ -19,8 +19,12 @@
     "title": "Technologies",
     "type": "page"
   },
-  "rest_api": {
+  "rest-api": {
     "title": "REST API",
+    "type": "page"
+  },
+  "terms-and-conditions": {
+    "title": "Terms and conditions",
     "type": "page"
   },
   "license": {
