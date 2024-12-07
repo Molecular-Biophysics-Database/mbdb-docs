@@ -1,10 +1,6 @@
 # App Issues
 (list updates daily)
 
-### Individual vocabulary display
-
-null
-
 ### Publish request workflow
 
 null
