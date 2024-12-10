@@ -1,10 +1,6 @@
 # App Issues
 (list updates daily)
 
-### Publish request workflow
-
-null
-
 ### Propagate changes made to entity.name 
 
 If a user changes the name of an entity after filling out related fields, the fields associated with this entity are removed. Retaining this data after a name change would enhance usability.
