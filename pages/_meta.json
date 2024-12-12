@@ -3,8 +3,8 @@
     "title": "Home",
     "type": "page"
   },
-  "record_workflows": {
-    "title": "Publication and deletion",
+  "record-workflows": {
+    "title": "Deposition",
     "type": "page"
   },
   "datamodel": {

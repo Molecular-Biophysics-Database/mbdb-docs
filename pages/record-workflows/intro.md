@@ -26,18 +26,16 @@ record owner (you, the depositor).
  2. Most information will not be visible, however the record page will continue
     to exist and have minimal metadata see [Deleted records](deletion.md).
 
-## Publication workflow
+## Deposition workflow
 
-The publication of your dataset follows a similar workflow as when publishing
+The deposition workflow of your dataset is similar to publishing
 scientific literature:
 
-1. [Create a draft](publication.md#creating-a-draft)
-2. [Submit the draft](publication.md#submitting-the-draft)
-3. [The draft gets reviewed](publication.md#reviewing-the-draft)
-4. [You decide when to publish](publication.md#publishing-the-accepted-draft)
-
-For a worked example of how this looks like in practice, have a look at the
-[Tutorial](https://mbdb.test.du.cesnet.cz/tutorial).
+1. [Prerequisites for deposition](prerequisites.md)
+2. [Create a draft](publication.md#creating-a-draft)
+3. [Submit the draft](publication.md#submitting-the-draft)
+4. [The draft gets reviewed](publication.md#reviewing-the-draft)
+5. [You decide when to publish](publication.md#publishing-the-accepted-draft)
 
 ## Retraction workflow
 

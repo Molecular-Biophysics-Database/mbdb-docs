@@ -1,6 +1,7 @@
 {
   "intro": "Introduction",
+  "prerequisites": "Prerequisites",
   "publication": "Publication",
   "deletion": "Deletion",
-  "mbdb_roles": "Roles"
+  "mbdb-roles": "Roles"
 }
