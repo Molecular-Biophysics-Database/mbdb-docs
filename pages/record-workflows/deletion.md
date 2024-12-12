@@ -49,7 +49,7 @@ The minimal metadata includes:
 
 The record owners can initiate this process which will immediate have the effect
 that only the minimal metadata is available. However, the information is not
-deleted yet, this requires that an [administrator](mbdb_roles.md#administrator).
+deleted yet, this requires that an [administrator](mbdb-roles.md#administrator).
 accepts this. The acceptance is needed as the data cannot be recreated once
 deleted so we want to ensure
 

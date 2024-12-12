@@ -7,7 +7,7 @@ ORCID and uses that ORCID to register in our system (ORCIDs are free and easy to
 make, see [here](https://orcid.org/)).
 
 When a record is in the draft state, only you, the creator can access the record
-along side the editor and the administrator (see [roles](mbdb_roles.md) for
+along side the editor and the administrator (see [roles](mbdb-roles.md) for
 details).
 
 There's no restrictions on how much you can edit your draft, and how long it
