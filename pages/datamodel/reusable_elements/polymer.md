@@ -72,13 +72,6 @@ hybrid',
 
 ## Available fields in modifications
 
-### synthesis
-
-**Description**: Modifications (e.g. non-natural amino acids) of the polymer made during synthesis (e.g. translation) of the polymer<br/>
-**Required**: no <br/>
-**Type**: array of object (Modification) <br/>
-**Contains** see [Modification](modification.md)
-
 ### biological_postprocessing
 
 **Description**: Modifications of the polymer made after synthesis (e.g. posttranslational modifications, DNA methylation) by the organism where synthesis occurred (e.g. glycosylation)<br/>
