@@ -63,6 +63,12 @@ as well as the `metadata` field which contains
 **Type**: enumerator (keyword) <br/>
 **Options**: ('text', 'binary','text and binary')
 
+### creation_date
+**Description**: The date when the data was deposited; automatically generated <br/>
+**Required**: yes <br/>
+**Type**: string <br/>
+**Format**: YYYY-MM-DD <br/>
+
 ### context
 **Description**: The context the file should be understood within (e.g. raw measurement data) <br/>
 **Required**: yes <br/>

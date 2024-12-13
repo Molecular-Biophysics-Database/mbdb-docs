@@ -1,24 +1,24 @@
-# Fields specific to MST 
+# Fields specific to MST
 
-## schema_version 
+## schema_version
 
-**Description**: The schema version used to annotate the MST method specific parameters <br/> 
+**Description**: The schema version used to annotate the MST method specific parameters <br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.schema_version` <br/>
 **Type**: enumerator (string) <br/>
-**Options**: ('0.9.10') <br/>
+**Options**: ('0.9.11') <br/>
 
-## experiment_type 
+## experiment_type
 
-**Description**: The type of physical parameter that was sought <br/> 
+**Description**: The type of physical parameter that was sought <br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.experiment_type` <br/>
 **Type**: enumerator (string) <br/>
 **Options**: ('Affinity','Concentration', 'Other') <br/>
 
-## signal_type 
+## signal_type
 
-**Description**: The type of signal that was being measured <br/> 
+**Description**: The type of signal that was being measured <br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.signal_type` <br/>
 **Type**: enumerator (string) <br/>
@@ -27,8 +27,8 @@
 ## excitation_led_color
 
 **Description**: The color of the excitation LED used for the experiment.
-NOTE that colors are specific to the combination in which it occurs, 
-e.g. the GREEN in a BLUE/GREEN instrument, is not the same as the GREEN in a GREEN/RED instrument<br/> 
+NOTE that colors are specific to the combination in which it occurs,
+e.g. the GREEN in a BLUE/GREEN instrument, is not the same as the GREEN in a GREEN/RED instrument<br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.excitation_led_color` <br/>
 **Type**: enumerator (string) <br/>
@@ -44,7 +44,7 @@ e.g. the GREEN in a BLUE/GREEN instrument, is not the same as the GREEN in a GRE
 
 ## excitation_led_power
 
-**Description**:The power, in percent, of the excitation LED used in experiment<br/> 
+**Description**:The power, in percent, of the excitation LED used in experiment<br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.excitation_led_power` <br/>
 **Type**: number (float) <br/>
@@ -53,11 +53,11 @@ e.g. the GREEN in a BLUE/GREEN instrument, is not the same as the GREEN in a GRE
 
 ## ir_mst_laser_power
 
-**Description**:The power of the infrared LASER used in the experiment 
+**Description**:The power of the infrared LASER used in the experiment
 in percentages. Even though a change in nomenclature occurred in
 Nanotemper's control software, the underlying data is still stored in
 percentages. Use the following conversion;
-Low = 20, Medium = 40, High = 60 <br/> 
+Low = 20, Medium = 40, High = 60 <br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.ir_mst_laser_power` <br/>
 **Type**: number (float) <br/>
@@ -66,11 +66,11 @@ Low = 20, Medium = 40, High = 60 <br/>
 
 ## temperature
 
-**Description**:The power of the infrared LASER used in the experiment 
+**Description**:The power of the infrared LASER used in the experiment
 in percentages. Even though a change in nomenclature occurred in
 Nanotemper's control software, the underlying data is still stored in
 percentages. Use the following conversion;
-Low = 20, Medium = 40, High = 60 <br/> 
+Low = 20, Medium = 40, High = 60 <br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.temperature` <br/>
 **Type**: object (Temperature) <br/>
@@ -81,7 +81,7 @@ Low = 20, Medium = 40, High = 60 <br/>
 **Description**:List of the information about each
 measurement. This includes target(s),
 ligand(s), chemical environment, and the
-position of the sample within the instrument <br/> 
+position of the sample within the instrument <br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.measurements` <br/>
 **Type**: array of object (Measurement) <br/>
@@ -89,7 +89,7 @@ position of the sample within the instrument <br/>
 
 ## data_analysis
 
-**Description**:The details of how data analysis was performed to obtain results <br/> 
+**Description**:The details of how data analysis was performed to obtain results <br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.data_analysis` <br/>
 **Type**: array of object (MST_data_analysis) <br/>

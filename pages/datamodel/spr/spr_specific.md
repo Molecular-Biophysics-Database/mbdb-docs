@@ -1,16 +1,17 @@
 # Method specific parameters
 
-## schema_version 
+## schema_version
 
-**Description**: The schema version used to annotate the SPR method specific parameters <br/> 
+**Description**: The schema version used to annotate the SPR method specific
+parameters <br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.schema_version` <br/>
 **Type**: enumerator (string) <br/>
-**Options**: ('0.9.5') <br/>
+**Options**: ('0.9.7') <br/>
 
-## experiment_type 
+## experiment_type
 
-**Description**: The type of physical parameter that was sought <br/> 
+**Description**: The type of physical parameter that was sought <br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.experiment_type` <br/>
 **Type**: enumerator (string) <br/>
@@ -18,7 +19,7 @@
 
 ## sensor
 
-**Description**: Sensor used for the measurements <br/> 
+**Description**: Sensor used for the measurements <br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.sensor` <br/>
 **Type**: object (Sensor) <br/>
@@ -27,7 +28,7 @@
 ## measurement_positions
 
 **Description**: Information about each of the positions
-where data was collected including reference positions <br/> 
+where data was collected including reference positions <br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.measurement_positions` <br/>
 **Type**: array of object (Measurement_position) <br/>
@@ -35,7 +36,7 @@ where data was collected including reference positions <br/>
 
 ## measurement_protocol
 
-**Description**: List of the steps in the measurement protocol <br/> 
+**Description**: List of the steps in the measurement protocol <br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.measurement_protocol` <br/>
 **Type**: array of object (Measurement_step) <br/>
@@ -43,7 +44,7 @@ where data was collected including reference positions <br/>
 
 ## measurements
 
-**Description**: List of the steps in the measurement protocol <br/> 
+**Description**: List of the steps in the measurement protocol <br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.measurements` <br/>
 **Type**: array of object (Measurement) <br/>

@@ -4,4 +4,4 @@
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.schema_version` <br/>
 **Type**: enumerator (string) <br/>
-**Options**: ('0.9.25)
+**Options**: ('0.11.0)

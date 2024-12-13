@@ -1,5 +1,5 @@
 
-# Results 
+# Results
 
 ## Result
 
@@ -7,19 +7,19 @@
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.results` <br/>
 **Type**: array of polymorphic object (Result) <br/>
-**Type_field**: type 
+**Type_field**: type
 **Contains**: see [Fields available result](#fields-available-in-result)
 
 ## Fields available in result
 
-## id 
+## id
 
 **Description**: Unique ID for the result to be used as a link <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.results.id` <br/>
 **Type**: string (keyword) <br/>
 
-## name 
+## name
 
 **Description**: Descriptive name (id) of the result (e.g. Kd of Lysozyme and VHH2). Must be unique within a record <br/>
 **Required**: yes <br/>
@@ -43,9 +43,10 @@
             'Change in enthalpy deltaH',
             'Change in entropy deltaS',
             'Change in Gibbs free energy deltaG',
-            'Molecular weight')
+            'Molecular weight'
+            'Correction of active concentration')
 
-## value 
+## value
 
 **Description**: Numerical value of the result <br/>
 **Required**: yes <br/>
@@ -62,9 +63,9 @@
 
 ## unit
 
-### One of the following depending on the result type 
+### One of the following depending on the result type
 
-### Concentration 
+### Concentration
 
 **Description**: Unit of the concentration <br/>
 **Required**: yes <br/>
@@ -76,7 +77,7 @@
             'v/v %','w/w %', 'v/w %', 'w/v %',
             'U/ml','% saturated')
 
-### Stoichiometry 
+### Stoichiometry
 
 **Description**: Unit of the stoichiometry<br/>
 **Required**: yes <br/>
@@ -85,7 +86,7 @@
 **Options**: ('per complex')
 
 
-### Constant of association 
+### Constant of association
 
 **Description**: Unit of the constant of association<br/>
 **Required**: yes <br/>
@@ -96,7 +97,7 @@
               'µM^-1', 'µM^-2',
               'nM^-1', 'nM^-2')
 
-### Constant of dissociation 
+### Constant of dissociation
 
 **Description**: Unit of the constant of association<br/>
 **Required**: yes <br/>
@@ -159,7 +160,7 @@
 **Type**: enumerator (string) <br/>
 **Options**: ('g/mol', 'Da', 'kDa', 'MDa')
 
-### Half maximal effective concentration 
+### Half maximal effective concentration
 
 **Description**: Unit of the molecular weight <br/>
 **Required**: yes <br/>
@@ -167,7 +168,15 @@
 **Type**: enumerator (string) <br/>
 **Options**: ('g/mol', 'Da', 'kDa', 'MDa')
 
-### Hill coefficient 
+### Hill coefficient
+
+**Description**: Unit of the molecular weight <br/>
+**Required**: yes <br/>
+**Path**: `metadata.general_parameters.results.unit` <br/>
+**Type**: enumerator (string) <br/>
+**Options**: ('unitless')
+
+### Correction of active concentration
 
 **Description**: Unit of the molecular weight <br/>
 **Required**: yes <br/>
@@ -177,7 +186,8 @@
 
 ## entities_involved
 
-**Description**: List of chemical or molecular assemblies the result describes and how many copies of each are involved <br/>
+**Description**: List of chemical or molecular assemblies the result describes
+and how many copies of each are involved <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.results.entities_involved` <br/>
 **Type**: array of object (Entity_and_stoichiometry) <br/>
@@ -187,14 +197,17 @@
 
 ### entity
 
-**Description**: Name (ids) of the entity (from the entities of interest defined in the general parameters) <br/>
+**Description**: Name (ids) of the entity (from the entities of interest defined
+in the general parameters) <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.results.entities_involved.entity` <br/>
 **Type**: string (fulltext) <br/>
 
 ### copy_number
 
-**Description**: Number of copies of the entity that contribute to the result, -1 if unknown (e.g. if two individual copies of a polymer binds to another, the copy number would be 2) <br/>
+**Description**: Number of copies of the entity that contribute to the result,
+-1 if unknown (e.g. if two individual copies of a polymer binds to another, the
+copy number would be 2) <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.results.entities_involved.entity` <br/>
 **Type**: number (float) <br/>
