@@ -90,22 +90,6 @@ However, I would suggest that by default it should not shrink below a certain wi
 NOT CRITICAL - JUST DISTURBING when I compare two or more records.
 
 
-### Search results filter
-
-The facet in the search results listing seems to be offering "all" of the possible values MBDB has rather than those in the already displayed results.
-
-I can see that when I get only one result filtered out but still have e.g. three Journals available to pick from.
-This may be intended?
-
-
-### Searching for a particular expression
-
-Searching for an exact phrase - probably not implemented yet.
-
-E.g. I have my favourite record and I want to use its title to get back to it, but the search actually regards individual words in the phrase as separate search items.
-Tried " and '.
-
-
 ### Measurements are tedious to input 
 
  It is annoying to always repeat the same values in the case of the measurements. For example, the name is the same, the concentration of the target, the chemical environment and the ‘container’ ...
