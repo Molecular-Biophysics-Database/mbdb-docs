@@ -1,4 +1,4 @@
-{
+export default {
   "index": {
     "title": "Home",
     "type": "page"
@@ -31,4 +31,4 @@
     "title": "Known Issues",
     "type": "page"
   }
-}
+};

@@ -1,4 +1,6 @@
-const withNextra = require("nextra")({
+import nextra from "nextra"
+
+const withNextra = nextra({
     theme: "nextra-theme-docs",
     themeConfig: "./theme.config.jsx",
     latex: true
@@ -20,5 +22,5 @@ if (process.env.GITHUB_REPOSITORY) {
     basePath: "/mbdb-docs",
   }
 }
-module.exports = withNextra(config)
+export default withNextra(config)
 

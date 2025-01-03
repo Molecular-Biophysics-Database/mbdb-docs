@@ -1,4 +1,4 @@
-{
+export default {
   "intro": "Introduction",
   "affiliations": "Affiliations",
   "chemicals": "Chemicals",
@@ -6,4 +6,4 @@
   "instruments": "Instruments",
   "languages": "Languages",
   "organisms": "Organisms"
-}
+};
