@@ -1,4 +1,4 @@
-{
+export default {
   "intro": "Introduction",
   "general_params": "General parameters",
   "reusable_elements": "Reusable elements",
@@ -7,4 +7,4 @@
   "spr": "SPR",
   "itc": "ITC",
   "files": "Files"
-}
+};

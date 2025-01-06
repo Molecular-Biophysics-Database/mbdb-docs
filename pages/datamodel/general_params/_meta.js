@@ -1,4 +1,4 @@
-{
+export default {
   "intro": "Introduction",
   "schema_version":"Schema version",
   "record_information": "Record information",
@@ -6,13 +6,8 @@
   "associated_publication":"Associated publication",
   "funding": "Funding reference",
   "technique": "Technique",
-  "collection_start_time": "Collection start time",
   "instrument": "Instrument",
   "entities_of_interest": "Entities of interest",
   "chemical_environments": "Chemical environments",
   "results": "Results",
-  "raw_measurements": "Raw measurements (files)"
-}
-
-
-
+};

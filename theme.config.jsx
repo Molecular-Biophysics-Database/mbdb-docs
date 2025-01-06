@@ -11,31 +11,25 @@ export default {
       defaultMenuCollapseLevel: 1
     },
     footer: {
-      text: (
+      content: (
         <a href="https://mbdb.test.du.cesnet.cz/" target="_blank">
         © {new Date().getFullYear()} MBDB
         </a>
       )
     },
-    useNextSeoProps() {
-      const { asPath } = useRouter()
-      if (asPath !== '/') {
-        return {
-          titleTemplate: '%s - MBDB Docs'
-        }
-      }
-    },
-
     docsRepositoryBase: "https://github.com/Molecular-Biophysics-Database/mbdb-docs/tree/main",
     // place things into the head tag
     head: () => {
-      const { frontMatter } = useConfig()
+      const config = useConfig()
+      const title = config.title || ''
+      const finalTitle = `MBDB Docs - ${title}`
       return (
         <>
-          <meta property="og:title" content={frontMatter.title || 'MBDB Docs'} />
+          <title>{finalTitle}</title>
+          <meta property="og:title" content={config.frontMatter.title || 'MBDB Docs'} />
           <meta
             property="og:description"
-            content={frontMatter.description || 'The documentation for MBDB'}
+            content={config.frontMatter.description || 'The documentation for MBDB'}
           />
         </>
       )
