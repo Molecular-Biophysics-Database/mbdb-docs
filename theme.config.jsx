@@ -1,5 +1,4 @@
 import { useConfig } from 'nextra-theme-docs'
-import { useRouter } from 'next/router'
 
 export default {
     logo: <span>MBDB</span>,

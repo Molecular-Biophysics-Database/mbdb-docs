@@ -1,10 +1,11 @@
-# mbdb-docs 
+# mbdb-docs
 
-This website is built using [Nextra](https://nextra.site/), a modern static website generator.
+The documentation website is built using [Nextra](https://nextra.site/), which
+is a modern static website generator.
 
 ## Requirements
 
- * Node.js (>= 20.11 ) 
+ * Node.js (>= 20.11 )
 
 ### Install requirements
 
@@ -12,22 +13,22 @@ A guide to install node can be found [here](https://nodejs.org/en/download/packa
 
 ## Installation
 
-Inside the top level mbdb-docs folder run 
+Inside the top level mbdb-docs folder run
 
 ```bash
-npm install 
+npm install
 ```
 
 ## Starting local development
 
-Inside the top mbdb-docs run: 
+Inside the top mbdb-docs run:
 
 ```bash
 npm run dev
 ```
 
 This should start a local development server at http://localhost:3000/
-which live updates 
+which live updates
 
 ## Local building and running:
 
@@ -36,9 +37,9 @@ npm run build
 npm run start
 ```
 
-## Editing the docs 
+## Editing the docs
 
-The content of the /pages folder is used to 
+The content of the /pages folder is used to
 generate documentation itself.
 
 ### images
@@ -47,6 +48,6 @@ Images should be placed in public/static/img.
 
 ## Deployment
 
-Updating th gh-pages in order to deploy it at 
-[github.io](https://molecular-biophysics-database.github.io/mbdb-docs/) 
-is automatically triggered by pull request to the main branch.   
+Updating the gh-pages in order to deploy it at
+[github.io](https://molecular-biophysics-database.github.io/mbdb-docs/)
+is automatically triggered by pull request to the main branch.
