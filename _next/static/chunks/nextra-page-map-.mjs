@@ -456,6 +456,12 @@ export const pageMap = [{
   children: [{
     data: record_workflows_meta
   }, {
+    name: "automatic-extraction",
+    route: "/record-workflows/automatic-extraction",
+    frontMatter: {
+      "sidebarTitle": "Automatic Extraction"
+    }
+  }, {
     name: "deletion",
     route: "/record-workflows/deletion",
     frontMatter: {
