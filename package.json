@@ -1,6 +1,6 @@
 {
   "name": "mbdb-docs",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Documentation for MBDB",
   "dependencies": {
     "next": "~14.2.3",
