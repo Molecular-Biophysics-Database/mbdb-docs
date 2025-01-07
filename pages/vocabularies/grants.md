@@ -2,24 +2,26 @@
 
 ## Source
 
-We're currently relaying on OpenAire, in particular OpenAire projects to 
+We're currently relaying on OpenAire, in particular OpenAire projects to
 extract funding information.
 
 ## How is the information accessed?
 
-We're accessing the information from within the MBDB using their 
+We're accessing the information from within the MBDB using their
 [REST API](https://graph.openaire.eu/develop/api.html#projects).
 
 ## I can't find my funding information, what should I do?
 
-You can add your own funding resource 
-[here](https://mbdb.test.du.cesnet.cz/vocabularies/grants/_new). Note that you 
-have to be logged in to create a new vocabulary item, and that it will be 
+You can add your own funding resource
+[here](https://mbdb.test.du.cesnet.cz/vocabularies/grants/_new). Note that you
+have to be logged in to create a new vocabulary item, and that it will be
 available to everyone.
 
 Alternatively you can ask your funding agency to push their information to the
-OpenAire projects. Information about that can be found 
+OpenAire projects. Information about that can be found
 [here](https://www.openaire.eu/funders-how-to-join-guide).
+
+Lastly, it is also possible to add your own affiliation locally to MBDB.
 
 ## Fields available
 
@@ -31,7 +33,7 @@ The id prefix is `oa:`.
 **Type**: string (keyword) <br/>
 
 ### title
-**Description**: Name of project the grant is given to (e.g. The atherogenic 
+**Description**: Name of project the grant is given to (e.g. The atherogenic
 potential of phospholipid transphospholipid transfer protein, PLTP)<br/>
 **Required**: yes <br/>
 **Type**: object (Title) <br/>
@@ -43,7 +45,7 @@ potential of phospholipid transphospholipid transfer protein, PLTP)<br/>
 **Type**: string (keyword) <br/>
 
 ### grant_id
-**Description**: The ID of the grant as provided by the funder 
-(e.g. 213912)<br/>
+**Description**: The ID of the grant as provided by the funder (e.g.
+213912)<br/> 
 **Required**: yes <br/>
 **Type**: string (keyword) <br/>
