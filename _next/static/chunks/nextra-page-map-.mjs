@@ -588,10 +588,28 @@ export const pageMap = [{
       "sidebarTitle": "Affiliations"
     }
   }, {
+    name: "body-fluids",
+    route: "/vocabularies/body-fluids",
+    frontMatter: {
+      "sidebarTitle": "Body Fluids"
+    }
+  }, {
+    name: "cell-fractions",
+    route: "/vocabularies/cell-fractions",
+    frontMatter: {
+      "sidebarTitle": "Cell Fractions"
+    }
+  }, {
     name: "chemicals",
     route: "/vocabularies/chemicals",
     frontMatter: {
       "sidebarTitle": "Chemicals"
+    }
+  }, {
+    name: "environment-types",
+    route: "/vocabularies/environment-types",
+    frontMatter: {
+      "sidebarTitle": "Environment Types"
     }
   }, {
     name: "grants",
@@ -622,6 +640,12 @@ export const pageMap = [{
     route: "/vocabularies/organisms",
     frontMatter: {
       "sidebarTitle": "Organisms"
+    }
+  }, {
+    name: "products",
+    route: "/vocabularies/products",
+    frontMatter: {
+      "sidebarTitle": "Products"
     }
   }]
 }];
