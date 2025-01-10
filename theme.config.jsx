@@ -1,8 +1,10 @@
 import { useConfig } from 'nextra-theme-docs'
 
+const mbdbUrl = "https://mbdb-data.org/"
+
 export default {
     logo: <span>MBDB</span>,
-    logoLink: "https://mbdb.test.du.cesnet.cz/",
+    logoLink: mbdbUrl,
     project: {
       link: "https://github.com/Molecular-Biophysics-Database/mbdb-app"
     },
@@ -11,7 +13,7 @@ export default {
     },
     footer: {
       content: (
-        <a href="https://mbdb.test.du.cesnet.cz/" target="_blank">
+        <a href={mbdbUrl} target="_blank">
         © {new Date().getFullYear()} MBDB
         </a>
       )
