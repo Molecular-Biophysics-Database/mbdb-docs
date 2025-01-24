@@ -1,15 +1,15 @@
 # App Issues
 (list updates daily)
 
-### Propagate changes made to entity.name 
+### File extraction only sporadically work
 
-If a user changes the name of an entity after filling out related fields, the fields associated with this entity are removed. Retaining this data after a name change would enhance usability.
+It appears the save file functionality will usually overwrite the extracted record metadata with empty metadata (previous version of the record).
 
-It should be possible to achievable by updating entity.name (through the id field which the user can't change). 
+The solution requires multiple rewrites: 
 
-### More Results needed 
-
-We noticed the absence of certain result types, such as Qdil, rA, and rM
+ 1. `save()` should not be called within `useEffect`
+ 2. Saving a record in order to allow for file upload should use the id from the record, currently it tries to look in the file metadata object
+ 3. The revision id should be checked before overwriting a record and only be done if ids match or the incoming is newer than the existing record 
 
 ### copy_number is not clear nomenclature
 
