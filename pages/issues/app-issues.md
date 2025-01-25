@@ -1,6 +1,25 @@
 # App Issues
 (list updates daily)
 
+### Extract name from ORCID
+
+If an ORCID is given for a person, the given name and family name can be extracted:
+
+REQUEST: `GET` 
+HEADER: `"Accept: application/json"`
+URL: ` "https://pub.orcid.org/v3.0/<ORCID>"`
+
+The required information can be obtained from response to the request in the fields:
+
+`person.name.given-names.value`
+`person.name.family-name.value`
+
+### Add state as a tag to the record listing
+
+It would be useful display the status of the records that are not publicly visible (draft, submitted, accepted, retracting) in the search result record listing.
+
+The `state` field is at the top level in the record
+
 ### File extraction only sporadically work
 
 It appears the save file functionality will usually overwrite the extracted record metadata with empty metadata (previous version of the record).
@@ -14,10 +33,6 @@ The solution requires multiple rewrites:
 ### copy_number is not clear nomenclature
 
 considering using a different word or longer description.
-
-### Incorporate reviewing workflow into the publication process
-
-Currently the record is directly published, however we need the publication system (see [here](https://github.com/Molecular-Biophysics-Database/mbdb-docs/tree/workflow-descriptions) for details)
 
 ### The user doesn't know when file uploading has completed
 
