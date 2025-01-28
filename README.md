@@ -1,7 +1,7 @@
 # mbdb-docs
 
-The documentation website is built using [Nextra](https://nextra.site/), which
-is a modern static website generator.
+The documentation website is built using [Nextra](https://nextra.site/) 3,
+which is a modern static website generator.
 
 ## Requirements
 
@@ -9,40 +9,54 @@ is a modern static website generator.
 
 ### Install requirements
 
-A guide to install node can be found [here](https://nodejs.org/en/download/package-manager)
+A guide to install Node.js can be found [here](https://nodejs.org/en/download/package-manager)
 
 ## Installation
 
-Inside the top level mbdb-docs folder run
+Clone this repository. Inside the top level folder run:
 
 ```bash
 npm install
 ```
 
-## Starting local development
+## Local development
 
-Inside the top mbdb-docs run:
+Inside the top level run:
 
 ```bash
 npm run dev
 ```
 
 This should start a local development server at http://localhost:3000/
-which live updates
+which automatically picks up changes (it only compiles when you navigate to a
+page).
 
-## Local building and running:
+## Local build
+
+Generating a static webpage can be accomplished by running the `build` command
+from inside the top level folder:
 
 ```bash
 npm run build
+```
+
+The output (static webpage) is stored in the .out folder.
+
+## Local serving
+
+To locally serve a generated static webpage (from .out), the `start`
+command is used:
+
+```bash
 npm run start
 ```
 
 ## Editing the docs
 
-The content of the /pages folder is used to
-generate documentation itself.
+The content of the /pages folder is the source of
+the documentation.
 
-### images
+### Images
 
 Images should be placed in public/static/img.
 
@@ -50,4 +64,16 @@ Images should be placed in public/static/img.
 
 Updating the gh-pages in order to deploy it at
 [github.io](https://molecular-biophysics-database.github.io/mbdb-docs/)
-is automatically triggered by pull request to the main branch.
+**should not be done manually!**.
+
+Instead, it should be done through a pull requests to the main branch.
+This is then automatically picked up and deployed by a
+[GitHub action](https://github.com/Molecular-Biophysics-Database/mbdb-docs/blob/main/.github/workflows/deploy.yml)
+
+## Automatic extraction of issues from mbdb-app
+
+Note that there's a
+[Github action](https://github.com/Molecular-Biophysics-Database/mbdb-docs/blob/main/.github/workflows/issues_from_app.yml)
+that runs every day at midnight which
+extracts issues from the mbdb-app and push the corresponding changes to the main
+branch.
