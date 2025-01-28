@@ -1,6 +1,29 @@
 # App Issues
 (list updates daily)
 
+### Render a full-view of the record
+
+null
+
+### Changing type of linkable object results in unsaveable record
+
+
+An invalid draft that cannot be saved occurs if the user changes the type of a linkable object (f.ex., changing an entity of interest from `Chemical` to `Polymer`) when they have already linked to the linkable object somewhere else in the record (f.ex., in results.entities_involved) 
+
+Short-term workaround: Delete the object and create a new one (preferably with a different name) of the correct type and in re-establish link in all the places that it is linked to. 
+
+### Auto save functionality
+
+We might consider auto saving the record every 5-10 minutes to prevent data loss
+
+### Make validation errors links
+
+It should be made easier for the user to navigate to where particular validation error has occurred. This could be done by turning the errors into links 
+
+### Undo functionality
+
+It would be useful with undo functionality in case of accidentally deleting element or similar 
+
 ### Extract name from ORCID
 
 If an ORCID is given for a person, the given name and family name can be extracted:
