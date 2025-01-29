@@ -5,13 +5,6 @@
 
 null
 
-### Changing type of linkable object results in unsaveable record
-
-
-An invalid draft that cannot be saved occurs if the user changes the type of a linkable object (f.ex., changing an entity of interest from `Chemical` to `Polymer`) when they have already linked to the linkable object somewhere else in the record (f.ex., in results.entities_involved) 
-
-Short-term workaround: Delete the object and create a new one (preferably with a different name) of the correct type and in re-establish link in all the places that it is linked to. 
-
 ### Auto save functionality
 
 We might consider auto saving the record every 5-10 minutes to prevent data loss
@@ -36,6 +29,9 @@ The required information can be obtained from response to the request in the fie
 
 `person.name.given-names.value`
 `person.name.family-name.value`
+
+Edit:
+This will either require a change in the app's permission policy, or creating a backend endpoint the fronted can use 
 
 ### Add state as a tag to the record listing
 
