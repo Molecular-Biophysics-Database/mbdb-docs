@@ -38,13 +38,13 @@ searched and stored in databases, it's part of how they were designed.
 
 ## I can't find my chemical, what should I do?
 
-You can add your own chemical  
-[here](https://mbdb.test.du.cesnet.cz/vocabularies/chemicals/_new). Note that you 
-have to be logged in to create a new vocabulary item, and that it will be 
+You can add your own chemical
+[here](https://mbdb-data.org/vocabularies/chemicals/_new). Note that you
+have to be logged in to create a new vocabulary item, and that it will be
 available to everyone.
 
 Furthermore, as we use InChI keys, you need to know the chemical structure.
-Based on the structure, the InChI string can be generated, which in turn 
+Based on the structure, the InChI string can be generated, which in turn
 can be converted to an InChI key. Most chemical software should be able to fo
 this.
 

@@ -13,7 +13,7 @@ We're accessing the information from within the MBDB using their
 ## I can't find my funding information, what should I do?
 
 You can add your own funding resource
-[here](https://mbdb.test.du.cesnet.cz/vocabularies/grants/_new). Note that you
+[here](https://mbdb-data.org/vocabularies/grants/_new). Note that you
 have to be logged in to create a new vocabulary item, and that it will be
 available to everyone.
 
@@ -46,6 +46,6 @@ potential of phospholipid transphospholipid transfer protein, PLTP)<br/>
 
 ### grant_id
 **Description**: The ID of the grant as provided by the funder (e.g.
-213912)<br/> 
+213912)<br/>
 **Required**: yes <br/>
 **Type**: string (keyword) <br/>

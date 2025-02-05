@@ -4,7 +4,7 @@
 
 The endpoint is:
 
-`https://mbdb.test.du.cesnet.cz/api/records/<model>/<record-id>`
+`https://mbdb-data.org/api/records/<model>/<record-id>`
 
 Where:
   * `<model>` is one of `bli, itc, mst, spr`
@@ -14,14 +14,14 @@ Example using curl:
 
 ```bash
 curl \
-  https://mbdb.test.du.cesnet.cz/api/records/mst/zv0gv-btp27/
+  https://mbdb-data.org/api/records/mst/zv0gv-btp27/
 ```
 
 ## Specific draft
 
 The endpoint is:
 
-`https://mbdb.test.du.cesnet.cz/api/records/<model>/<record-id>/draft`
+`https://mbdb-data.org/api/records/<model>/<record-id>/draft`
 
 Where:
   * `<model>` is one of `bli, itc, mst, spr`
@@ -34,5 +34,5 @@ Example using curl:
 ```bash
 curl \
   -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
-  https://mbdb.test.du.cesnet.cz/api/records/mst/zv0gv-btp27/draft
+  https://mbdb-data.org/api/records/mst/zv0gv-btp27/draft
 ```

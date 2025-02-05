@@ -12,7 +12,7 @@ than going through MBDB.
 
 The endpoint is:
 
-`https://mbdb.test.du.cesnet.cz/api/vocabularies/<vocabulary>/<vocabulary-id>`
+`https://mbdb-data.org/api/vocabularies/<vocabulary>/<vocabulary-id>`
 
 Where
   * `<vocabulary>` is one of `affiliations`, `chemicals`, `grants`, `instruments`, `languages`, `organisms`
@@ -23,7 +23,7 @@ Example:
 ```bash
 curl -k  \
   -H "Content-Type: application/json" \
-  https://mbdb.test.du.cesnet.cz/api/vocabularies/organisms/taxid:562
+  https://mbdb-data.org/api/vocabularies/organisms/taxid:562
 ```
 
 ### Search vocabularies
@@ -44,7 +44,7 @@ Each parameter are set with `=` and parameters should be separated by `&`.
 
 The endpoint is:
 
-`https://mbdb.test.du.cesnet.cz/api/vocabularies/<vocabulary>?`
+`https://mbdb-data.org/api/vocabularies/<vocabulary>?`
 
 Where
   * `<vocabulary>` is one of `affiliations`, `chemicals`, `grants`, `instruments`, `languages`, `organisms`
@@ -54,7 +54,7 @@ Example:
 ```bash
 curl -k  \
   -H "Content-Type: application/json" \
-  https://mbdb.test.du.cesnet.cz/api/vocabularies/organisms?q="coli"&s=2
+  https://mbdb-data.org/api/vocabularies/organisms?q="coli"&s=2
 ```
 
 ### Using vocabulary items in API depositions
