@@ -4,7 +4,7 @@
 
 The endpoint is:
 
-`https://mbdb.test.du.cesnet.cz/api/records/<model>/`
+`https://mbdb-data.org/api/records/<model>/`
 
 Where:
   * `<model>` is one of `bli, itc, mst, spr`
@@ -16,7 +16,7 @@ curl -XPOST \
   -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
   -H "Content-Type: application/json" \
   -d "@test_mst.json" \
-  https://mbdb.test.du.cesnet.cz/api/records/mst/
+  https://mbdb-data.org/api/records/mst/
 ```
 
 ## Associated files
@@ -33,7 +33,7 @@ Unlike with the metadata record, it takes multiple steps to upload each file:
 
 The endpoint is:
 
-`https://mbdb.test.du.cesnet.cz/api/records/<model>/<record-id>/draft/files`
+`https://mbdb-data.org/api/records/<model>/<record-id>/draft/files`
 
 Where:
   * `<model>` is one of `bli, itc, mst, spr`
@@ -54,7 +54,7 @@ curl -XPOST \
   -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
   -H "Content-Type: application/json" \
   -d '[{"key": "example.txt"}]' \
-  https://mbdb.test.du.cesnet.cz/api/records/mst/zv0gv-btp27/draft/files
+  https://mbdb-data.org/api/records/mst/zv0gv-btp27/draft/files
 
 ```
 
@@ -62,7 +62,7 @@ curl -XPOST \
 
 The endpoint is:
 
-`https://mbdb.test.du.cesnet.cz/api/records/<model>/<record-id>/draft/files/<file-name>/content`
+`https://mbdb-data.org/api/records/<model>/<record-id>/draft/files/<file-name>/content`
 
 Where:
   * `<model>` is one of `bli, itc, mst, spr`
@@ -79,12 +79,12 @@ curl -XPUT \
   -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
   -H "Content-Type: application/octet-stream" \
   -d '@example.txt' \
-  https://mbdb.test.du.cesnet.cz/api/records/mst/zv0gv-btp27/draft/files/example.txt/content
+  https://mbdb-data.org/api/records/mst/zv0gv-btp27/draft/files/example.txt/content
 ```
 
 ### Add metadata to file
 The endpoint is:
-`https://mbdb.test.du.cesnet.cz/api/records/<model>/<record-id>/draft/files/<file-name>`
+`https://mbdb-data.org/api/records/<model>/<record-id>/draft/files/<file-name>`
 
 Where:
   * `<model>` is one of `bli, itc, mst, spr`
@@ -102,12 +102,12 @@ curl -XPUT \
   -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
   -H "Content-Type: application/json" \
   -d '{"description": "Example of a description"}' \
-  https://mbdb.test.du.cesnet.cz/api/records/mst/zv0gv-btp27/draft/files/example.txt
+  https://mbdb-data.org/api/records/mst/zv0gv-btp27/draft/files/example.txt
 ```
 ### Commit changes to file
 
 The endpoint is:
-`https://mbdb.test.du.cesnet.cz/api/records/<model>/<record-id>/draft/files/<file-name>/commit`
+`https://mbdb-data.org/api/records/<model>/<record-id>/draft/files/<file-name>/commit`
 
 Where:
   * `<model>` is one of `bli, itc, mst, spr`
@@ -119,5 +119,5 @@ Example using curl:
 ```bash
  curl -XPOST \
   -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
-  https://mbdb.test.du.cesnet.cz/api/records/mst/zv0gv-btp27/draft/files/example.txt/commit
+  https://mbdb-data.org/api/records/mst/zv0gv-btp27/draft/files/example.txt/commit
 ```

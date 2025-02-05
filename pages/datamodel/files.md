@@ -9,7 +9,7 @@ The list of files is available at the link found in the metadata record
 {
   "enabled": true,
   "links": {
-    "self": "https://mbdb.test.du.cesnet.cz/api/records/mst/fy6g2-hh950/draft/files"
+    "self": "https://mbdb-data.org/api/records/mst/fy6g2-hh950/draft/files"
   },
   "entries": [
     {
@@ -33,10 +33,10 @@ The list of files is available at the link found in the metadata record
         "hidden": false
       },
       "links": {
-        "commit": "https://mbdb.test.du.cesnet.cz/api/records/mst/fy6g2-hh950/draft/files/ttwj3-9se17%281%29.json/commit",
-        "content": "https://mbdb.test.du.cesnet.cz/api/records/mst/fy6g2-hh950/draft/files/ttwj3-9se17%281%29.json/content",
-        "preview": "https://mbdb.test.du.cesnet.cz/mst/fy6g2-hh950/files/ttwj3-9se17%281%29.json/preview",
-        "self": "https://mbdb.test.du.cesnet.cz/api/records/mst/fy6g2-hh950/draft/files/ttwj3-9se17%281%29.json"
+        "commit": "https://mbdb-data.org/api/records/mst/fy6g2-hh950/draft/files/ttwj3-9se17%281%29.json/commit",
+        "content": "https://mbdb-data.org/api/records/mst/fy6g2-hh950/draft/files/ttwj3-9se17%281%29.json/content",
+        "preview": "https://mbdb-data.org/mst/fy6g2-hh950/files/ttwj3-9se17%281%29.json/preview",
+        "self": "https://mbdb-data.org/api/records/mst/fy6g2-hh950/draft/files/ttwj3-9se17%281%29.json"
       }
     }
   ],

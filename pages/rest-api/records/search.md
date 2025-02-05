@@ -20,14 +20,14 @@ Example:
 curl -k  \
   -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
   -H "Content-Type: application/json" \
-  https://mbdb.test.du.cesnet.cz/api/user/records/mst/?q="example"&p=2
+  https://mbdb-data.org/api/user/records/mst/?q="example"&p=2
 ```
 
 ## Published records from specific model
 
 The endpoint is:
 
-`https://mbdb.test.du.cesnet.cz/api/records/<model>/?`
+`https://mbdb-data.org/api/records/<model>/?`
 
 Where:
   * `<model>` is one of `bli, itc, mst, spr`
@@ -38,14 +38,14 @@ Example using curl:
 curl -k  \
   -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
   -H "Content-Type: application/json" \
-  https://mbdb.test.du.cesnet.cz/api/user/records/mst/?q="example"
+  https://mbdb-data.org/api/user/records/mst/?q="example"
 ```
 
 ## Published records from all models
 
 The endpoint is:
 
-`https://mbdb.test.du.cesnet.cz/api/search/?`
+`https://mbdb-data.org/api/search/?`
 
 Example using curl:
 
@@ -53,14 +53,14 @@ Example using curl:
 curl -k  \
   -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
   -H "Content-Type: application/json" \
-  `https://mbdb.test.du.cesnet.cz/api/search/?q="example"`
+  `https://mbdb-data.org/api/search/?q="example"`
 ```
 
 ## Records and drafts from specific model and specific user
 
 The endpoint is:
 
-`https://mbdb.test.du.cesnet.cz/api/user/records/<model>/?`
+`https://mbdb-data.org/api/user/records/<model>/?`
 
 Note that it requires authentication to access drafts.
 
@@ -73,7 +73,7 @@ Example using curl:
 curl \
   -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
   -H "Content-Type: application/json" \
-  https://mbdb.test.du.cesnet.cz/api/user/records/mst/?q="example"
+  https://mbdb-data.org/api/user/records/mst/?q="example"
 ```
 
 
@@ -81,7 +81,7 @@ curl \
 
 The endpoint is:
 
-`https://mbdb.test.du.cesnet.cz/api/user/search/?`
+`https://mbdb-data.org/api/user/search/?`
 
 
 Where:
@@ -93,5 +93,5 @@ Example using curl:
 curl \
   -H "Authorization: Bearer BtMgKKIxJl838fN25PHRQtacuTJwTan0GYvDbXDB7PXoPYSHcugjZSrXQu6Y" \
   -H "Content-Type: application/json" \
-  https://mbdb.test.du.cesnet.cz/api/user/search/?q="example"
+  https://mbdb-data.org/api/user/search/?q="example"
 ```
