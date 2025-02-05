@@ -39,16 +39,6 @@ It would be useful display the status of the records that are not publicly visib
 
 The `state` field is at the top level in the record
 
-### File extraction only sporadically work
-
-It appears the save file functionality will usually overwrite the extracted record metadata with empty metadata (previous version of the record).
-
-The solution requires multiple rewrites: 
-
- 1. `save()` should not be called within `useEffect`
- 2. Saving a record in order to allow for file upload should use the id from the record, currently it tries to look in the file metadata object
- 3. The revision id should be checked before overwriting a record and only be done if ids match or the incoming is newer than the existing record 
-
 ### copy_number is not clear nomenclature
 
 considering using a different word or longer description.
