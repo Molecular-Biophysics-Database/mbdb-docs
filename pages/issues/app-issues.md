@@ -1,6 +1,13 @@
 # App Issues
 (list updates daily)
 
+### Record view update
+
+* Documentation update
+* Removal of unused components
+* Re-factoring to improve consistency 
+* Added affiliations to person and updated symbols for persons
+
 ### Vocabulary UI update
 
 * Updated instrument create permission to include editors
