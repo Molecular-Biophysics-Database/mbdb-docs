@@ -1,20 +1,6 @@
 # App Issues
 (list updates daily)
 
-### Record view update
-
-* Documentation update
-* Removal of unused components
-* Re-factoring to improve consistency 
-* Added affiliations to person and updated symbols for persons
-
-### Vocabulary UI update
-
-* Updated instrument create permission to include editors
-* Refactored how ID field are added to UI
-* Updated instrument fields to be picked up by the UI
-* Added ID fields to UI of body_fluids, cell_fractions, environment_types, and products
-
 ### Render a full-view of the record
 
 null
