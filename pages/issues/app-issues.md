@@ -153,8 +153,4 @@ I wonder if people will really fill out all of these (owner, depositor, principa
 
 Once someone is registered in the database, will they be searchable to include automatically, or are you relying on them entering orcid to be able to link all of the records associated with that person?
 
-### Recordview - Results listing should show associated measurements 
-
-Currently the gp.derived_parameters are iterated over to display results listing. It would be preferable to combine this with information found in msp.data_analysis.measurements, as msp.data_analysis have a derived_parameter that can be used establish the connection. 
-
 
