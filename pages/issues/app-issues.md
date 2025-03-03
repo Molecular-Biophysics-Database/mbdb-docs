@@ -1,6 +1,26 @@
 # App Issues
 (list updates daily)
 
+### Model update with RDM fixes
+
+This PR needs:
+
+* https://github.com/oarepo/oarepo-communities/pull/105
+* https://github.com/oarepo/oarepo-runtime/pull/263
+* https://github.com/oarepo/oarepo-workflows/pull/27
+* https://github.com/oarepo/oarepo-model-builder-drafts/pull/56
+* https://github.com/oarepo/oarepo-model-builder/pull/292
+
+after that, please try:
+
+```bash
+invenio oarepo permissions search miroslav.simek@gmail.com mst --full-query
+
+invenio oarepo permissions list -w individual 
+
+invenio oarepo permissions evaluate miroslav.simek@gmail.com mst --draft k865j-ybr04 
+```
+
 ### Render a full-view of the record
 
 null
