@@ -100,31 +100,6 @@ Picking a path from the list, OK, then click into the next field and the title o
 
 NOT Critical 
 
-### CommunityInclusionComponent has to be manually removed on model rebuilds
-
-Currently we're using communities due to missing functionality, however they will eventually be used, and workflows currently assumes their presences, so communities are partly incorporated backend. 
-
-However, to make this partly implemented state work, the `CommunityInclusionComponent` has to be commented out inside
-<model>/services/records/config.py as shown below:
-
-```python
-
- components = [
- *PermissionsPresetsConfigMixin.components,
- *InvenioRecordDraftsServiceConfig.components,
- AuthorityComponent,
- CommunityDefaultWorkflowComponent,
- #CommunityInclusionComponent,
- OwnersComponent,
- DraftFilesComponent,
- CustomFieldsComponent,
- FilesComponent,
- WorkflowComponent,
- ]
-
-
-```
-
 ### Record view - width of the graphical representation
 
 The width is now dynamically adjusted according to the content.
