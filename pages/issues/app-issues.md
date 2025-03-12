@@ -1,6 +1,15 @@
 # App Issues
 (list updates daily)
 
+### Unified unit search field
+
+To be able to search across records with different (but compatible) units, one of two things should be done.
+
+1. Add A field with a converted (unified unit) value to the search index.
+2. Add A field with a converted (unified unit) value to the record search index.
+
+It should be noted that not all commonly used units can be directly converted to each other. 
+
 ### Model update with RDM fixes
 
 This PR needs:
