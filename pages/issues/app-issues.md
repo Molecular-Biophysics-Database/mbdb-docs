@@ -1,7 +1,7 @@
 # App Issues
 (list updates daily)
 
-### regenerated models with search-all enabled service
+### Updated the model and recordview page and fixed a few minor issues
 
 null
 
@@ -13,26 +13,6 @@ To be able to search across records with different (but compatible) units, one o
 2. Add A field with a converted (unified unit) value to the record search index.
 
 It should be noted that not all commonly used units can be directly converted to each other. 
-
-### Model update with RDM fixes
-
-This PR needs:
-
-* https://github.com/oarepo/oarepo-communities/pull/105
-* https://github.com/oarepo/oarepo-runtime/pull/263
-* https://github.com/oarepo/oarepo-workflows/pull/27
-* https://github.com/oarepo/oarepo-model-builder-drafts/pull/56
-* https://github.com/oarepo/oarepo-model-builder/pull/292
-
-after that, please try:
-
-```bash
-invenio oarepo permissions search miroslav.simek@gmail.com mst --full-query
-
-invenio oarepo permissions list -w individual 
-
-invenio oarepo permissions evaluate miroslav.simek@gmail.com mst --draft k865j-ybr04 
-```
 
 ### Render a full-view of the record
 
