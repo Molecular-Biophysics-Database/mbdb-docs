@@ -1,7 +1,7 @@
 # App Issues
 (list updates daily)
 
-### Updated the model and recordview page and fixed a few minor issues
+### Facets resolved
 
 null
 
