@@ -186,6 +186,18 @@ export const pageMap = [{
       frontMatter: {
         "sidebarTitle": "Measurement"
       }
+    }, {
+      name: "single_injection",
+      route: "/datamodel/itc/single_injection",
+      frontMatter: {
+        "sidebarTitle": "Single Injection"
+      }
+    }, {
+      name: "titration",
+      route: "/datamodel/itc/titration",
+      frontMatter: {
+        "sidebarTitle": "Titration"
+      }
     }]
   }, {
     name: "mst",
