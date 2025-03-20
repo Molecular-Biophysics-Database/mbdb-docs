@@ -1,51 +1,18 @@
 # Injection_mode
 
-## titration
-**Description**: ITC experiment <br/> 
-**Required**: no <br/>
-**Path**: `metadata.method_specific_parameters.injection_mode.titration`<br/> 
-**Type**: object (Titration)<br/> 
-**Contains**: See [Fields available in titration](#fields-available-in-titration) <br/>
+## type
 
-## single_injection
-
-**Description**: Titrant volume injected into the cell<br/> 
-**Required**: no <br/>
-**Path**: `metadata.method_specific_parameters.injection_mode.single_injection`<br/> 
-**Type**: object (Volume)<br/> 
-**Contains**: See [Volume](../reusable_elements/volume.md) <br/>
-
-## Fields available in titration
-
-## number_injections
-
-**Description**: Number of injections performed in the measurement <br/> 
-**Required**: no <br/>
-**Path**: `metadata.method_specific_parameters.injection_mode.titration.number_titration`<br/> 
-**Type**: number (float)<br/> 
-**Min**: 1 <br/> 
+**Description**: Type of ITC experiment'<br/>
+**Required**: yes <br/>
+**Path**: `metadata.method_specific_parameters.injection_mode.type` <br/>
+**Type**:  enumerator (string) <br/>
+**Options**: ('Single injection', 'Titration')
 
 
-## injection_parameters
+## The fields from one of the following objects
 
-**Description**: Characteristics of each injection (i. e. number of injections at a specific volume of 0.2 ml) <br/> 
-**Required**: no <br/>
-**Path**: `metadata.method_specific_parameters.injection_mode.titration.injection_parameters`<br/> 
-**Type**: array of object (injection_parameters)<br/> 
-**Contains**: See [Fields available in injection_parameters](#fields-available-in-injection-parameters) <br/> 
+### Titration
+See [Titration](titration.md)
 
-## Fields available in injection_parameters
-
-## n_injections
-**Description**: Number of injections measured at a specific volume <br/>
-**Required**: no <br/>
-**Path**: `metadata.method_specific_parameters.injection_mode.titration.injection_parameters.n_injections`<br/> 
-**Type**: number (int)
-
-## volume
-**Description**: Titrant volume injected into the cell <br/>
-**Required**: no <br/>
-**Path**: `metadata.method_specific_parameters.injection_mode.titration.injection_parameters.volume`<br/> 
-**Type**: object (Volume)<br/>
-**Contains**: See [Volume](../reusable_elements/volume.md) <br/>
-
+### Single injection
+See [Single injection](single_injection.md)
