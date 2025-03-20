@@ -52,21 +52,6 @@ The `state` field is at the top level in the record
 
 considering using a different word or longer description.
 
-### The user doesn't know when file uploading has completed
-
-When attaching a 73 MB binary file, everything worked fine (an .mtz type but I guess it does not matter here). 
-It could provide back the file upon request.
-
-When attaching a ~ 50 MB binary file (.mrc type), it "saved" not saying a word but then in preview when attempting to download, it says
-status	404
-message	"Record 'qan39-t3775' has no file 'run_class001_jakoStateII.mrc'."
-
-Is there an internal frontend, backend check in place which filters "dangerous" files, i.e. with code in it?
-This does not seem to be connected to file size but rather perhaps to its typ/content?
-Do we have a size limit? If yes, the tooltip should mention that.
-
-NOT CRITICAL NOW - I did not see this with the usual file sizes we produce ...
-
 ### SPR Data analysis, tooltip
 
 In SPR
