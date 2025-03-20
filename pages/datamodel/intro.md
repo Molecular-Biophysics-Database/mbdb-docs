@@ -16,7 +16,7 @@ be present for all types of biophysical measurements (*e.g.*
 identities of measured species).
 
 All records have the same fields in the general parameters
-section **Independent of measurement technique**, which means
+section **Independent of measurement method**, which means
 that the required fields in general parameters are present
 (and hence searchable) in all records.
 
@@ -27,17 +27,18 @@ More information about the general parameters can be found
 
 The method specific parameters include the detailed information
 about how data was measured and how it was analyzed (*e.g.*
-measurement protocol). As this is inherently specific to the techniques
+measurement protocol). As this is inherently specific to the methods
 used, the fields in method specific parameters should
-only be expected to exist in records using the same technique.
-
+only be expected to exist in records using the same method
 More information about the data model of each of the supported
-techniques can be found here:
+methods can be found here:
 
-- [MST/TRIC/Spectral shift](mst/intro.md)
 - [Biolayer interferometry (BLI)](bli/intro.md)
-- [Surface plasmon resonance (SPR)](spr/intro.md)
 - [Isothermal Titration Calorimetry (ITC)](itc/intro.md)
+- [Mass Photometry (MP)](mp/intro.md)
+- [MST/TRIC/Spectral shift](mst/intro.md)
+- [Surface plasmon resonance (SPR)](spr/intro.md)
+
 
 ## Structure of the model
 

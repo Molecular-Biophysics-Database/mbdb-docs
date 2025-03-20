@@ -1,6 +1,4 @@
-
-
-# Associated publication    
+# Associated publication
 
 **Description**: If the data in this record is described in published literature (article, journal, thesis), information about the literature can be specified here <br/>
 **Required**: yes <br/>
@@ -9,9 +7,9 @@
 **Type_field** : type
 **Contains**: see available fields <br/>
 
-## Available fields 
+## Available fields
 
-### pid 
+### pid
 
 **Description**: Persistent identifier associated with the publication (e.g. DOI, ISBN, URN) <br/>
 **Required**: yes <br/>
@@ -19,7 +17,7 @@
 **Type**: string <br/>
 **format**: ('doi:10.xxx', 'isbn:xxx', 'urn:xxx' ) <br/>
 
-### title 
+### title
 
 **Description**: The title of the publication <br/>
 **Required**: no <br/>
@@ -27,7 +25,7 @@
 **Type**: string (fulltext) <br/>
 
 
-### type 
+### type
 
 **Description**: The type of the publication <br/>
 **Required**: yes <br/>
@@ -36,9 +34,9 @@
 **Options**: ('Article', 'Book', 'Thesis') <br/>
 
 
-## One of the following 
+## One of the following
 
-### Fields if type is Article 
+### Fields if type is Article
 
 #### journal
 
@@ -48,7 +46,7 @@
 **Type**: string (fulltext) <br/>
 
 
-### Fields if type is Book 
+### Fields if type is Book
 
 #### publisher
 
@@ -59,7 +57,7 @@
 
 
 
-### Fields if type is Thesis 
+### Fields if type is Thesis
 
 #### degree_type
 
