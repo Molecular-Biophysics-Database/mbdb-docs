@@ -2,7 +2,7 @@
 
 ## Which types of instruments?
 
-The MST model covers the output of output from Nanotemper's Monolith series and covers
+The MST model covers the output from Nanotemper's Monolith series and covers
 MST/TRIC as well as spectral shift method.
 
 ## Note on initial intensity and spectral shifts
@@ -16,5 +16,5 @@ The metadata associated with these modes, and that they're derived from the
 same instruments let us to include them in the MST model to make it easier for the user as
 well as beginning to capture as much data as possible.
 
-The records associated might later migrate to different model if 
+The records associated might later migrate to different model if
 fluorescence spectroscopy will get its own model in the future.

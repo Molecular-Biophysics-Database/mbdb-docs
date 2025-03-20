@@ -47,11 +47,11 @@ date, 3) "restricted access" where depositors of the record are the only ones wh
 
 ### resource_type
 
-**Description**: DataCite item which shows type of dataset the record is, and corresponds directly to which kind of technique was used (MST/BLI/SPR) (Datacite recommended field to get DOI). This is automatically generated during deposition <br/>
+**Description**: DataCite item which shows type of dataset the record is, and corresponds directly to which kind of method was used (BLI/ITC/MP/MST/SPR) (Datacite recommended field to get DOI). This is automatically generated during deposition <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.record_information.resource_type` <br/>
 **Type**: enumerator (string) <br/>
-**Options**: ('MST', 'BLI', 'SPR') <br/>
+**Options**: ('MST', 'BLI', 'SPR', 'MP', 'ITC') <br/>
 
 ### external_identifier
 
@@ -63,7 +63,7 @@ date, 3) "restricted access" where depositors of the record are the only ones wh
 
 ### subject_category
 
-**Description**: DataCite subject category the record data belongs to; the default value is Biophysics (Datacite recommended field to get DOI). This is automatically generated during deposition  <br/>
+**Description**: DataCite subject category the record data belongs to; the  default value is Biophysics (Datacite recommended field to get DOI). This is automatically generated during deposition  <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.record_information.subject_category` <br/>
 **Type**: enumerator (string) <br/>

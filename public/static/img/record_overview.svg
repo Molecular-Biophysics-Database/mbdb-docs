@@ -24,7 +24,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.2710336"
-     inkscape:cx="197.47707"
+     inkscape:cx="197.47708"
      inkscape:cy="226.98062"
      inkscape:window-width="1920"
      inkscape:window-height="1131"
@@ -280,9 +280,9 @@
        transform="translate(-46.553312,-35.140805)"><tspan
          x="138.20976"
          y="40.708576"
-         id="tspan5"><tspan
+         id="tspan2"><tspan
            style="font-weight:bold;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold'"
-           id="tspan4">Currently, four methods</tspan></tspan></text>
+           id="tspan1">Currently, five methods</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:3.88056px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#ff4141;stroke-width:1.8;paint-order:fill markers stroke"
@@ -293,6 +293,6 @@
          id="tspan3"
          style="stroke-width:1.8"
          x="107.30451"
-         y="5.567771"></tspan></text>
+         y="5.567771" /></text>
   </g>
 </svg>
