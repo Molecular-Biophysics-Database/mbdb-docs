@@ -74,15 +74,6 @@ Picking a path from the list, OK, then click into the next field and the title o
 
 NOT Critical 
 
-### Record view - width of the graphical representation
-
-The width is now dynamically adjusted according to the content.
-This is generally fine.
-However, I would suggest that by default it should not shrink below a certain width.
-
-NOT CRITICAL - JUST DISTURBING when I compare two or more records.
-
-
 ### Measurements are tedious to input 
 
  It is annoying to always repeat the same values in the case of the measurements. For example, the name is the same, the concentration of the target, the chemical environment and the ‘container’ ...
