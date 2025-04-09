@@ -52,28 +52,6 @@ The `state` field is at the top level in the record
 
 considering using a different word or longer description.
 
-### SPR Data analysis, tooltip
-
-In SPR
-Data Analysis
-The first drop-down Data analysis 1 Measurement 1 has tooltip
-"List of measurement links that was analyzed together"
-
-Should this read rather
-"Measurements that were analyzed together" ?
-
-NOT Critical
-
-### SPR Meas protocol Flow Path - graphics misbehaviour
-
-When adding under SPR method
-Measurement protocol
-Flow
-Path
-Picking a path from the list, OK, then click into the next field and the title of the Path field goes back into the main field instead of staying minimized on the top frame.
-
-NOT Critical 
-
 ### Measurements are tedious to input 
 
  It is annoying to always repeat the same values in the case of the measurements. For example, the name is the same, the concentration of the target, the chemical environment and the ‘container’ ...
