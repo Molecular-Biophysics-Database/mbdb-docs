@@ -1,6 +1,10 @@
 # App Issues
 (list updates daily)
 
+### Added mandatory publicity
+
+null
+
 ### Unified unit search field
 
 To be able to search across records with different (but compatible) units, one of two things should be done.
