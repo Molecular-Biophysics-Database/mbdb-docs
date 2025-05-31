@@ -26,22 +26,6 @@ It should be made easier for the user to navigate to where particular validation
 
 It would be useful with undo functionality in case of accidentally deleting element or similar 
 
-### Extract name from ORCID
-
-If an ORCID is given for a person, the given name and family name can be extracted:
-
-REQUEST: `GET` 
-HEADER: `"Accept: application/json"`
-URL: ` "https://pub.orcid.org/v3.0/<ORCID>"`
-
-The required information can be obtained from response to the request in the fields:
-
-`person.name.given-names.value`
-`person.name.family-name.value`
-
-Edit:
-This will either require a change in the app's permission policy, or creating a backend endpoint the fronted can use 
-
 ### Add state as a tag to the record listing
 
 It would be useful display the status of the records that are not publicly visible (draft, submitted, accepted, retracting) in the search result record listing.
