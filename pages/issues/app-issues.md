@@ -10,10 +10,6 @@ To be able to search across records with different (but compatible) units, one o
 
 It should be noted that not all commonly used units can be directly converted to each other. 
 
-### Render a full-view of the record
-
-null
-
 ### Auto save functionality
 
 We might consider auto saving the record every 5-10 minutes to prevent data loss
@@ -26,21 +22,9 @@ It should be made easier for the user to navigate to where particular validation
 
 It would be useful with undo functionality in case of accidentally deleting element or similar 
 
-### Add state as a tag to the record listing
-
-It would be useful display the status of the records that are not publicly visible (draft, submitted, accepted, retracting) in the search result record listing.
-
-The `state` field is at the top level in the record
-
 ### Measurements are tedious to input 
 
  It is annoying to always repeat the same values in the case of the measurements. For example, the name is the same, the concentration of the target, the chemical environment and the ‘container’ ...
-
-### MST datanalysis define Fhot and Fcold in single line 
-
-In ‘Data analysis’, we believe that using Cold and Hot region a single line for each value would be more appropriate than F cold or F hot:
-Cold region: start (field to fill) end (field to fill)
-Hot region: start (field to fill) end (field to fill)
 
 ### Include option reuse person information in more sections 
 
