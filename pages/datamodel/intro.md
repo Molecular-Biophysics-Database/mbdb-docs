@@ -1,6 +1,6 @@
 # The data model
 
-The data model for the (scientific) metadata for each record consist of
+The data model for the (scientific) metadata for each record consists of
 two parts:
 
  1. General parameters
@@ -45,10 +45,10 @@ techniques can be found here:
 
 The model makes heavy use of the programming technique composition.
 This means that certain elements are reused as often as possible,
-which has the advantages that you can find the same elements in many
+which has the advantage that you can find the same elements in many
 places. This makes comparisons easier as well as making it easier to
 gain intuition about which fields are available. A good example of
-this is "concentration", whenever you see this field, its subfields
+this is "concentration". Whenever you see this field, its subfields
 will allways be the same. It also has the advantage that errors only
 have to be corrected in one place. The disadvantage is that it
 increases nesting at makes the schema less flexible/specific. In some
@@ -68,7 +68,7 @@ available for each of the publication types.
 ## Files
 
 The metadata of the files themselves (rather than the data they describe)
-are foundoutside the two part model described above in a separate part
+are found outside the two part model described above in a separate part
 of the record see [here](files.md).
 
 ## Vocabularies
