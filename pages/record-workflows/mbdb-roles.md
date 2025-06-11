@@ -58,9 +58,9 @@ metadata perspective.
 ### Task
 
 To help records owners in case where they're unsure, or unable to make changes
-themselves. This person is scientific personal in the MBDB staff, who may not be
-an expert of individual methods but is an expert on metadata and the MBDB data
-model. Furthermore, they have right to delete records on scientific grounds
+themselves. This person is a scientist of the MBDB staff, who may not be
+an expert in the individual methods but is an expert in metadata and the MBDB data
+model. Furthermore, they have the right to delete records on scientific grounds
 (e.g. gross scientific misconduct).
 
 ### Rights
@@ -83,10 +83,10 @@ perspective.
 
 ### Task
 
-Ensure that changes to the data model is propagated into existing records, if
-needed. Transferring of ownership in cases where it's needed but cannot be
-accomplished by the by the owners themselves (e.g. in the event of death of an
-owner). Furthermore the there roles is to prevent MBDB being a source of
+Ensure that changes to the data model are propagated into existing records, if
+needed. Transferring of ownership in cases where it is needed but cannot be
+accomplished by the owners themselves (e.g. in the event of death of an
+owner). Furthermore their role is to prevent MBDB being a source of
 criminal activities and obscenities.
 
 ### Rights
