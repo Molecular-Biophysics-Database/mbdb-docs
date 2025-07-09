@@ -1,6 +1,10 @@
 # App Issues
 (list updates daily)
 
+### Permissions for UI management of vocabularies
+
+Add permissions for UI management of vocabularies to "administrators" group - incl. edit & new item.
+
 ### Unified unit search field
 
 To be able to search across records with different (but compatible) units, one of two things should be done.
