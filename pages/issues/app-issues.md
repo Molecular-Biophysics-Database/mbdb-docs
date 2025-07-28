@@ -18,14 +18,6 @@ It should be noted that not all commonly used units can be directly converted to
 
 We might consider auto saving the record every 5-10 minutes to prevent data loss
 
-### Make validation errors links
-
-It should be made easier for the user to navigate to where particular validation error has occurred. This could be done by turning the errors into links 
-
-### Undo functionality
-
-It would be useful with undo functionality in case of accidentally deleting element or similar 
-
 ### Measurements are tedious to input 
 
  It is annoying to always repeat the same values in the case of the measurements. For example, the name is the same, the concentration of the target, the chemical environment and the ‘container’ ...
