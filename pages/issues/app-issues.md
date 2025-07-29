@@ -14,10 +14,6 @@ To be able to search across records with different (but compatible) units, one o
 
 It should be noted that not all commonly used units can be directly converted to each other. 
 
-### Auto save functionality
-
-We might consider auto saving the record every 5-10 minutes to prevent data loss
-
 ### Measurements are tedious to input 
 
  It is annoying to always repeat the same values in the case of the measurements. For example, the name is the same, the concentration of the target, the chemical environment and the ‘container’ ...
