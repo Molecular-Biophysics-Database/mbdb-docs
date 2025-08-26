@@ -1,6 +1,10 @@
 # App Issues
 (list updates daily)
 
+### Descriptions
+
+null
+
 ### Permissions for UI management of vocabularies
 
 Add permissions for UI management of vocabularies to "administrators" group - incl. edit & new item.
