@@ -1,10 +1,6 @@
 # App Issues
 (list updates daily)
 
-### Cal add spec
-
-'Additional specifications' added to MP 'Calibrant'; 'flow-rate' and 'flow rate' in descriptions (general parameters, MP, SPR) changed to 'flowrate'.
-
 ### Permissions for UI management of vocabularies
 
 Add permissions for UI management of vocabularies to "administrators" group - incl. edit & new item.
