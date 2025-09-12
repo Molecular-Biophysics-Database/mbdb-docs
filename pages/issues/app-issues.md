@@ -5,15 +5,6 @@
 
 Add permissions for UI management of vocabularies to "administrators" group - incl. edit & new item.
 
-### Unified unit search field
-
-To be able to search across records with different (but compatible) units, one of two things should be done.
-
-1. Add A field with a converted (unified unit) value to the search index.
-2. Add A field with a converted (unified unit) value to the record search index.
-
-It should be noted that not all commonly used units can be directly converted to each other. 
-
 ### Measurements are tedious to input 
 
  It is annoying to always repeat the same values in the case of the measurements. For example, the name is the same, the concentration of the target, the chemical environment and the ‘container’ ...
