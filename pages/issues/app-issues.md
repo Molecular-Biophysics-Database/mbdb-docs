@@ -1,10 +1,6 @@
 # App Issues
 (list updates daily)
 
-### Wavelength
-
-Wavelength added to general parameters (Physical and chemical parameter objects), primary laser wavelength added to MP specific parameters, schema versions updated, all models compiled.
-
 ### Permissions for UI management of vocabularies
 
 Add permissions for UI management of vocabularies to "administrators" group - incl. edit & new item.
