@@ -1,12 +1,6 @@
 # App Issues
 (list updates daily)
 
-### Add RORServiceV2 for ROR API v2 and update RORService alias
-
-Implements a new RORServiceV2 using the updated ROR API v2 schema.
-RORService now inherits from RORServiceV2, ensuring compatibility with current ROR data structure.
-Includes updated field mapping (names, locations.geonames_details) and coordinate support.
-
 ### Permissions for UI management of vocabularies
 
 Add permissions for UI management of vocabularies to "administrators" group - incl. edit & new item.
