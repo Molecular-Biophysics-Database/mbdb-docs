@@ -1,6 +1,11 @@
 # App Issues
 (list updates daily)
 
+### MST, BLI, ITC, MP, SPR hotfix with todos
+
+Temporary workaround for with_type_ctx issue (affiliations vocabulary).
+Added # TODO comment; to be reverted once the method is fixed upstream.
+
 ### Permissions for UI management of vocabularies
 
 Add permissions for UI management of vocabularies to "administrators" group - incl. edit & new item.
