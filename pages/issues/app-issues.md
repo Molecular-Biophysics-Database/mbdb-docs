@@ -1,6 +1,10 @@
 # App Issues
 (list updates daily)
 
+### add logic for missing file upload
+
+null
+
 ### Permissions for UI management of vocabularies
 
 Add permissions for UI management of vocabularies to "administrators" group - incl. edit & new item.
