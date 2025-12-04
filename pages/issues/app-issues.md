@@ -1,6 +1,10 @@
 # App Issues
 (list updates daily)
 
+### Feature/pdf export v2
+
+Pdf export of detail record view
+
 ### Permissions for UI management of vocabularies
 
 Add permissions for UI management of vocabularies to "administrators" group - incl. edit & new item.
