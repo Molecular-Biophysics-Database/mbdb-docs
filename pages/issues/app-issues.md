@@ -1,10 +1,6 @@
 # App Issues
 (list updates daily)
 
-### overwrite react-error-boundary to 6.0.0
-
-Needed for correct build, develop and upgrade
-
 ### Permissions for UI management of vocabularies
 
 Add permissions for UI management of vocabularies to "administrators" group - incl. edit & new item.
