@@ -1,6 +1,10 @@
 # App Issues
 (list updates daily)
 
+### ./nrp upgrade and add react-errror-boundary 6.0.0
+
+null
+
 ### Permissions for UI management of vocabularies
 
 Add permissions for UI management of vocabularies to "administrators" group - incl. edit & new item.
