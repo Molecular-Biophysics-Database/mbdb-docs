@@ -1,13 +1,9 @@
 # App Issues
 (list updates daily)
 
-### update export link to include pretty print query parameter
+### Modify notification texts - add record ids and links
 
-null
-
-### Feat/uploaded files length
-
-null
+Modify notifications so that subject contains record id instead of title, record ids added to e-mail body, for "decline" and "accepted" add link if button non-functional.
 
 ### Measurements are tedious to input 
 
