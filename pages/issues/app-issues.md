@@ -1,6 +1,18 @@
 # App Issues
 (list updates daily)
 
+### refactor: remove reviewer role from local development scripts
+
+null
+
+### Feat/zip download all files
+
+null
+
+### Fix/file correct validation
+
+null
+
 ### Measurements are tedious to input 
 
  It is annoying to always repeat the same values in the case of the measurements. For example, the name is the same, the concentration of the target, the chemical environment and the ‘container’ ...
