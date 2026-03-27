@@ -1,10 +1,6 @@
 # App Issues
 (list updates daily)
 
-### refactor: remove reviewer role from local development scripts
-
-null
-
 ### Feat/zip download all files
 
 null
