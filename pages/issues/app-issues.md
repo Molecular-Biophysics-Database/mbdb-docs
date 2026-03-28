@@ -1,10 +1,6 @@
 # App Issues
 (list updates daily)
 
-### Feat/zip download all files
-
-null
-
 ### Fix/file correct validation
 
 null
