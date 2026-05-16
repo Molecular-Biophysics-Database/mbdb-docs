@@ -1,10 +1,6 @@
 # App Issues
 (list updates daily)
 
-### refactor user creation logic to centralize in stage_setup.sh and upda…
-
-…te test user details
-
 ### Measurements are tedious to input 
 
  It is annoying to always repeat the same values in the case of the measurements. For example, the name is the same, the concentration of the target, the chemical environment and the ‘container’ ...
