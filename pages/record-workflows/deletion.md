@@ -2,19 +2,19 @@
 
 ## Deleting unpublished records
 
-Unpublished records can always be deleted and doesn't and it does not require
+Unpublished records can always be deleted and it does not require
 acceptance. By unpublished records, records in the following state are meant:
 
 * draft
 * submitted
 * accepted
 
-Note that once the a draft record has been deleted, MBDB has no way of
+Note that once a draft record has been deleted, MBDB has no way of
 recovering it!
 
 ## Retracting published records
 
-In order to be able to mint DOIs and persistent identifiers in general, it's
+In order to be able to mint DOIs and persistent identifiers in general, it is
 crucial that they are just that, persistent.
 
 The need of persistence comes from the fact that as soon as the record is
@@ -41,23 +41,23 @@ The minimal metadata includes:
 * DOI
 * Publisher (MBDB)
 * Resource type (Dataset)
-* Statement that the measurement files and meta data is not present
+* Statement that the measurement files and metadata is not present
 * Date Published
 * Date Retracted
 
 ### Initiating retraction
 
-The record owners can initiate this process which will immediate have the effect
+The record owners can initiate this process which will immediately have the effect
 that only the minimal metadata is available. However, the information is not
 deleted yet, this requires that an [administrator](mbdb-roles.md#administrator).
 accepts this. The acceptance is needed as the data cannot be recreated once
-deleted so we want to ensure
+deleted.
 
 ### Cancelling retraction request
 
 At any point before the administrator has accepted the deletion, the request can
-be retracted. However, there's no fixed delay from when the administrator
-receives the request until they accept it, so do not rely on being able cancel
+be retracted. However, there is no fixed delay from when the administrator
+receives the request until they accept it, so do not rely on being able to cancel
 a retraction request for longer than a few minutes.
 
 ### Acceptance
@@ -65,5 +65,4 @@ a retraction request for longer than a few minutes.
 If there is no evidence of criminal activity, the administrator will normally
 accept the deletion request.
 
-All other data (including the files) than the minimally required metadata will
-be deleted.
+All other data than the minimally required metadata will be deleted, including the uploaded data files.
