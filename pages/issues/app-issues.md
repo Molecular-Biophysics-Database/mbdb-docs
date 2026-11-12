@@ -1,6 +1,14 @@
 # App Issues
 (list updates daily)
 
+### Poc entity of interest
+
+null
+
+### fix: corrected paths to include metadata
+
+null
+
 ### Measurements are tedious to input 
 
  It is annoying to always repeat the same values in the case of the measurements. For example, the name is the same, the concentration of the target, the chemical environment and the ‘container’ ...
