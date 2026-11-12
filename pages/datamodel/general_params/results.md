@@ -43,8 +43,9 @@
             'Change in enthalpy deltaH',
             'Change in entropy deltaS',
             'Change in Gibbs free energy deltaG',
-            'Molecular weight'
-            'Correction of active concentration')
+            'Molecular weight',
+            'Correction of active concentration',
+            'Size_of_spherically_represented_entity')
 
 ## value
 
@@ -184,6 +185,13 @@
 **Type**: enumerator (string) <br/>
 **Options**: ('unitless')
 
+### Size of spherically represented entity
+**Description**: Unit of the size of the entity <br/>
+**Required**: yes <br/>
+**Path**: `metadata.general_parameters.results.unit` <br/>
+**Type**: enumerator (string) <br/>
+**Options**: ('Å', 'nm', 'μm', 'mm', 'cm', 'm')
+
 ## entities_involved
 
 **Description**: List of chemical or molecular assemblies the result describes
@@ -212,3 +220,12 @@ copy number would be 2) <br/>
 **Path**: `metadata.general_parameters.results.entities_involved.entity` <br/>
 **Type**: number (float) <br/>
 **Minimum**: -1
+
+## Field available in Size of spherically represented entity
+
+### size_type
+**Description**: The type of size (radius or diameter) <br/>
+**Required**: yes <br/>
+**Path**: `metadata.general_parameters.results.size_type` <br/>
+**Type**: enumerator (string) <br/>
+**Options**: ('Radius', 'Diameter')

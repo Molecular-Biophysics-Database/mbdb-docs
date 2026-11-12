@@ -13,8 +13,8 @@
 
 ### Static
 
-see [Static](static.md)
+see [Static](static_mode.md)
 
 
 ### Flow
-see [floewo](static.md)
+see [Flow](flow_mode.md)

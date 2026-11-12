@@ -8,9 +8,18 @@
 **Type**: enumerator (string) <br/>
 **Options**: ('0.2.0') <br/>
 
+## primary_laser_wavelength
+
+**Description**: Wavelength of the laser used for measurement of the mass photometry signal <br/>
+**Required**: no <br/>
+**Path**: `metadata.method_specific_parameters.primary_laser_wavelength` <br/>
+**Type**: object (Wavelength) <br/>
+**Contains**: see [Wavelength](../reusable_elements/wavelength.md)<br/>
+
+
 ## calibrants
 
-**Description**: The type of signal that was being measured <br/>
+**Description**: List of objects that was used to create the calibration curve for converting contrast to molecular weight or converting the position of optimum contrast to particle size <br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.calibrants` <br/>
 **Type**: array of object (Calibrant) <br/>

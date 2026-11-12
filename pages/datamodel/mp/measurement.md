@@ -44,31 +44,38 @@ concentrations and which chemical environment the sample was composed of<br/>
 **Type**: object (Sample) <br/>
 **Contains**: see [Fields available in sample](#fields-available-in-sample)
 
-## Fields available in sample
+### Fields available in sample
 
-## targets
+#### targets
 **Description**: Information about the sample including
 concentrations of ligands and targets, and which chemical environment the sample was composed of<br/>
 **Required**: yes <br/>
-**Path**: `metadata.method_specific_parameters.measurements.targets` <br/>
+**Path**: `metadata.method_specific_parameters.measurements.sample.targets` <br/>
 **Type**: object (Entity_constituent) <br/>
 **Contains**: see [Entity_constituent](../reusable_elements/entity_constituent.md) <br/>
 
 
-## chemical_environments
+#### chemical_environments
 **Description**: Name (id) of the chemical environment of
 the sample (from the chemical environments defined in the general parameters)<br/>
 **Required**: yes <br/>
-**Path**: `metadata.method_specific_parameters.measurements.chemical_environment` <br/>
+**Path**: `metadata.method_specific_parameters.measurements.sample.chemical_environment` <br/>
 **Type**: link <br/>
 **Link Target**: Chemical environment<br/>
 
-## preparation_protocol
+#### preparation_protocol
 **Description**: List of steps taken to prepare the
 sample, ending at the point where it was placed in the measurement
 container. Information include operations like filtration and which
 filter material and pore-size was used should be added<br/>
 **Required**: no <br/>
-**Path**: `metadata.method_specific_parameters.measurements.preparation_protocol` <br/>
+**Path**: `metadata.method_specific_parameters.measurements.sample.preparation_protocol` <br/>
 **Type**: array of object (Step) <br/>
 **Contains**: See [Step](../reusable_elements/step.md)
+
+## sample_dilution
+**Description**: Parameters describing how the sample was diluted within the measurement in flow mode'<br/>
+**Required**: no <br/>
+**Type**: object (MP_sample_dilution)<br/>
+**Path**: `metadata.method_specific_parameters.measurements.sample_dilution` <br/>
+**Contains**: See [MP sample dilution](sample_dilution.md)

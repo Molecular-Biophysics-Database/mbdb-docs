@@ -6,4 +6,6 @@ export default {
   "static_mode": "Static mode",
   "flow_mode": "Flow mode",
   "measurement": "Measurement",
+  "sample_dilution": "Sample dilution",
+  "data_analysis": "Data analysis",
 };
