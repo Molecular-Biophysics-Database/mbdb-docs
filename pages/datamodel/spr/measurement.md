@@ -67,7 +67,7 @@ measurement protocol where the sample was measured<br/>
 ## chemical_environment
 
 **Description**: Name (id) of the chemical environment of
-the sample (from the chemical environments defined in the general parameters)<br/> 
+the sample (from the chemical environments defined in the record)<br/>
 **Required**: yes <br/>
 **Type**: link (chemical_environment) <br/>
 **Target**: `metadata.general_parameters.chemical_environments.id`
@@ -76,7 +76,7 @@ the sample (from the chemical environments defined in the general parameters)<br
 
 **Description**: List of names (ids) of entities (from the
 entities of interest defined in the
-general parameters) that was used to alter
+record) that was used to alter
 the behavior of the target(s) or entities
 present at varying concentrations for a
 series of measurements and their concentrations<br/> 

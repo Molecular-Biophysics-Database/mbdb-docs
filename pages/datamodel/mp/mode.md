@@ -2,7 +2,7 @@
 
 ## type
 
-**Description**: Wether the measurement was done with on a flowing sample
+**Description**: Whether the measurement was done on a flowing sample
 ("Flow") or statically placed sample("Static") <br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.mode.type` <br/>

@@ -6,7 +6,7 @@
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.schema_version` <br/>
 **Type**: enumerator (string) <br/>
-**Options**: ('0.9.8') <br/>
+**Options**: ('0.9.9') <br/>
 
 ## experiment_type
 

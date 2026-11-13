@@ -43,7 +43,7 @@ including targets and chemical environment<br/>
 ## targets
 
 **Description**: List of names (ids), from the entities of 
-interest defined in the general parameters, of directly measured entities<br/> 
+interest defined in the record, of directly measured entities<br/> 
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.measurements.ITC_sample.targets` <br/>
 **Type**:  array of object (Entity_constituent) <br/>
@@ -52,7 +52,7 @@ interest defined in the general parameters, of directly measured entities<br/>
 ## chemical_environment
 
 **Description**: Name (id) of the chemical environment of
-the sample (from the chemical environments defined in the general parameters)<br/> 
+the sample (from the chemical environments defined in the record)<br/> 
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.measurements.ITC_sample.chemical_environment` <br/>
 **Type**: link (chemical_environment) <br/>

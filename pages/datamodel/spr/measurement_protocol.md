@@ -46,7 +46,7 @@ the measurement step relative to the beginning of the measurement<br/>
 ## Fields available in flow
 
 ## rate
-**Description**: The numerical value and unit of the flow rate<br/>
+**Description**: The numerical value and unit of the flowrate<br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.measurement_protocol.flow.rate` <br/>
 **Type**: Object (Flow_rate) <br/>

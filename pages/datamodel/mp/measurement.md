@@ -57,7 +57,7 @@ concentrations of ligands and targets, and which chemical environment the sample
 
 #### chemical_environments
 **Description**: Name (id) of the chemical environment of
-the sample (from the chemical environments defined in the general parameters)<br/>
+the sample (from the chemical environments defined in the record)<br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.measurements.sample.chemical_environment` <br/>
 **Type**: link <br/>

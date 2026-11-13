@@ -2,7 +2,7 @@
 
 ## sample_carrier
 
-**Description**: Information about coating or other types of surface modification of the coverslip <br/>
+**Description**: Properties and preparation of the sample carrier <br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.mode.sample_carrier` <br/>
 **Type**: object (Sample_carrier) <br/>

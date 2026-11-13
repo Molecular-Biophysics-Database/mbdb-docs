@@ -8,7 +8,7 @@
 
 #### chemical_environment
 **Description**: Name (id) of the chemical environment of
-the sample (from the chemical environments defined in the general parameters)<br/>
+the sample (from the chemical environments defined in the record)<br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.measurements.sample_dilution.dilution_buffer.chemical_environment` <br/>
 **Type**: link <br/>
