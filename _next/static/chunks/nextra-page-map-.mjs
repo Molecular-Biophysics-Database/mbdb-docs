@@ -3,6 +3,7 @@ import datamodel_meta from "../../../pages/datamodel/_meta.js";
 import datamodel_bli_meta from "../../../pages/datamodel/bli/_meta.js";
 import datamodel_general_params_meta from "../../../pages/datamodel/general_params/_meta.js";
 import datamodel_itc_meta from "../../../pages/datamodel/itc/_meta.js";
+import datamodel_mp_meta from "../../../pages/datamodel/mp/_meta.js";
 import datamodel_mst_meta from "../../../pages/datamodel/mst/_meta.js";
 import datamodel_spr_meta from "../../../pages/datamodel/spr/_meta.js";
 import issues_meta from "../../../pages/issues/_meta.js";
@@ -121,6 +122,12 @@ export const pageMap = [{
         "sidebarTitle": "Intro"
       }
     }, {
+      name: "method",
+      route: "/datamodel/general_params/method",
+      frontMatter: {
+        "sidebarTitle": "Method"
+      }
+    }, {
       name: "record_information",
       route: "/datamodel/general_params/record_information",
       frontMatter: {
@@ -137,12 +144,6 @@ export const pageMap = [{
       route: "/datamodel/general_params/schema_version",
       frontMatter: {
         "sidebarTitle": "Schema Version"
-      }
-    }, {
-      name: "technique",
-      route: "/datamodel/general_params/technique",
-      frontMatter: {
-        "sidebarTitle": "Technique"
       }
     }]
   }, {
@@ -197,6 +198,66 @@ export const pageMap = [{
       route: "/datamodel/itc/titration",
       frontMatter: {
         "sidebarTitle": "Titration"
+      }
+    }]
+  }, {
+    name: "mp",
+    route: "/datamodel/mp",
+    children: [{
+      data: datamodel_mp_meta
+    }, {
+      name: "calibrant",
+      route: "/datamodel/mp/calibrant",
+      frontMatter: {
+        "sidebarTitle": "Calibrant"
+      }
+    }, {
+      name: "data_analysis",
+      route: "/datamodel/mp/data_analysis",
+      frontMatter: {
+        "sidebarTitle": "Data Analysis"
+      }
+    }, {
+      name: "flow_mode",
+      route: "/datamodel/mp/flow_mode",
+      frontMatter: {
+        "sidebarTitle": "Flow Mode"
+      }
+    }, {
+      name: "intro",
+      route: "/datamodel/mp/intro",
+      frontMatter: {
+        "sidebarTitle": "Intro"
+      }
+    }, {
+      name: "measurement",
+      route: "/datamodel/mp/measurement",
+      frontMatter: {
+        "sidebarTitle": "Measurement"
+      }
+    }, {
+      name: "mode",
+      route: "/datamodel/mp/mode",
+      frontMatter: {
+        "sidebarTitle": "Mode"
+      }
+    }, {
+      name: "mp_specific",
+      route: "/datamodel/mp/mp_specific",
+      frontMatter: {
+        "sidebarTitle": "Mp Specific"
+      }
+    }, {
+      name: "sample_dilution",
+      route: "/datamodel/mp/sample_dilution",
+      frontMatter: {
+        "sidebarTitle": "Sample Dilution"
+      }
+    }, {
+      name: "static_mode",
+      route: "/datamodel/mp/static_mode",
+      frontMatter: {
+        "sidebarTitle": "Static Mode"
       }
     }]
   }, {
@@ -291,6 +352,12 @@ export const pageMap = [{
       route: "/datamodel/reusable_elements/environmental_origin",
       frontMatter: {
         "sidebarTitle": "Environmental Origin"
+      }
+    }, {
+      name: "flow_rate",
+      route: "/datamodel/reusable_elements/flow_rate",
+      frontMatter: {
+        "sidebarTitle": "Flow Rate"
       }
     }, {
       name: "industrial_origin",
@@ -393,6 +460,12 @@ export const pageMap = [{
       route: "/datamodel/reusable_elements/volume",
       frontMatter: {
         "sidebarTitle": "Volume"
+      }
+    }, {
+      name: "wavelength",
+      route: "/datamodel/reusable_elements/wavelength",
+      frontMatter: {
+        "sidebarTitle": "Wavelength"
       }
     }]
   }, {
@@ -622,6 +695,12 @@ export const pageMap = [{
     route: "/vocabularies/environment-types",
     frontMatter: {
       "sidebarTitle": "Environment Types"
+    }
+  }, {
+    name: "external_resources",
+    route: "/vocabularies/external_resources",
+    frontMatter: {
+      "sidebarTitle": "External Resources"
     }
   }, {
     name: "grants",
