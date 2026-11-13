@@ -79,9 +79,13 @@ An example of a vocabulary item:
 The following vocabulary types are defined in MBDB, and details
 about them can be found by following the links below.
 
-  1. [Affiliations](affiliations.md)
-  2. [Chemicals](chemicals.md)
-  3. [Grants](grants.md)
-  4. [Instruments](instruments.md)
-  5. [Languages](languages.md)
-  6. [Organisms](organisms.md)
+1. [Affiliations](affiliations.md)
+2. [Body fluids](body-fluids.md)
+3. [Cell fractions](cell-fractions.md)
+4. [Chemicals](chemicals.md)
+5. [Environment types](environment-types.md)
+6. [Grants](grants.md)
+7. [Instruments](instruments.md)
+8. [Languages](languages.md)
+9. [Organisms](organisms.md)
+10. [Products](products.md)

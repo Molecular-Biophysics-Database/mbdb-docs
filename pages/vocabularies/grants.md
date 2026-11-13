@@ -2,7 +2,7 @@
 
 ## Source
 
-We're currently relaying on OpenAire, in particular OpenAire projects to
+We're currently relaying on OpenAire, in particular [OpenAire projects](https://explore.openaire.eu/search/find/projects) to
 extract funding information.
 
 ## How is the information accessed?

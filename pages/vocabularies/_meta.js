@@ -1,5 +1,6 @@
 export default {
   "intro": "Introduction",
+  "external_resources": "External resources",
   "affiliations": "Affiliations",
   "body-fluids":"Body fluids",
   "cell-fractions":"Cell fractions",
