@@ -47,8 +47,8 @@ concentrations of ligands and targets, and which chemical environment the sample
 ## ligands 
 **Description**:List of names (ids) of entities (from the
 entities of interest defined in the
-general parameters) that were used to
-alter the behavior of the target(s)<br/> 
+record) that were used to
+alter the behavior of the target(s)<br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.measurements.ligands` <br/>
 **Type**: object (Entity_constituent) <br/>
@@ -56,7 +56,7 @@ alter the behavior of the target(s)<br/>
 
 ## chemical_environments 
 **Description**: Name (id) of the chemical environment of
-the sample (from the chemical environments defined in the general parameters)<br/> 
+the sample (from the chemical environments defined in the record)<br/>
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.measurements.chemical_environment` <br/>
 **Type**: link <br/>

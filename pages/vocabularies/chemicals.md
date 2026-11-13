@@ -5,7 +5,7 @@ of identifying chemicals.
 
 ## Source
 
-We rely on PubChem for information about chemistry as well as user inputs.
+We rely on [PubChem](https://pubchem.ncbi.nlm.nih.gov/) for information about chemistry as well as user inputs.
 
 ## How will the information accessed?
 

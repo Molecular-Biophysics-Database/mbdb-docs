@@ -1,7 +1,6 @@
-
 # Complex substance of biological origin
 
-## derived_from 
+## derived_from
 **Description**: The biological substance the complex substance is derived from <br/>
 **Required**: yes <br/>
 **Type**: enumerator (string) <br/>
@@ -40,7 +39,7 @@
 
 ## Body fluid:
 
-### fluid 
+### fluid
 **Description**: The body fluid the complex substance is derived from<br/>
 **Required**: yes <br/>
 **Type**: enumerator (string) <br/>
@@ -69,18 +68,18 @@ Diabetes type 2)<br/>
              'Rough Endoplasmic Reticulum',
              'Smooth Endoplasmic Reticulum',
              'Vacuole','Chloroplast')
-        
-### organ       
+
+### organ
 **Description**: The organ the cell fraction was derived from (e.g. heart)<br/>
 **Required**: no <br/>
 **Type**: string (keyword) <br/>
 
-### tissue 
+### tissue
 **Description**: The tissue type the cell fraction was derived from<br/>
 **Required**: no <br/>
 **Type**: string (keyword) <br/>
 
-### cell_type 
+### cell_type
 **Description**: The cell type the cell fraction was derived from<br/>
 **Required**: no <br/>
 **Type**: string (keyword) <br/>

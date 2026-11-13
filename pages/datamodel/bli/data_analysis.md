@@ -3,7 +3,7 @@
 ## results 
 
 **Description**:Link to the result(s) that was obtained
-by the data analysis. The link is to the results defined in the general parameters <br/> 
+by the data analysis. The link is to the results defined in the record <br/> 
 **Required**: no <br/>
 **Path**: `metadata.method_specific_parameters.data_analysis.results` <br/>
 **Type**: array of links <br/>
@@ -17,12 +17,12 @@ by the data analysis. The link is to the results defined in the general paramete
 **Type**: array of links <br/>
 **Link Target**: see [Measurement](measurement.md)
 
-## data_processing_steps
+## data_processing
 
 **Description**: Describe the steps in the data analysis prior to fitting (removing outliers in the 
 raw data, applying smoothing filters, etc.) <br/> 
 **Required**: no <br/>
-**Path**: `metadata.method_specific_parameters.data_analysis.data_processing_steps` <br/>
+**Path**: `metadata.method_specific_parameters.data_analysis.data_processing` <br/>
 **Type**: array of object (Processing_step) <br/>
 **Contains**: see [Processing step](../reusable_elements/processing_step.md)
 

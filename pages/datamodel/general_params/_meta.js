@@ -5,7 +5,7 @@ export default {
   "depositors": "Depositors (authors)",
   "associated_publication":"Associated publication",
   "funding": "Funding reference",
-  "technique": "Technique",
+  "method": "Method",
   "instrument": "Instrument",
   "entities_of_interest": "Entities of interest",
   "chemical_environments": "Chemical environments",

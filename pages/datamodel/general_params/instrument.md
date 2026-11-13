@@ -1,15 +1,15 @@
 
 # Instrument
 
-**Description**: The type of experimental technique used for collecting the raw data annotated by this record <br/>
+**Description**: The type of experimental method used for collecting the raw data annotated by this record <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.instrument` <br/>
 **Type**: object <br/>
 **Contains**: see [available fields](#available-fields)
 
-## Available fields 
+## Available fields
 
-### manufacturer  
+### manufacturer
 
 **Description**: The name of the instrument as provided by the manufacturer' <br/>
 **Required**: yes <br/>
@@ -27,7 +27,7 @@
                 'Refeyn',
                 'TA Instruments')
 
-### name 
+### name
 
 **Description**: The name of the instrument as provided by the manufacturer' <br/>
 **Required**: yes <br/>

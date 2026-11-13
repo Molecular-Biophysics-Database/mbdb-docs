@@ -34,7 +34,7 @@ The id prefix is `ins:`.
 **Description**: The model type of the instrument<br/>
 **Required**: yes <br/>
 **Type**: enumerator (string) <br/>
-**Options** ("MST", "BLI", "SPR", "ITC")
+**Options** ("MST", "BLI", "SPR", "ITC", "MP")
 
 
 [MBDB]: mailto:mbdb@ibt.cas.cz?subject=New%20Instrument&body=Instrument%20name%3A%0AManufacturer%3A%0ATechnique%3A

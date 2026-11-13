@@ -2,7 +2,7 @@
 
 ## Source
 
-We're using NCBI taxonomies to annotate biological organisms (including virus).
+We're using [NCBI taxonomy](https://www.ncbi.nlm.nih.gov/datasets/taxonomy/) to annotate biological organisms (including virus).
 
 ## How is the information accessed?
 

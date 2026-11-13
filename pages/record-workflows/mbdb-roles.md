@@ -38,7 +38,7 @@ information to interpret it.
 ### Task
 
 To review the submitted drafts and either accept or reject the draft. They're
-scientific staff that are familiar with the technique they're reviewing.
+scientific staff that are familiar with the method they're reviewing.
 
 ### Rights
 

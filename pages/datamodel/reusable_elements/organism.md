@@ -1,6 +1,6 @@
 # Organism 
 
-Note that organisms are fetched as an [NCBI taxonomy](../../external/organisms.md).
+Note that organisms are fetched as an [NCBI taxonomy](../../vocabularies/organisms.md).
 
 ## id 
 

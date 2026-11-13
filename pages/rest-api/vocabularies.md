@@ -5,7 +5,7 @@
 Although the vocabularies are embedded, they're also available exposed to API users.
 
 It should be noted that for a number of vocabularies, MBDB relies on external resources,
-so for general searching purposes you should [use those directly](../external/intro.md) rather
+so for general searching purposes you should [use those directly](../vocabularies/external_resources.md) rather
 than going through MBDB.
 
 ### Retrieve vocabulary

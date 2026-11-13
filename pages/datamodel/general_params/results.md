@@ -43,8 +43,9 @@
             'Change in enthalpy deltaH',
             'Change in entropy deltaS',
             'Change in Gibbs free energy deltaG',
-            'Molecular weight'
-            'Correction of active concentration')
+            'Molecular weight',
+            'Correction of active concentration',
+            'Size_of_spherically_represented_entity')
 
 ## value
 
@@ -99,7 +100,7 @@
 
 ### Constant of dissociation
 
-**Description**: Unit of the constant of association<br/>
+**Description**: Unit of the constant of dissociation<br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.results.unit` <br/>
 **Type**: enumerator (string) <br/>
@@ -162,7 +163,7 @@
 
 ### Half maximal effective concentration
 
-**Description**: Unit of the molecular weight <br/>
+**Description**: Unit of the half maximal effective concentration <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.results.unit` <br/>
 **Type**: enumerator (string) <br/>
@@ -170,7 +171,7 @@
 
 ### Hill coefficient
 
-**Description**: Unit of the molecular weight <br/>
+**Description**: Hill coefficient is unitless <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.results.unit` <br/>
 **Type**: enumerator (string) <br/>
@@ -178,11 +179,18 @@
 
 ### Correction of active concentration
 
-**Description**: Unit of the molecular weight <br/>
+**Description**: The correction of active concentration is unitless <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.results.unit` <br/>
 **Type**: enumerator (string) <br/>
 **Options**: ('unitless')
+
+### Size of spherically represented entity
+**Description**: Unit of the size of the entity <br/>
+**Required**: yes <br/>
+**Path**: `metadata.general_parameters.results.unit` <br/>
+**Type**: enumerator (string) <br/>
+**Options**: ('Å', 'nm', 'μm', 'mm', 'cm', 'm')
 
 ## entities_involved
 
@@ -198,7 +206,7 @@ and how many copies of each are involved <br/>
 ### entity
 
 **Description**: Name (ids) of the entity (from the entities of interest defined
-in the general parameters) <br/>
+in the record) <br/>
 **Required**: yes <br/>
 **Path**: `metadata.general_parameters.results.entities_involved.entity` <br/>
 **Type**: string (fulltext) <br/>
@@ -212,3 +220,12 @@ copy number would be 2) <br/>
 **Path**: `metadata.general_parameters.results.entities_involved.entity` <br/>
 **Type**: number (float) <br/>
 **Minimum**: -1
+
+## Field available in Size of spherically represented entity
+
+### size_type
+**Description**: The type of size (radius or diameter) <br/>
+**Required**: yes <br/>
+**Path**: `metadata.general_parameters.results.size_type` <br/>
+**Type**: enumerator (string) <br/>
+**Options**: ('Radius', 'Diameter')

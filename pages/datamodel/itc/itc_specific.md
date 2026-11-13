@@ -6,7 +6,7 @@
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.schema_version` <br/>
 **Type**: enumerator (string) <br/>
-**Options**: (0.1.0) <br/>
+**Options**: (0.1.1) <br/>
 
 ## measurements
 

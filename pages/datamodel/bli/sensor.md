@@ -64,7 +64,7 @@
 ## ligand
 
 **Description**: Name (id) of the ligand (entity that is immobilized, from the list of entities of
-interest defined in the general parameters<br/> 
+interest defined in the record)<br/> 
 **Required**: yes <br/>
 **Path**: `metadata.method_specific_parameters.sensors.ligand_information.ligand` <br/>
 **Type**: link <br/>

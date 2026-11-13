@@ -5,9 +5,9 @@
 **Path**: `metadata.general_parameters.entities_of_interest` <br/>
 **Type**: array of polymorphic object (Entity) <br/>
 **Type_field**: type <br/>
-**Contains**: see [Fields available in entities of interest](#fields-available-in-entities-of-interest)
+**Contains**: see [Fields available entity ](#fields-available-in-entity)
 
-## Fields available in entities of interest
+## Fields available in entity
 
 ## id
 
